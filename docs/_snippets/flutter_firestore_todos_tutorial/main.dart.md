@@ -1,8 +1,8 @@
 ```dart
 import 'package:flutter/material.dart';
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_firestore_todos/blocs/authentication_bloc/bloc.dart';
+import 'package:flutter_firestore_todos/blocs/authentication_bloc/true_bloc.dart';
 import 'package:todos_repository/todos_repository.dart';
 import 'package:flutter_firestore_todos/blocs/blocs.dart';
 import 'package:flutter_firestore_todos/screens/screens.dart';

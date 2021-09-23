@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:authentication_repository/authentication_repository.dart';
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_login/login/login.dart';
 import 'package:formz/formz.dart';

@@ -41,7 +41,7 @@ class Success extends DataState {}
 Nosso `DataBloc` deve ficar assim:
 
 ```dart
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 class DataBloc extends Bloc<DataEvent, DataState> {
   DataBloc() : super(Initial());
   @override

@@ -1,6 +1,6 @@
 ```dart
 import 'dart:async';
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 import 'package:flutter_timer/ticker.dart';
 
 part 'timer_event.dart';

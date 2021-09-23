@@ -24,7 +24,7 @@
 
 Нам нужно создать `pubspec.yaml` с необходимыми зависимостями.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
 
 Наконец, нам нужно установить все зависимости.
 
@@ -152,7 +152,7 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 Потрясающие! Мы все сделали с пакетом `common_github_search`.
 
-Готовый продукт должен выглядеть [следующим образом](https://github.com/mit-73/Bloc/tree/master/examples/github_search/common_github_search).
+Готовый продукт должен выглядеть [следующим образом](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/common_github_search).
 
 Далее мы будем работать над реализацией Flutter.
 
@@ -168,7 +168,7 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 Далее нам нужно обновить `pubspec.yaml`, чтобы включить все необходимые зависимости.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
 
 ?> **Примечание:** Мы включаем вновь созданную библиотеку `common_github_search` в качестве зависимости.
 
@@ -243,9 +243,9 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 ?> **Примечание:** `GithubRepository` создается в `main` и внедряется в `App`. `SearchForm` обернута в `BlocProvider`, который отвечает за инициализацию, закрытие и обеспечение доступности экземпляра `GithubSearchBloc` для виджета `SearchForm` и его дочерних элементов.
 
-Вот и все, что нужно сделать! Теперь мы успешно внедрили поисковое приложение Github на Flutter, используя пакеты [bloc](https://pub.dev/packages/bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили наш уровень представления от нашей бизнес-логики.
+Вот и все, что нужно сделать! Теперь мы успешно внедрили поисковое приложение Github на Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили наш уровень представления от нашей бизнес-логики.
 
-Полный исходный код можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/github_search/flutter_github_search).
+Полный исходный код можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/flutter_github_search).
 
 Наконец, мы собираемся создать наше приложение AngularDart Github Search.
 
@@ -263,7 +263,7 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 Затем мы можем заменить содержимое `pubspec.yaml` на:
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
 
 ### Форма поиска
 
@@ -358,7 +358,7 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 Вот и все, что нужно сделать! Теперь мы успешно внедрили поисковое приложение Github в AngularDart с использованием пакетов `bloc` и `angular_bloc` и успешно отделили уровень представления от бизнес-логики.
 
-Полный исходный код можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search).
+Полный исходный код можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search).
 
 ## Резюме
 
@@ -366,4 +366,4 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 Единственной вещью, которую мы фактически должны были написать дважды, был уровень представления (UI), который является удивительным с точки зрения эффективности и скорости разработки. Кроме того, веб-приложения и мобильные приложения довольно часто имеют разные пользовательские интерфейсы и стили и этот подход действительно демонстрирует, насколько легко создавать два приложения, которые выглядят совершенно по-разному, но имеют одни и те же слои данных и бизнес-логики.
 
-Полный исходный код можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/github_search).
+Полный исходный код можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/github_search).

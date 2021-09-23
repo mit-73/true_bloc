@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:todos_repository_simple/todos_repository_simple.dart';
 import 'package:todos_app_core/todos_app_core.dart';
 import 'package:flutter_todos/localization.dart';

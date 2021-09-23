@@ -116,7 +116,7 @@ Knihovna Bloc vnitřně používá `provider` pro snadné poskytnutí a přístu
 💡 **Odpověď**: Ikdyž na tuto otázku opravdu není žádná správná/špatná odpověď, některá doporučení jsou
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 Nejdůležitější věc je mít stukturu projektu konzisentní a úmyslnou.

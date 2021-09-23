@@ -79,7 +79,7 @@ Agora podemos criar `bloc/post_state.dart` e implementá-lo dessa maneira.
 
 Agora que temos nossos `Events` e `States` implementados, podemos criar nosso `PostBloc`.
 
-Para facilitar a importação de nossos estados e eventos com uma única importação, podemos criar `bloc/bloc.dart` que exporta todos eles (adicionaremos nossa exportação `post_bloc.dart` na próxima seção).
+Para facilitar a importação de nossos estados e eventos com uma única importação, podemos criar `bloc/true_bloc.dart` que exporta todos eles (adicionaremos nossa exportação `post_bloc.dart` na próxima seção).
 
 [bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc_initial.dart.md ':include')
 
@@ -97,7 +97,7 @@ Em seguida, precisamos implementar o `mapEventToState`, que será acionado toda 
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
-Nosso `PostBloc` renderá sempre que houver um novo estado, pois retorna um `Stream <PostState>`. Confira os [principais conceitos](https://bloclibrary.dev/#/coreconcepts?id=streams) para obter mais informações sobre `Streams` e outros conceitos principais.
+Nosso `PostBloc` renderá sempre que houver um novo estado, pois retorna um `Stream <PostState>`. Confira os [principais conceitos](https://mit-73.github.io/true_bloc/#/coreconcepts?id=streams) para obter mais informações sobre `Streams` e outros conceitos principais.
 
 Agora, toda vez que um `PostEvent` é adicionado, se for um evento` PostFetched` e houver mais postagens a serem buscadas, nosso `PostBloc` buscará as próximas 20 postagens.
 
@@ -117,9 +117,9 @@ Nosso `PostBloc` finalizado deve ficar assim:
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc.dart.md ':include')
 
-Não se esqueça de atualizar o `bloc/bloc.dart` para incluir o nosso` PostBloc`!
+Não se esqueça de atualizar o `bloc/true_bloc.dart` para incluir o nosso` PostBloc`!
 
-[bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc.dart.md ':include')
+[bloc.dart](../_snippets/flutter_infinite_list_tutorial/true_bloc.dart.md ':include')
 
 Ótimo! Agora que terminamos de implementar a lógica de negócios, tudo o que resta fazer é implementar a camada de apresentação.
 
@@ -174,8 +174,8 @@ Agora, quando executamos nosso aplicativo, toda vez que ocorre uma transição d
 
 ?> Na prática, você pode criar diferentes `BlocObservers` e, como todas as alterações de estado são registradas, somos capazes de instrumentar nossos aplicativos com muita facilidade e rastrear todas as interações do usuário e alterações de estado em um só lugar!
 
-Isso é tudo! Agora implementamos com sucesso uma lista infinita no flutter usando os pacotes [bloc](https://pub.dev/packages/bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
+Isso é tudo! Agora implementamos com sucesso uma lista infinita no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
 
 Nossa `HomePage` não faz ideia de onde as `Posts` são provenientes ou como estão sendo recuperadas. Por outro lado, nosso `PostBloc` não faz ideia de como o `State` está sendo renderizado, ele simplesmente converte eventos em estados.
 
-O código fonte completo deste exemplo pode ser encontrado [aqui](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).
+O código fonte completo deste exemplo pode ser encontrado [aqui](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_infinite_list).

@@ -156,7 +156,7 @@ Además, no hay un concepto de middleware en bloc y el bloc está diseñado para
 💡 **Answer**: Si bien realmente no hay una respuesta correcta / incorrecta a esta pregunta, algunas referencias recomendadas son
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 Lo más importante es tener una estructura de proyecto **consistente** e **intencional**.

@@ -169,7 +169,7 @@ Die Bloc-Bibliothek verwendet intern `provider`, um es einfach zu machen, Blocs 
 💡 **Antwort**: Es gibt zwar keine richtige oder falsche Antwort auf diese Frage, aber einige empfohlene Referenzen sind
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 Das Wichtigste ist eine **konsistente** und **gezielte** Projektstruktur.

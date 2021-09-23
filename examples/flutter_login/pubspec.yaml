@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
   formz: ^0.4.0
   equatable: ^2.0.0
   authentication_repository:
@@ -21,8 +21,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test:
-    path: ../../packages/bloc_test
+  true_bloc_test:
+    path: ../../packages/true_bloc_test
   mocktail: ^0.1.0
 
 flutter:

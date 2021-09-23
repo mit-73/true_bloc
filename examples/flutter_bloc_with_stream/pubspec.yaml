@@ -1,4 +1,4 @@
-name: flutter_bloc_with_stream
+name: flutter_true_bloc_with_stream
 description: A new Flutter project.
 version: 1.0.0+1
 publish_to: none
@@ -9,21 +9,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
   equatable: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test: ^8.0.0
+  true_bloc_test: ^8.0.0
   mocktail: ^0.1.0
   
 dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 flutter:
   uses-material-design: true

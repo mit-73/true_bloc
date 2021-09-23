@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - ".github/workflows/flutter_examples.yaml"
-      - "packages/flutter_bloc/**"
-      - "examples/flutter_bloc_with_stream/**"
+      - "packages/flutter_true_bloc/**"
+      - "examples/flutter_true_bloc_with_stream/**"
       - "examples/flutter_complex_list/**"
       - "examples/flutter_counter/**"
       - "examples/flutter_dynamic_form/**"
@@ -25,8 +25,8 @@ on:
   pull_request:
     paths:
       - ".github/workflows/flutter_examples.yaml"
-      - "packages/flutter_bloc/**"
-      - "examples/flutter_bloc_with_stream/**"
+      - "packages/flutter_true_bloc/**"
+      - "examples/flutter_true_bloc_with_stream/**"
       - "examples/flutter_complex_list/**"
       - "examples/flutter_counter/**"
       - "examples/flutter_dynamic_form/**"
@@ -49,8 +49,8 @@ jobs:
       matrix:
         folder:
           [
-            "packages/flutter_bloc/example",
-            "examples/flutter_bloc_with_stream",
+            "packages/flutter_true_bloc/example",
+            "examples/flutter_true_bloc_with_stream",
             "examples/flutter_complex_list",
             "examples/flutter_counter",
             "examples/flutter_dynamic_form",

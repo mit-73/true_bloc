@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
   http: ^0.13.0
   equatable: ^2.0.0
   rxdart: ^0.26.0
@@ -18,14 +18,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test: ^8.0.0
+  true_bloc_test: ^8.0.0
   mocktail: ^0.1.0
 
 dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 flutter:
   uses-material-design: true

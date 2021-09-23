@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - ".github/workflows/angular_dart_examples.yaml"
-      - "packages/angular_bloc/**"
+      - "packages/angular_true_bloc/**"
       - "examples/angular_counter/**"
       - "examples/github_search/common_github_search/**"
       - "examples/github_search/angular_github_search/**"
@@ -12,7 +12,7 @@ on:
   pull_request:
     paths:
       - ".github/workflows/angular_dart_examples.yaml"
-      - "packages/angular_bloc/**"
+      - "packages/angular_true_bloc/**"
       - "examples/angular_counter/**"
       - "examples/github_search/common_github_search/**"
       - "examples/github_search/angular_github_search/**"

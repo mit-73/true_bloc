@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_weather/weather/weather.dart';
-import 'package:hydrated_bloc/hydrated_bloc.dart';
+import 'package:hydrated_true_bloc/hydrated_bloc.dart';
 
 class ThemeCubit extends HydratedCubit<Color> {
   ThemeCubit() : super(defaultColor);

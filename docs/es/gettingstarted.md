@@ -6,7 +6,7 @@
 
 Bloc está compuesto por varios paquetes de pub:
 
-- [bloc](https://pub.dev/packages/bloc) - Libreía central de bloc
+- [bloc](https://pub.dev/packages/true_bloc) - Libreía central de bloc
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Potentes widgets de Flutter creados para trabajar con bloc para crear aplicaciones móviles rápidas y reactivas.
 - [angular_bloc](https://pub.dev/packages/angular_bloc) - Potentes componentes de Angular diseñados para trabajar con bloc para crear aplicaciones web rápidas y reactivas.
 - [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.

@@ -116,7 +116,7 @@ Bloc kitabxanası widget ağacına bloc-u təmin etməyi və widget ağacında o
 💡 **Cavab**: Bu suala həqiqətən doğru/yalnış cavab yoxdur, sadəcə bəzi tövsiyələr var.
 
 - [Flutter Arxitektura Nümunələri- Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Alış-Veriş Səbəti Nümunəsi](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Alış-Veriş Səbəti Nümunəsi](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD (Test Driven Development) Kursu - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 Ən vacib şey **tutarlı** və **məqsədli (planlaşdırılmış)** strukturuna malik olmaqdır.

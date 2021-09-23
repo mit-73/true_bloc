@@ -1,21 +1,21 @@
-name: replay_bloc
+name: replay_true_bloc
 
 on:
   push:
     paths:
-      - "packages/replay_bloc/**"
-      - ".github/workflows/replay_bloc.yaml"
+      - "packages/replay_true_bloc/**"
+      - ".github/workflows/replay_true_bloc.yaml"
 
   pull_request:
     paths:
-      - "packages/replay_bloc/**"
-      - ".github/workflows/replay_bloc.yaml"
+      - "packages/replay_true_bloc/**"
+      - ".github/workflows/replay_true_bloc.yaml"
 
 jobs:
   build:
     defaults:
       run:
-        working-directory: packages/replay_bloc
+        working-directory: packages/replay_true_bloc
 
     runs-on: ubuntu-latest
 
@@ -38,7 +38,7 @@ jobs:
       - name: Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
         with:
-          path: packages/replay_bloc/coverage/lcov.info
+          path: packages/replay_true_bloc/coverage/lcov.info
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
@@ -48,7 +48,7 @@ jobs:
   pana:
     defaults:
       run:
-        working-directory: packages/replay_bloc
+        working-directory: packages/replay_true_bloc
 
     runs-on: ubuntu-latest
 

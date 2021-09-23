@@ -37,7 +37,7 @@ The `AuthenticationRepository` will be responsible for abstracting the internal 
 
 We'll start by created `packages/authentication_repository` and create a `pubspec.yaml`.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/authentication_repository/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/authentication_repository/pubspec.yaml ':include')
 
 
 Next, we can install the dependencies by running
@@ -50,7 +50,7 @@ in the `authentication_repository` directory.
 
 Just like most packages, the `authentication_repository` will define it's API surface via `packages/authentication_repository/lib/authentication_repository.dart`
 
-[authentication_repository.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/authentication_repository.dart ':include')
+[authentication_repository.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/authentication_repository.dart ':include')
 
 ?> **Note**: The `authentication_repository` package will be exposing an `AuthenticationRepository` as well as models.
 
@@ -62,7 +62,7 @@ Next, let's take a look at the models.
 
 ?> **Note**: It's completely up to you to define what a user needs to look like in the context of your domain.
 
-[user.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/src/models/user.dart ':include')
+[user.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/src/models/user.dart ':include')
 
 ?> **Note**: The `User` class is extending [equatable](https://pub.dev/packages/equatable) in order to override equality comparisons so that we can compare different instances of `User` by value.
 
@@ -72,7 +72,7 @@ Next, let's take a look at the models.
 
 > The `AuthenticationRepository` is responsible for abstracting the underlying implementation of how a user is authenticated as well as how a user is fetched.
 
-[authentication_repository.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/src/authentication_repository.dart ':include')
+[authentication_repository.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/authentication_repository/lib/src/authentication_repository.dart ':include')
 
 The `AuthenticationRepository` exposes a `Stream<User>` which we can subscribe to in order to be notified of when a `User` changes. In addition, it exposes methods to `signUp`, `logInWithGoogle`, `logInWithEmailAndPassword`, and `logOut`.
 
@@ -90,9 +90,9 @@ We need to follow the [firebase_auth usage instructions](https://pub.dev/package
 
 We can replace the generated `pubspec.yaml` at the root of the project with the following:
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/pubspec.yaml ':include')
 
-Notice that we are specifying an assets directory for all of our applications local assets. Create an `assets` directory in the root of your project and add the [bloc logo](https://github.com/mit-73/bloc/blob/master/examples/flutter_firebase_login/lib/assets/bloc_logo_small.png) asset (which we'll use later).
+Notice that we are specifying an assets directory for all of our applications local assets. Create an `assets` directory in the root of your project and add the [bloc logo](https://github.com/mit-73/true_bloc/blob/master/examples/flutter_firebase_login/lib/assets/bloc_logo_small.png) asset (which we'll use later).
 
 then install all of the dependencies
 
@@ -106,7 +106,7 @@ flutter packages get
 
 The `main.dart` file can be replaced with the following:
 
-[main.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/main.dart ':include')
+[main.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/main.dart ':include')
 
 It's simply setting up some global configuration for the application and calling `runApp` with an instance of `App`.
 
@@ -116,7 +116,7 @@ It's simply setting up some global configuration for the application and calling
 
 Just like in the [login tutorial](flutterlogintutorial.md) our `app.dart` will provide an instance of the `AuthenticationRepository` to the application via `RepositoryProvider` and also creates and provides an instance of `AuthenticationBloc`. Then `AppView` consumes the `AuthenticationBloc` and handles updating the current route based on the `AuthenticationState`.
 
-[app.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/app/view/app.dart ':include')
+[app.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/app/view/app.dart ':include')
 
 ## App Bloc
 
@@ -126,7 +126,7 @@ Just like in the [login tutorial](flutterlogintutorial.md) our `app.dart` will p
 
 The `AppState` consists of an `AppStatus` and a `User`. Two named constructors are exposed: `unauthenticated` and `authenticated` to make it easier to work with.
 
-[app_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/app/bloc/app_state.dart ':include')
+[app_state.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/app/true_bloc/app_state.dart ':include')
 
 ### Event
 
@@ -135,7 +135,7 @@ The `AppEvent` has two subclasses:
 - `AppUserChanged` which notifies the bloc that the current user has changed
 - `AppLogoutRequested` which notifies the bloc that the current user has requested to be logged out
 
-[app_event.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/app/bloc/app_event.dart ':include')
+[app_event.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/app/true_bloc/app_event.dart ':include')
 
 ### Bloc
 
@@ -143,7 +143,7 @@ The `AppBloc` responds to incoming `AppEvents` and transforms them into outgoing
 
 !> `close` is overridden in order to handle cancelling the internal `StreamSubscription`.
 
-[app_bloc.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/app/bloc/app_bloc.dart ':include')
+[app_bloc.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/app/true_bloc/app_bloc.dart ':include')
 
 ## Models
 
@@ -153,17 +153,17 @@ Both input models are made using the [formz](https://pub.dev/packages/formz) pac
 
 ### Email
 
-[email.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/form_inputs/lib/src/email.dart ':include')
+[email.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/form_inputs/lib/src/email.dart ':include')
 
 ### Password
 
-[email.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/packages/form_inputs/lib/src/password.dart ':include')
+[email.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/packages/form_inputs/lib/src/password.dart ':include')
 
 ## Login Page
 
 The `LoginPage` is responsible for creating and providing an instance of `LoginCubit` to the `LoginForm`.
 
-[login_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/login/view/login_page.dart ':include')
+[login_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/login/view/login_page.dart ':include')
 
 ?> **Tip**: It's very important to keep the creation of blocs/cubits separate from where they are consumed. This will allow you to easily inject mock instances and test your view in isolation.
 
@@ -175,13 +175,13 @@ The `LoginPage` is responsible for creating and providing an instance of `LoginC
 
 The `LoginState` consists of an `Email`, `Password`, and `FormzStatus`. The `Email` and `Password` models extend `FormzInput` from the [formz](https://pub.dev/packages/formz) package.
 
-[login_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/login/cubit/login_state.dart ':include')
+[login_state.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/login/cubit/login_state.dart ':include')
 
 ### Cubit
 
 The `LoginCubit` has a dependency on the `AuthenticationRepository` in order to sign the user in either via credentials or via google sign in.
 
-[login_cubit.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/login/cubit/login_cubit.dart ':include')
+[login_cubit.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/login/cubit/login_cubit.dart ':include')
 
 ?> **Note**: We used a `Cubit` instead of a `Bloc` here because the `LoginState` is fairly simple and localized. Even without events, we can still have a fairly good sense of what happened just by looking at the changes from one state to another and our code is a lot simpler and more concise.
 
@@ -189,7 +189,7 @@ The `LoginCubit` has a dependency on the `AuthenticationRepository` in order to 
 
 The `LoginForm` is a responsible for rendering the form in response to the `LoginState` and invokes methods on the `LoginCubit` in response to user interactions.
 
-[login_form.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/login/view/login_form.dart ':include')
+[login_form.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/login/view/login_form.dart ':include')
 
 The `LoginForm` also renders a "Create Account" button which navigates to the `SignUpPage` where a user can create a brand new account.
 
@@ -199,7 +199,7 @@ The `LoginForm` also renders a "Create Account" button which navigates to the `S
 
 The `SignUpPage` is just responsible for creating and providing an instance of the `SignUpCubit` to the `SignUpForm` (exactly like in `LoginPage`).
 
-[sign_up_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/sign_up/view/sign_up_page.dart ':include')
+[sign_up_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/sign_up/view/sign_up_page.dart ':include')
 
 ?> **Note**: Just as in the `LoginCubit`, the `SignUpCubit` has a dependency on the `AuthenticationRepository` in order to create new user accounts.
 
@@ -211,19 +211,19 @@ The `SignUpCubit` manages the state of the `SignUpForm` and communicates with th
 
 The `SignUpState` reuses the same `Email` and `Password` form input models because the validation logic is the same.
 
-[sign_up_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/sign_up/cubit/sign_up_state.dart ':include')
+[sign_up_state.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/sign_up/cubit/sign_up_state.dart ':include')
 
 ### Cubit
 
 The `SignUpCubit` is extremely similar to the `LoginCubit` with the main exception being it exposes an API to submit the form as opposed to login.
 
-[sign_up_cubit.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/sign_up/cubit/sign_up_cubit.dart ':include')
+[sign_up_cubit.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/sign_up/cubit/sign_up_cubit.dart ':include')
 
 ## Sign Up Form
 
 The `SignUpForm` is a responsible for rendering the form in response to the `SignUpState` and invokes methods on the `SignUpCubit` in response to user interactions.
 
-[sign_up_form.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/sign_up/view/sign_up_form.dart ':include')
+[sign_up_form.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/sign_up/view/sign_up_form.dart ':include')
 
 ## Home Page
 
@@ -231,7 +231,7 @@ After a user either successfully logs in or signs up, the `user` stream will be 
 
 From the `HomePage`, the user can view their profile information and log out by tapping the exit icon in the `AppBar`.
 
-[home_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_firebase_login/lib/home/view/home_page.dart ':include')
+[home_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_firebase_login/lib/home/view/home_page.dart ':include')
 
 ?> **Note**: A `widgets` directory was created alongside the `view` directory within the `home` feature for reusable components that are specific to that particular feature. In this case a simple `Avatar` widget is exported and used within the `HomePage`.
 
@@ -239,4 +239,4 @@ From the `HomePage`, the user can view their profile information and log out by 
 
 At this point we have a pretty solid login implementation using Firebase and we have decoupled our presentation layer from the business logic layer by using the Bloc Library.
 
-The full source for this example can be found [here](https://github.com/mit-73/bloc/tree/master/examples/flutter_firebase_login).
+The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firebase_login).

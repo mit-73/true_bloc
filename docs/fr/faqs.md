@@ -163,7 +163,7 @@ La librairie Bloc utilise `Provider` en interne pour permettre de fournir et d'a
 💡 **Réponse**: Il n'y a pas vraiment de bonne/mauvaise réponse à cette question, voici quelques références que je peux vous recommander : 
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 La chose la plus importante est d'avoir une structure de projet **consistante** et **intentionnel**.

@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
-[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
+[![build](https://github.com/mit-73/true_bloc/workflows/build/badge.svg)](https://github.com/mit-73/true_bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/true_bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/true_bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
 [![Flutter Samples](https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true)](http://fluttersamples.com)
-[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/bloc)
+[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/true_bloc)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -16,23 +16,23 @@
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                 | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                 |
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## 总览
 
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 本库的目的是用来轻松实现将逻辑层从展示层中分离，促进其可测试性和复用性。
 
 ## 文档
 
-- [官方文档](https://bloclibrary.dev)
-- [Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
+- [官方文档](https://mit-73.github.io/true_bloc)
+- [Bloc Package 的文档](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
+- [Flutter Bloc Package 的文档](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Package 的文档](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
 
 ## 版本迁移
 
@@ -44,35 +44,35 @@
     <table>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttercountertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_counter.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttercountertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_counter.gif" width="200"/>
                 </a>
             </td>            
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterinfinitelisttutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_infinite_list.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_infinite_list.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterfirebaselogintutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_firebase_login.gif" width="200" />
+                <a href="https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_firebase_login.gif" width="200" />
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterangulargithubsearch">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_github_search.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_github_search.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterweathertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_weather.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterweathertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_weather.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttertodostutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_todos.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttertodostutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_todos.gif" width="200"/>
                 </a>
             </td>
         </tr>
@@ -81,32 +81,32 @@
 
 ### Dart
 
-- [计数器](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - 一个制作计数器的示例 (纯 dart).
+- [计数器](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/example) - 一个制作计数器的示例 (纯 dart).
 
 ### Flutter
 
-- [计数器](https://bloclibrary.dev/#/fluttercountertutorial) - 使用 Flutter 制作一个 经典`计数器Bloc` 的示例
-- [表单验证（Form Validation)](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - 如何使用 `bloc`和`flutter_bloc`的包来实现表单验证的示例
-- [Bloc 和 Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - 如何将 `bloc`和`stream`相互关联并且实时更新界面，这里使用的数据是来自 `Stream`的
-- [无限列表](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现一个无限可滚动的列表的示例
-- [登陆流程](https://bloclibrary.dev/#/flutterlogintutorial) - 一个使用`bloc`和`flutter_bloc`的包来实现的登陆流程的示例
-- [使用 Firebase 实现登陆](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现通过 Firebase 登陆的示例
-- [Github 搜索](https://bloclibrary.dev/#/flutterangulargithubsearch) - 如何使用`bloc`和`flutter_bloc`的包来制作一个 Github 搜索程序的示例
-- [天气预报](https://bloclibrary.dev/#/flutterweathertutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个天气预报的程序， 这个程序使用了`RefreshIndicator`从而实现了“下拉更新”，同时还有动态主题展示。
-- [备忘录](https://bloclibrary.dev/#/fluttertodostutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个备忘录程序的示例
-- [计时器](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - 如何使用`bloc`和`flutter_bloc`的包来制作一个计时器的示例
-- [使用 Firebase 制作备忘录](https://bloclibrary.dev/#/flutterfirestoretodostutorial) - 如何使用`bloc`和`flutter_bloc`的包并整合 Firebase 来制作一个备忘录程序的示例
-- [购物车](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - 如何使用 `bloc` 和 `flutter_bloc`的包来制作一个购物车的示例 - 可参考(https://github.com/flutter/samples/tree/master/provider_shopper)
-- [动态表单（Dynamic Form )](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - 如何使用`bloc`和`flutter_bloc`的包来实现动态表单从而使得表单中的数据来自于一个存储库
+- [计数器](https://mit-73.github.io/true_bloc/#/fluttercountertutorial) - 使用 Flutter 制作一个 经典`计数器Bloc` 的示例
+- [表单验证（Form Validation)](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_form_validation) - 如何使用 `bloc`和`flutter_bloc`的包来实现表单验证的示例
+- [Bloc 和 Stream](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_bloc_with_stream) - 如何将 `bloc`和`stream`相互关联并且实时更新界面，这里使用的数据是来自 `Stream`的
+- [无限列表](https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现一个无限可滚动的列表的示例
+- [登陆流程](https://mit-73.github.io/true_bloc/#/flutterlogintutorial) - 一个使用`bloc`和`flutter_bloc`的包来实现的登陆流程的示例
+- [使用 Firebase 实现登陆](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现通过 Firebase 登陆的示例
+- [Github 搜索](https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch) - 如何使用`bloc`和`flutter_bloc`的包来制作一个 Github 搜索程序的示例
+- [天气预报](https://mit-73.github.io/true_bloc/#/flutterweathertutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个天气预报的程序， 这个程序使用了`RefreshIndicator`从而实现了“下拉更新”，同时还有动态主题展示。
+- [备忘录](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个备忘录程序的示例
+- [计时器](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_timer) - 如何使用`bloc`和`flutter_bloc`的包来制作一个计时器的示例
+- [使用 Firebase 制作备忘录](https://mit-73.github.io/true_bloc/#/flutterfirestoretodostutorial) - 如何使用`bloc`和`flutter_bloc`的包并整合 Firebase 来制作一个备忘录程序的示例
+- [购物车](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart) - 如何使用 `bloc` 和 `flutter_bloc`的包来制作一个购物车的示例 - 可参考(https://github.com/flutter/samples/tree/master/provider_shopper)
+- [动态表单（Dynamic Form )](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_dynamic_form) - 如何使用`bloc`和`flutter_bloc`的包来实现动态表单从而使得表单中的数据来自于一个存储库
 
 ### Web
 
-- [计数器](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - 在一个 `AngularDart`的程序中如何使用 `CounterBloc`
-- [Github 搜索](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - 如何使用 `bloc` 和 `angular_bloc` 的包来实现一个 Github 搜索的程序
+- [计数器](https://github.com/mit-73/true_bloc/tree/master/examples/angular_counter) - 在一个 `AngularDart`的程序中如何使用 `CounterBloc`
+- [Github 搜索](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search) - 如何使用 `bloc` 和 `angular_bloc` 的包来实现一个 Github 搜索的程序
 
 ### Flutter + Web
 
-- [Github 搜索](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - 如何创建一个 Github 搜索的程序并且将其代码分享于 Flutter 和 AngularDart 之间
+- [Github 搜索](https://github.com/mit-73/true_bloc/tree/master/examples/github_search) - 如何创建一个 Github 搜索的程序并且将其代码分享于 Flutter 和 AngularDart 之间
 
 ## 文章
 
@@ -154,4 +154,4 @@
 
 ## 赞助商
 
-[<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)
+[<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)

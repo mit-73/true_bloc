@@ -1,6 +1,6 @@
 # Základní koncepty
 
-?> Ujistěte se, prosím, že si pečlivě přečtete a pochopíte následující sekce před tím, než budete pracovat s [blocem](https://pub.dev/packages/bloc).
+?> Ujistěte se, prosím, že si pečlivě přečtete a pochopíte následující sekce před tím, než budete pracovat s [blocem](https://pub.dev/packages/true_bloc).
 
 Existuje několik základních konceptů, které jsou kritické pro pochopení, jak používat Bloc.
 

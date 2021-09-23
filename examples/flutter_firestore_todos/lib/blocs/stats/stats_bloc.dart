@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:flutter_firestore_todos/blocs/blocs.dart';
 
 class StatsBloc extends Bloc<StatsEvent, StatsState> {

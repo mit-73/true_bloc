@@ -9,24 +9,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
-  bloc_test:
-    path: ../../packages/bloc_test
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
+  true_bloc_test:
+    path: ../../packages/true_bloc_test
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test:
-    path: ../../packages/bloc_test
+  true_bloc_test:
+    path: ../../packages/true_bloc_test
   mocktail: ^0.1.0
   integration_test:
     sdk: flutter

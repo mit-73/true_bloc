@@ -2,11 +2,11 @@
 
 ![avanzado](https://img.shields.io/badge/nivel-avanzado-red.svg)
 
-> En el siguiente tutorial, crearemos una aplicación reactiva de quehaceres que se conecta a Firestore. Vamos a construir sobre el ejemplo [lista de quehaceres](https://bloclibrary.dev/#/fluttertodostutorial) para que no entremos en la interfaz de usuario, ya que todo será igual.
+> En el siguiente tutorial, crearemos una aplicación reactiva de quehaceres que se conecta a Firestore. Vamos a construir sobre el ejemplo [lista de quehaceres](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) para que no entremos en la interfaz de usuario, ya que todo será igual.
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-Las únicas cosas que vamos a refactorizar en nuestro [ejemplo todos](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) existente es la capa de repositorio y partes de la capa de bloc.
+Las únicas cosas que vamos a refactorizar en nuestro [ejemplo todos](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos) existente es la capa de repositorio y partes de la capa de bloc.
 
 Comenzaremos en la capa del repositorio con el `TodosRepository`.
 
@@ -136,7 +136,7 @@ Creemos una nueva aplicación Flutter llamada `flutter_firestore_todos`. Podemos
 
 Dado que queremos poder iniciar sesión en nuestros usuarios, necesitaremos crear un `AuthenticationBloc`.
 
-?> Si aún no ha revisado el [tutorial de inicio de sesión de firebase con flutter](https://bloclibrary.dev/#/flutterfirebaselogintutorial), le recomiendo que lo revise ahora porque simplemente vamos a reutilizar el mismo `AuthenticationBloc`.
+?> Si aún no ha revisado el [tutorial de inicio de sesión de firebase con flutter](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial), le recomiendo que lo revise ahora porque simplemente vamos a reutilizar el mismo `AuthenticationBloc`.
 
 #### Authentication Events
 
@@ -150,7 +150,7 @@ Dado que queremos poder iniciar sesión en nuestros usuarios, necesitaremos crea
 
 [authentication_bloc.dart](../_snippets/flutter_firestore_todos_tutorial/authentication_bloc.dart.md ':include')
 
-Ahora que nuestro `AuthenticationBloc` está terminado, necesitamos modificar el `TodosBloc` del [tutorial original de quehaceres](https://bloclibrary.dev/#/fluttertodostutorial) para consumir el nuevo `TodosRepository`.
+Ahora que nuestro `AuthenticationBloc` está terminado, necesitamos modificar el `TodosBloc` del [tutorial original de quehaceres](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) para consumir el nuevo `TodosRepository`.
 
 ### Todos Bloc
 
@@ -172,6 +172,6 @@ Lo último que necesitamos modificar es nuestro `main.dart`.
 
 Las principales diferencias a tener en cuenta son el hecho de que hemos envuelto toda nuestra aplicación en un `MultiBlocProvider` que inicializa y proporciona el `AuthenticationBloc` y `TodosBloc`. Entonces, solo renderizamos la aplicación de quehaceres si el `AuthenticationState` está `Authenticated` usando `BlocBuilder`. Todo lo demás permanece igual que en el tutorial anterior de quehaceres.
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación firestore de quehaceres en flutter usando los paquetes [bloc](https://pub.dev/packages/bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros Hemos separado con éxito nuestra capa de presentación de nuestra lógica empresarial al tiempo que creamos una aplicación que se actualiza en tiempo real.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación firestore de quehaceres en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros Hemos separado con éxito nuestra capa de presentación de nuestra lógica empresarial al tiempo que creamos una aplicación que se actualiza en tiempo real.
 
-La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).
+La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

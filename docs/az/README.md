@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
-[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
+[![build](https://github.com/mit-73/true_bloc/workflows/build/badge.svg)](https://github.com/mit-73/true_bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/true_bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/true_bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
 [![Flutter Samples](https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true)](http://fluttersamples.com)
-[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/bloc)
+[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/true_bloc)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -16,23 +16,23 @@
 
 | Paketlər                                                                           | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                 | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                 |
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## İcmal
 
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (hesablama və məntiqi hissədən) ayrılmasının, test edilə bilinməsinin və təkrar istifadənin asanlaşdırılmasıdır.
 
 ## Dokumentasiya
 
-- [Rəsmi Dokumentasiya](https://bloclibrary.dev)
-- [Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Rəsmi Dokumentasiya](https://mit-73.github.io/true_bloc)
+- [Bloc Paketi](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
+- [Flutter Bloc Paketi](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Paketi](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migrasiya
 
@@ -44,35 +44,35 @@ Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (h
     <table>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttercountertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_counter.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttercountertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_counter.gif" width="200"/>
                 </a>
             </td>            
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterinfinitelisttutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_infinite_list.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_infinite_list.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterfirebaselogintutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_firebase_login.gif" width="200" />
+                <a href="https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_firebase_login.gif" width="200" />
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterangulargithubsearch">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_github_search.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_github_search.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterweathertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_weather.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterweathertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_weather.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttertodostutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_todos.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttertodostutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_todos.gif" width="200"/>
                 </a>
             </td>
         </tr>
@@ -81,32 +81,32 @@ Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (h
 
 ### Dart
 
-- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - `CounterBloc`-un yaradılması ilə bağlı nümunə (sırf dart).
+- [Counter](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/example) - `CounterBloc`-un yaradılması ilə bağlı nümunə (sırf dart).
 
 ### Flutter
 
-- [Sayğac](https://bloclibrary.dev/#/fluttercountertutorial) - Klassik Flutter Counter tətbiqinin həyəta keçirilməsi üçün `CounterBloc`-un necə yaradılması haqqında nümunə.
-- [Form Təsdiqləmə](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - form təsdiqləməni həyata keçirmək üçün `bloc` və `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
-- [Stream ilə Bloc](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - `bloc`-un `Stream`-ə necə qoşulması və `Stream`-dən gələn məlumata əsasən İstifadəçi İnterfeysinin yenilənməsi haqqında nümunə.
-- [Sonsuz List](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - sonsuz listin həyatə keçirilməsi üçün `bloc` and `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
-- [Login prosesi](https://bloclibrary.dev/#/flutterlogintutorial) - Login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərini necə istifadə etmək haqqında nümunə.
-- [Firebase Login](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - Firebase ilə login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərindən necə istifadə etmək haqqında nümunə.
-- [Github-da Axtarış](https://bloclibrary.dev/#/flutterangulargithubsearch) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
-- [Hava](https://bloclibrary.dev/#/flutterweathertutorial) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Hava tətbiqinin yaradılması haqqında nümunə. Tətbiq aşağı sürükləməklə yenilənmə üçün `RefreshIndicator` və dinamik mövzu (theme) dəyişilməsini istifadə edir.
-- [Todo-lar](https://bloclibrary.dev/#/fluttertodostutorial) -`bloc` və `flutter_bloc` paketlərindən istifadə edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
-- [Taymer](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - `bloc` və `flutter_bloc` paketlərindən istifadə edərək Taymerin necə yaradılması haqqında nümunə.
-- [Firestore Todo-lar](https://bloclibrary.dev/#/flutterfirestoretodostutorial) `bloc` və `flutter_bloc` paketlərindən istifadə edərək və onları cloud firestore-a inteqrasiya edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
-- [Alış-veriş səbəti](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - [flutter nümunələri](https://github.com/flutter/samples/tree/master/provider_shopper) əsasında `bloc` və `flutter_bloc` paketlərini istifadə edərək Alış-Veriş Səbəti tətbiqinin necə yaradılması haqqında nümunə.
-- [Dinamik Form](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - `bloc` və `flutter_bloc` paketlərini istifadə edərək repository-dən məlumatı əldə edən dinamik formun həyata keçirilməsi haqqında nümunə.
+- [Sayğac](https://mit-73.github.io/true_bloc/#/fluttercountertutorial) - Klassik Flutter Counter tətbiqinin həyəta keçirilməsi üçün `CounterBloc`-un necə yaradılması haqqında nümunə.
+- [Form Təsdiqləmə](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_form_validation) - form təsdiqləməni həyata keçirmək üçün `bloc` və `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
+- [Stream ilə Bloc](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_bloc_with_stream) - `bloc`-un `Stream`-ə necə qoşulması və `Stream`-dən gələn məlumata əsasən İstifadəçi İnterfeysinin yenilənməsi haqqında nümunə.
+- [Sonsuz List](https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial) - sonsuz listin həyatə keçirilməsi üçün `bloc` and `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
+- [Login prosesi](https://mit-73.github.io/true_bloc/#/flutterlogintutorial) - Login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərini necə istifadə etmək haqqında nümunə.
+- [Firebase Login](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial) - Firebase ilə login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərindən necə istifadə etmək haqqında nümunə.
+- [Github-da Axtarış](https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
+- [Hava](https://mit-73.github.io/true_bloc/#/flutterweathertutorial) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Hava tətbiqinin yaradılması haqqında nümunə. Tətbiq aşağı sürükləməklə yenilənmə üçün `RefreshIndicator` və dinamik mövzu (theme) dəyişilməsini istifadə edir.
+- [Todo-lar](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) -`bloc` və `flutter_bloc` paketlərindən istifadə edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
+- [Taymer](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_timer) - `bloc` və `flutter_bloc` paketlərindən istifadə edərək Taymerin necə yaradılması haqqında nümunə.
+- [Firestore Todo-lar](https://mit-73.github.io/true_bloc/#/flutterfirestoretodostutorial) `bloc` və `flutter_bloc` paketlərindən istifadə edərək və onları cloud firestore-a inteqrasiya edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
+- [Alış-veriş səbəti](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart) - [flutter nümunələri](https://github.com/flutter/samples/tree/master/provider_shopper) əsasında `bloc` və `flutter_bloc` paketlərini istifadə edərək Alış-Veriş Səbəti tətbiqinin necə yaradılması haqqında nümunə.
+- [Dinamik Form](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_dynamic_form) - `bloc` və `flutter_bloc` paketlərini istifadə edərək repository-dən məlumatı əldə edən dinamik formun həyata keçirilməsi haqqında nümunə.
 
 ### Veb
 
-- [Sayğac](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - `CounterBloc`un AngularDart tətbiqində necə istifadə olunması haqqında nümunə.
-- [Github-da Axtarış](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - `bloc` və `angular_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
+- [Sayğac](https://github.com/mit-73/true_bloc/tree/master/examples/angular_counter) - `CounterBloc`un AngularDart tətbiqində necə istifadə olunması haqqında nümunə.
+- [Github-da Axtarış](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search) - `bloc` və `angular_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
 
 ### Flutter + Veb
 
-- [Github-da Axtarış](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - Github-da Axtarış Tətbiqinin yaradılması və kodun Flutter və AngularDart arasında bölüşdürülməsi haqqında nümunə.
+- [Github-da Axtarış](https://github.com/mit-73/true_bloc/tree/master/examples/github_search) - Github-da Axtarış Tətbiqinin yaradılması və kodun Flutter və AngularDart arasında bölüşdürülməsi haqqında nümunə.
 
 ## Məqalələr
 

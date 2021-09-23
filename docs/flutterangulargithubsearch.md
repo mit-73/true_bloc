@@ -33,7 +33,7 @@ Next, we'll create the scaffold for the `common_github_search` library.
 
 We need to create a `pubspec.yaml` with the required dependencies.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
 
 Lastly, we need to install our dependencies.
 
@@ -156,7 +156,7 @@ Create `github_search_bloc.dart`
 ?> **Note:** We override the `transformEvents` method to [debounce](http://reactivex.io/documentation/operators/debounce.html) the `GithubSearchEvents`. One of the reasons why we created a `Bloc` instead of a `Cubit` was to take advantage of these reactive operators. 
 
 Awesome! We're all done with our `common_github_search` package.
-The finished product should look like [this](https://github.com/mit-73/Bloc/tree/master/examples/github_search/common_github_search).
+The finished product should look like [this](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/common_github_search).
 
 Next, we'll work on the Flutter implementation.
 
@@ -172,7 +172,7 @@ We need to start by creating a new Flutter project in our `github_search` direct
 
 Next, we need to update our `pubspec.yaml` to include all the necessary dependencies.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
 
 ?> **Note:** We are including our newly created `common_github_search` library as a dependency.
 
@@ -213,7 +213,7 @@ We're done with `_SearchBar`, now onto `_SearchBody`.
 
 [search_form.dart](_snippets/flutter_angular_github_search/flutter/search_body.dart.md ':include')
 
-?> **Note:** `_SearchBody` uses `BlocBuilder` in order to rebuild in response to state changes. Since the bloc parameter of the `BlocBuilder` object was omitted, `BlocBuilder` will automatically perform a lookup using `BlocProvider` and the current `BuildContext`. Read more [here.](https://bloclibrary.dev/#/flutterbloccoreconcepts?id=blocbuilder)
+?> **Note:** `_SearchBody` uses `BlocBuilder` in order to rebuild in response to state changes. Since the bloc parameter of the `BlocBuilder` object was omitted, `BlocBuilder` will automatically perform a lookup using `BlocProvider` and the current `BuildContext`. Read more [here.](https://mit-73.github.io/true_bloc/#/flutterbloccoreconcepts?id=blocbuilder)
 
 If our state is `SearchStateSuccess` we render `_SearchResults` which we will implement next.
 
@@ -247,9 +247,9 @@ Now all that's left to do is implement our main app in `main.dart`.
 
 ?> **Note:** Our `GithubRepository` is created in `main` and injected into our `App`. Our `SearchForm` is wrapped in a `BlocProvider` which is responsible for initializing, closing, and making the instance of `GithubSearchBloc` available to the `SearchForm` widget and its children.
 
-That’s all there is to it! We’ve now successfully implemented a github search app in Flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
+That’s all there is to it! We’ve now successfully implemented a github search app in Flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
 
-The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search/flutter_github_search).
+The full source can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/flutter_github_search).
 
 Finally, we're going to build our AngularDart Github Search app.
 
@@ -267,7 +267,7 @@ We need to start by creating a new AngularDart project in our github_search dire
 
 We can then go ahead and replace the contents of `pubspec.yaml` with:
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
 
 ### Search Form
 
@@ -362,7 +362,7 @@ We have all of our components and now it's time to put them all together in our 
 
 That’s all there is to it! We’ve now successfully implemented a github search app in AngularDart using the `bloc` and `angular_bloc` packages and we’ve successfully separated our presentation layer from our business logic.
 
-The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search).
+The full source can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search).
 
 ## Summary
 
@@ -370,4 +370,4 @@ In this tutorial we created a Flutter and AngularDart app while sharing all of t
 
 The only thing we actually had to write twice was the presentation layer (UI) which is awesome in terms of efficiency and development speed. In addition, it's fairly common for web apps and mobile apps to have different user experiences and styles and this approach really demonstrates how easy it is to build two apps that look totally different but share the same data and business logic layers.
 
-The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search).
+The full source can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/github_search).

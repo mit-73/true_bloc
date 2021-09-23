@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todos_app_core/todos_app_core.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_todos/blocs/blocs.dart';
 import 'package:flutter_todos/widgets/widgets.dart';
 import 'package:flutter_todos/localization.dart';

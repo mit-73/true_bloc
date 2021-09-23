@@ -1,5 +1,5 @@
 ```dart
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 
 part 'timer_event.dart';
 part 'timer_state.dart';

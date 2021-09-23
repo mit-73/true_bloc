@@ -82,7 +82,7 @@
 
 现在我们的`Events`和`States`都实现好了, 接下来我们可以创建`PostBloc`.
 
-为了更方便的在一条语句中引入`States`和`Events`, 我们可以在`bloc/bloc.dart`中把他们都export出来. (在下一章会把`post_bloc.dart`也在这里export出去)
+为了更方便的在一条语句中引入`States`和`Events`, 我们可以在`bloc/true_bloc.dart`中把他们都export出来. (在下一章会把`post_bloc.dart`也在这里export出去)
 
 [bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc_initial.dart.md ':include')
 
@@ -101,7 +101,7 @@
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
 当一个新的state出现的时候, 我们的`PostBloc`会`yield`(生成一个新的值), 因为函数返回了一个`Stream<PostState>`.
-你可以参考[核心概念](https://bloclibrary.dev/#/coreconcepts?id=streams)来了解更多关于`Streams`和其他核心概念知识.
+你可以参考[核心概念](https://mit-73.github.io/true_bloc/#/coreconcepts?id=streams)来了解更多关于`Streams`和其他核心概念知识.
 
 现在, 每次加入新的`PostEvent`时, 如果这个event(事件)是`PostFetched`并且还有更多可加载的post的话,
 `PostBloc`就会请求接下来的20个post.
@@ -123,9 +123,9 @@
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc.dart.md ':include')
 
-别忘了在`bloc/bloc.dart`加入我们刚写的`PostBloc`!
+别忘了在`bloc/true_bloc.dart`加入我们刚写的`PostBloc`!
 
-[bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc.dart.md ':include')
+[bloc.dart](../_snippets/flutter_infinite_list_tutorial/true_bloc.dart.md ':include')
 
 太好了! 现在我们已经完成了业务逻辑的实现. 接下来我们就只要实现表现层就好了.
 
@@ -183,8 +183,8 @@
 
 ?> 实践中, 你可以创建多个`BlocObservers`. 因为每个state(状态)改变都会被记录下来, 我们能很容易的在**同一个地方**让应用程序记录**所有**来自用户的交互和状态改变
 
-这就是我要介绍的所有事情了! 我们已经成功的用[bloc](https://pub.dev/packages/bloc)和[flutter_bloc](https://pub.dev/packages/flutter_bloc)实现了无限列表, 并将表现层和业务逻辑分离开来.
+这就是我要介绍的所有事情了! 我们已经成功的用[bloc](https://pub.dev/packages/true_bloc)和[flutter_bloc](https://pub.dev/packages/flutter_bloc)实现了无限列表, 并将表现层和业务逻辑分离开来.
 
 `HomePage(主页面)`完全不知道`Post`从哪里来, 也完全不知道`Post`的数据是怎么加载到的. `PostBloc`也同样不知道`State(状态)`是怎么被渲染到屏幕的, 他只是很简单的把`Event(事件)`转化成`State(事件)`
 
-在[这里](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list)你可以找到这个例子的完整代码
+在[这里](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_infinite_list)你可以找到这个例子的完整代码

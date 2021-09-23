@@ -1,10 +1,10 @@
 # Bloc плагин для IntelliJ и Android Studio
 
-![dialog](https://github.com/mit-73/bloc/raw/master/extensions/intellij/assets/dialog.png)
+![dialog](https://github.com/mit-73/true_bloc/raw/master/extensions/intellij/assets/dialog.png)
 
 ## Введение
 
-Плагин `Bloc` для [IntelliJ](https://www.jetbrains.com/idea/) и [Android Studio](https://developer.android.com/studio/) с поддержкой [Bloc](https://bloclibrary.dev) предоставляет инструменты для эффективного создания блоков для приложений [Flutter](https://flutter.dev/) и [AngularDart](https://angulardart.dev/).
+Плагин `Bloc` для [IntelliJ](https://www.jetbrains.com/idea/) и [Android Studio](https://developer.android.com/studio/) с поддержкой [Bloc](https://mit-73.github.io/true_bloc) предоставляет инструменты для эффективного создания блоков для приложений [Flutter](https://flutter.dev/) и [AngularDart](https://angulardart.dev/).
 
 ## Инсталляция
 

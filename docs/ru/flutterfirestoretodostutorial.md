@@ -6,7 +6,7 @@
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-Единственное, что мы мы сделаем - это рефакторинг существующего [примера todos](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) на уровне хранилища и частичто слоя блока.
+Единственное, что мы мы сделаем - это рефакторинг существующего [примера todos](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos) на уровне хранилища и частичто слоя блока.
 
 Мы начнем со слоя репозитория с `TodosRepository`.
 
@@ -173,6 +173,6 @@
 
 Основным отличием, которое следует отметить является тот факт, что мы завернули все наше приложение в `MultiBlocProvider`, который инициализирует и предоставляет `AuthenticationBloc` и `TodosBloc`. Затем мы только визуализируем приложение todos если для `AuthenticationState` установлено `Authenticated` с использованием `BlocBuilder`. Все остальное остается тем же, что и в предыдущем `учебнике todos`.
 
-Вот и все, что нужно сделать! Теперь мы успешно внедрили приложение todos для Firestore во Flutter, используя пакеты [bloc](https://pub.dev/packages/bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили уровень представления от бизнес-логики, а также создали приложение, которое обновляется в режиме реального времени.
+Вот и все, что нужно сделать! Теперь мы успешно внедрили приложение todos для Firestore во Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили уровень представления от бизнес-логики, а также создали приложение, которое обновляется в режиме реального времени.
 
-Полный исходный код этого примера можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).
+Полный исходный код этого примера можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

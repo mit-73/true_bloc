@@ -1,5 +1,5 @@
 name: flutter_graphql_jobs
-description: A example of how to use a GraphQL client with bloc.
+description: A example of how to use a GraphQL client with true_bloc.
 version: 1.0.0+1
 publish_to: none
 
@@ -9,16 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
   graphql: ^3.0.2
   json_annotation: ^3.0.1
 
 dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 dev_dependencies:
   build_runner: ^1.8.1

@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 
 /// {@template counter_observer}
 /// [BlocObserver] for the counter application which

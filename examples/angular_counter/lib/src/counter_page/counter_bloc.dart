@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 
 enum CounterEvent { increment, decrement }
 
