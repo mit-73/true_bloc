@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 
 /// {@template counter_cubit}
 /// A [Cubit] which manages an [int] as its state.

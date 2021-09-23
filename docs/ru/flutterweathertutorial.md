@@ -12,7 +12,7 @@
 - App displays weather information returned by [MetaWeather API](https://www.metaweather.com/api/)
 - App theme changes depending on weather of the city
 - Settings page which allows users to change units
-- Persist state across sessions ([HydratedBloc](https://github.com/mit-73/bloc/tree/master/packages/hydrated_bloc))
+- Persist state across sessions ([HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc))
 
 ## Key Concepts
 
@@ -24,7 +24,7 @@
 - [BlocListener](/flutterbloccoreconcepts?id=bloclistener), a Flutter widget that invokes the listener code in response to state changes in the bloc
 - [MultiBlocProvider](/flutterbloccoreconcepts?id=multiblocprovider), a Flutter widget that merges multiple BlocProvider widgets into one
 - [BlocConsumer](/flutterbloccoreconcepts?id=blocconsumer), a Flutter widget that exposes a builder and listener in order to react to new states
-- [HydratedBloc](https://github.com/mit-73/bloc/tree/master/packages/hydrated_bloc) to manage and persist state
+- [HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc) to manage and persist state
 
 ## Setup
 
@@ -42,7 +42,7 @@ Our app can be broken down into four main features: **search, settings, theme, w
 
 ### Architecture
 
-> Following the [bloc architecture](https://bloclibrary.dev/#/architecture) guidelines, our application will consist of several layers.
+> Following the [bloc architecture](https://mit-73.github.io/true_bloc/#/architecture) guidelines, our application will consist of several layers.
 
 In this tutorial, here's what these layers will do:
 - **Data**: retrieve raw weather data from the API
@@ -105,7 +105,7 @@ While we're here, let's quickly create a [barrel file](https://adrianfaciu.dev/p
 
 Create a `models.dart` barrel file and export the two models:
 
-[models.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/models.dart ':include')
+[models.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/models.dart ':include')
 
 Let's also create a package level barrel file, `meta_weather_api.dart`
 
@@ -144,13 +144,13 @@ For each file we also need to:
 
 Here is our complete `location.dart` model file:
 
-[location.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/location.dart ':include')
+[location.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/location.dart ':include')
 
 #### Weather Model
 
 Here is our complete `weather.dart` model file:
 
-[weather.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/weather.dart ':include')
+[weather.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/models/weather.dart ':include')
 
 #### Create Build File
 
@@ -197,13 +197,13 @@ Similarly, the `getWeather` method hits the weather API and throws `WeatherReque
 
 The completed file looks like this:
 
-[meta_weather_api_client.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/meta_weather_api_client.dart ':include')
+[meta_weather_api_client.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/src/meta_weather_api_client.dart ':include')
 
 #### Barrel File Updates
 
 Let's wrap up this package by adding our API client to the barrel file.
 
-[meta_weather_api.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/meta_weather_api.dart ':include')
+[meta_weather_api.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/lib/meta_weather_api.dart ':include')
 
 ### Unit Tests
 
@@ -219,11 +219,11 @@ We will be creating a test file for the api client as well as the two models.
 
 #### Location Tests
 
-[location_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/test/location_test.dart ':include')
+[location_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/test/location_test.dart ':include')
 
 #### Weather Tests
 
-[weather_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/test/weather_test.dart ':include')
+[weather_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/test/weather_test.dart ':include')
 
 #### API Client Tests
 
@@ -233,7 +233,7 @@ Next, let's test our API client. We should test to ensure that our API client ha
 
 [pubspec.yaml](../_snippets/flutter_weather_tutorial/data_layer/mocktail_pubspec.yaml.md ':include')
 
-[meta_weather_api_client_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/meta_weather_api/test/meta_weather_api_client_test.dart ':include')
+[meta_weather_api_client_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/meta_weather_api/test/meta_weather_api_client_test.dart ':include')
 
 #### Test Coverage
 
@@ -255,7 +255,7 @@ We will use the same packages as in the `meta_weather_api` package including the
 
 ?> **Note**: We're using a `path` to specify the location of the `meta_weather_api` which allows us to treat it just like an external package from `pub.dev`.
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/pubspec.yaml ':include')
 
 ### Weather Repository Models
 
@@ -265,11 +265,11 @@ We will use the same packages as in the `meta_weather_api` package including the
 
 This time, our weather model will only store the `location, temperature, condition` properties. We will also continue to annotate our code to allow for serialization and deserialization.
 
-[weather.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/models/weather.dart ':include')
+[weather.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/models/weather.dart ':include')
 
 Update the barrel file we created previously to include the models.
 
-[models.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/models/models.dart ':include')
+[models.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/models/models.dart ':include')
 
 #### Create Build File
 
@@ -301,19 +301,19 @@ Let's create the `weather_repository.dart` file within the `src` directory of ou
 
 The main method we will focus on is `getWeather(String city)`. We can implement it using two calls to the API client as follows:
 
-[weather_repository.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/weather_repository.dart ':include')
+[weather_repository.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/lib/src/weather_repository.dart ':include')
 
 #### Barrel File
 
 Update the barrel file we created previously.
 
-[weather_repository.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/lib/weather_repository.dart ':include')
+[weather_repository.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/lib/weather_repository.dart ':include')
 
 ### Unit Tests
 
 > Just as with the data layer, it's critical to test the repository layer in order to make sure the domain level logic is correct. To test our `WeatherRepository`, we will use the [mocktail](https://github.com/mit-73/mocktail) library. We will mock the underlying api client in order to unit test the `WeatherRepository` logic in an isolated, controlled environment.
 
-[weather_repository_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/packages/weather_repository/test/weather_repository_test.dart ':include')
+[weather_repository_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/packages/weather_repository/test/weather_repository_test.dart ':include')
 
 ## Business Logic Layer
 
@@ -333,7 +333,7 @@ Next, we will be working on the application layer within the `weather` feature d
 
 > The goal of our weather model is to keep track of weather data displayed by our app, as well as temperature settings (Celsius or Fahrenheit).
 
-[weather.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/models/weather.dart ':include')
+[weather.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/models/weather.dart ':include')
 
 ### Create Build File
 
@@ -351,7 +351,7 @@ Run `build_runner` to generate the (de)serialization implementations.
 
 Let's export our models from the barrel file:
 
-[models.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/models/models.dart ':include')
+[models.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/models/models.dart ':include')
 
 ### Weather
 
@@ -376,7 +376,7 @@ The `WeatherStatus` enum will represent the above.
 
 The complete weather state should look like this:
 
-[weather_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/cubit/weather_state.dart ':include')
+[weather_state.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/cubit/weather_state.dart ':include')
 
 #### Weather Cubit
 
@@ -387,7 +387,7 @@ Now that we've defined the `WeatherState`, let's write the `WeatherCubit` which 
 - `toggleUnits()` toggles the state between Celsius and Fahrenheit
 - `fromJson(Map<String, dynamic> json)`, `toJson(WeatherState state)` used for persistence
 
-[weather_cubit.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/cubit/weather_cubit.dart ':include')
+[weather_cubit.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/cubit/weather_cubit.dart ':include')
 
 ?> **Note**: Remember to generate the (de)serialization code via `flutter packages pub run build_runner build`
 
@@ -403,7 +403,7 @@ Let's create a `ThemeCubit` to manage the theme of our app. The theme will chang
 
 We will expose an `updateTheme` method to update the theme depending on the weather condition.
 
-[theme_cubit.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/theme/cubit/theme_cubit.dart ':include')
+[theme_cubit.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/theme/cubit/theme_cubit.dart ':include')
 
 ### Unit Tests
 
@@ -411,17 +411,17 @@ We will expose an `updateTheme` method to update the theme depending on the weat
 
 Let's add the `test`, `bloc_test`, and `mocktail` packages to the `dev_dependencies`.
 
-[pubspec.yaml.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/pubspec.yaml ':include')
+[pubspec.yaml.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/pubspec.yaml ':include')
 
 ?> **Note**: The `bloc_test` package allows us to easily prepare our blocs for testing, handle state changes, and check results in a consistent way.
 
 #### Theme Cubit Tests
 
-[theme_cubit_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/test/theme/cubit/theme_cubit_test.dart ':include')
+[theme_cubit_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/test/theme/cubit/theme_cubit_test.dart ':include')
 
 #### Weather Cubit Tests
 
-[weather_cubit_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/test/weather/cubit/weather_cubit_test.dart ':include')
+[weather_cubit_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/test/weather/cubit/weather_cubit_test.dart ':include')
 
 ## Presentation Layer
 
@@ -429,7 +429,7 @@ Let's add the `test`, `bloc_test`, and `mocktail` packages to the `dev_dependenc
 
 We will start with the `WeatherPage` which uses `BlocProvider` in order to provide an instance of the `WeatherCubit` to the widget tree.
 
-[weather_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/view/weather_page.dart ':include')
+[weather_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/view/weather_page.dart ':include')
 
 You'll notice that page depends on `SettingsPage` and `SearchPage` widgets, which we will create next.
 
@@ -437,13 +437,13 @@ You'll notice that page depends on `SettingsPage` and `SearchPage` widgets, whic
 
 The settings page allows users to update their preferences for the temperature units.
 
-[settings_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/settings/view/settings_page.dart ':include')
+[settings_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/settings/view/settings_page.dart ':include')
 
 ### SearchPage
 
 The search page allows users to enter the name of their desired city and provides the search result to the previous route via `Navigator.of(context).pop`.
 
-[search_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/search/view/search_page.dart ':include')
+[search_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/search/view/search_page.dart ':include')
 
 ### Weather Widgets
 
@@ -453,47 +453,47 @@ The app will display different screens depending on the four possible states of 
 
 This screen will show when there is no data to display because the user has not yet selected a city.
 
-[weather_empty.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/widgets/weather_empty.dart ':include')
+[weather_empty.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/widgets/weather_empty.dart ':include')
 
 #### WeatherError
 
 This screen will display if there is an error.
 
-[weather_error.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/widgets/weather_error.dart ':include')
+[weather_error.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/widgets/weather_error.dart ':include')
 
 #### WeatherLoading
 
 This screen will display as the application fetches the data.
 
-[weather_loading.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/widgets/weather_loading.dart ':include')
+[weather_loading.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/widgets/weather_loading.dart ':include')
 
 #### WeatherPopulated
 
 This screen will display after the user has selected a city and we have retrieved the data.
 
-[weather_populated.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/widgets/weather_populated.dart ':include')
+[weather_populated.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/widgets/weather_populated.dart ':include')
 
 ### Barrel File
 
 Let's add these states to a barrel file to clean up our imports.
 
-[widgets.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/weather/widgets/widgets.dart ':include')
+[widgets.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/weather/widgets/widgets.dart ':include')
 
 ### Entrypoint
 
 Our `main.dart` file should initialize our `WeatherApp` and `BlocObserver` (for debugging purposes), as well as setup our `HydratedStorage` to persist state across sessions.
 
-[main.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/main.dart ':include')
+[main.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/main.dart ':include')
 
 Our `app.dart` widget will handle building the `WeatherPage` view we previously created and use `BlocProvider` to inject our `ThemeCubit` which handles theme data.
 
-[app.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/lib/app.dart ':include')
+[app.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/lib/app.dart ':include')
 
 ### Widget Tests
 
 The `bloc_test` library also exposes `MockBlocs` and `MockCubits` which make it easy to test UI. We can mock the states of the various cubits and ensure that the UI reacts correctly.
 
-[weather_page_test.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_weather/test/weather/view/weather_page_test.dart ':include')
+[weather_page_test.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_weather/test/weather/view/weather_page_test.dart ':include')
 
 ?> **Note**: We're using a `MockWeatherCubit` together with the `when` API from `mocktail` in order to stub the state of the cubit in each of the test cases. This allows us to simulate all states and verify the UI behaves correctly under all circumstances.
 
@@ -503,4 +503,4 @@ That's it, we have completed the tutorial! 🎉
 
 We can run the final app using the `flutter run` command.
 
-The full source code for this example, including unit and widget tests, can be found [here](https://github.com/mit-73/bloc/tree/master/examples/flutter_weather).
+The full source code for this example, including unit and widget tests, can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_weather).

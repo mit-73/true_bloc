@@ -1,0 +1,22 @@
+name: example
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_true_bloc:
+    path: ../
+
+dependency_overrides:
+  true_bloc:
+    path: ../../true_bloc
+  flutter_true_bloc:
+    path: ../
+
+flutter:
+  uses-material-design: true

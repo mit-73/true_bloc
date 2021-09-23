@@ -1,9 +1,9 @@
 ```dart
 import 'dart:async';
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:user_repository/user_repository.dart';
-import 'package:flutter_firestore_todos/blocs/authentication_bloc/bloc.dart';
+import 'package:flutter_firestore_todos/blocs/authentication_bloc/true_bloc.dart';
 
 class AuthenticationBloc
     extends Bloc<AuthenticationEvent, AuthenticationState> {

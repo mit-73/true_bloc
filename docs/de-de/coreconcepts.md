@@ -1,6 +1,6 @@
 # Grundlegende Konzepte (package:bloc)
 
-?> Bitte lesen Sie die folgenden Abschnitte sorgfältig durch, bevor Sie mit [package:bloc](https://pub.dev/packages/bloc) arbeiten.
+?> Bitte lesen Sie die folgenden Abschnitte sorgfältig durch, bevor Sie mit [package:bloc](https://pub.dev/packages/true_bloc) arbeiten.
 
 Es gibt mehrere Kernkonzepte, die für das Verständnis der Verwendung des bloc-Pakets entscheidend sind.
 
@@ -632,7 +632,7 @@ Wenn wir dieselbe `main.dart` wie zuvor erneut ausführen, können wir sehen, wi
 ```sh
 Exception: increment error!, #0      CounterBloc.mapEventToState (file:///main.dart:55:60)
 <asynchronous suspension>
-#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/bloc.dart:232:20)
+#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/true_bloc.dart:232:20)
 #2      Stream.asyncExpand.onListen.<anonymous closure> (dart:async/stream.dart:579:30)
 #3      _RootZone.runUnaryGuarded (dart:async/zone.dart:1374:10)
 #4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
@@ -646,7 +646,7 @@ Exception: increment error!, #0      CounterBloc.mapEventToState (file:///main.d
 
 CounterBloc Exception: increment error! #0      CounterBloc.mapEventToState (file:///main.dart:55:60)
 <asynchronous suspension>
-#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/bloc.dart:232:20)
+#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/true_bloc.dart:232:20)
 #2      Stream.asyncExpand.onListen.<anonymous closure> (dart:async/stream.dart:579:30)
 #3      _RootZone.runUnaryGuarded (dart:async/zone.dart:1374:10)
 #4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)

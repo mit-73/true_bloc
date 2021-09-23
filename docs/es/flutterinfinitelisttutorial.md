@@ -16,7 +16,7 @@ flutter create flutter_infinite_list
 
 Luego podemos continuar y reemplazar el contenido de pubspec.yaml con
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/pubspec.yaml ':include')
 
 y luego instalar todas nuestras dependencias
 
@@ -42,7 +42,7 @@ Genial, ahora que sabemos cómo se verán nuestros datos, creemos el modelo.
 
 Cree `post.dart` y comencemos a crear el modelo de nuestro objeto Post.
 
-[post.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/models/post.dart ':include')
+[post.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/models/post.dart ':include')
 
 `Post` es solo una clase con un` id`, `title` y` body`.
 
@@ -60,7 +60,7 @@ En un nivel alto, responderá a la entrada del usuario (deslizar) y buscará má
 
 Nuestro `PostBloc` solo responderá a un solo evento; `PostFetched` que será agregado por la capa de presentación cada vez que necesite más publicaciones para presentar. Dado que nuestro evento `PostFetched` es un tipo de `PostEvent` podemos crear `bloc/post_event.dart` e implementar el evento así.
 
-[post_event.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_event.dart ':include')
+[post_event.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/true_bloc/post_event.dart ':include')
 
 En resumen, nuestro `PostBloc` recibirá `PostEvents` y los convertirá en `PostStates`. Hemos definido todos nuestros `PostEvents` (PostFetched), así que a continuación definamos nuestro` PostState`.
 
@@ -77,7 +77,7 @@ Nuestra capa de presentación necesitará tener varias piezas de información pa
 
 Ahora podemos crear `bloc/post_state.dart` e implementarlo así.
 
-[post_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_state.dart ':include')
+[post_state.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/true_bloc/post_state.dart ':include')
 
 ?> Implementamos `copyWith` para que podamos copiar una instancia de `PostSuccess` y actualizar cero o más propiedades convenientemente (esto será útil más adelante).
 
@@ -98,7 +98,7 @@ A continuación, necesitamos implementar `mapEventToState` que se disparará cad
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
-Nuestro `PostBloc` hará `yield` siempre que haya un nuevo estado porque devuelve un `Stream<PostState>`. Consulte [conceptos básicos](https://bloclibrary.dev/#/es/coreconcepts?id=streams) para obtener más información sobre `Streams` y otros conceptos básicos.
+Nuestro `PostBloc` hará `yield` siempre que haya un nuevo estado porque devuelve un `Stream<PostState>`. Consulte [conceptos básicos](https://mit-73.github.io/true_bloc/#/es/coreconcepts?id=streams) para obtener más información sobre `Streams` y otros conceptos básicos.
 
 Ahora, cada vez que se agrega un `PostEvent`, si es un evento `PostFetched` y hay más publicaciones para buscar, nuestro `PostBloc` buscará las próximas 20 publicaciones.
 
@@ -116,11 +116,11 @@ Una optimización que podemos hacer es `rebotar` los `Eventos` para evitar spam 
 
 Nuestro `PostBloc` terminado debería verse así:
 
-[post_bloc.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_bloc.dart ':include')
+[post_bloc.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/true_bloc/post_bloc.dart ':include')
 
-¡No olvide actualizar `bloc/bloc.dart` para incluir nuestro` PostBloc`!
+¡No olvide actualizar `bloc/true_bloc.dart` para incluir nuestro` PostBloc`!
 
-[post_bloc.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_bloc.dart ':include')
+[post_bloc.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/true_bloc/post_bloc.dart ':include')
 
 ¡Excelente! Ahora que hemos terminado de implementar la lógica de negocios, todo lo que queda por hacer es implementar la capa de presentación.
 
@@ -128,20 +128,20 @@ Nuestro `PostBloc` terminado debería verse así:
 
 En nuestro `main.dart` podemos comenzar implementando nuestra función principal y llamando a` runApp` para representar nuestro widget raíz.
 
-[main.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/main.dart ':include')
+[main.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/main.dart ':include')
 
 En nuestro widget `App`, usamos `BlocProvider` para crear y proporcionar una instancia de `PostBloc` al subárbol. Además, agregamos un evento `PostFetched` para que cuando se cargue la aplicación, solicite el lote inicial de publicaciones.
 
-[app.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/app.dart ':include')
+[app.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/app.dart ':include')
 
 En nuestro `PostsPage`widget usamos `BlocProvider` para crear una instancia de `PostBloc` el sub-árbol. Añadimos el evento `PostFetched` para cargar los primeros Posts cuando la app comience.
 
 
-[posts_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_page.dart ':include')
+[posts_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_page.dart ':include')
 
 Implementamos la vista de `PostsList` que mostrará los posts de nuestro `PostBloc`
 
-[posts_list.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_list.dart ':include')
+[posts_list.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_list.dart ':include')
 
 ?> `PostsList` es un` StatefulWidget` porque necesitará mantener un `ScrollController`. En `initState`, agregamos un oyente a nuestro `ScrollController` para que podamos responder a los eventos de desplazamiento. También accedemos a nuestra instancia de `PostBloc` a través de `context.read<PostBloc>()`.
 
@@ -153,11 +153,11 @@ Cada vez que el usuario se desplaza, calculamos qué tan lejos están de la part
 
 A continuación, necesitamos implementar nuestro widget `Bottom Loader` que le indicará al usuario que estamos cargando más publicaciones.
 
-[bottom_loader.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/bottom_loader.dart ':include')
+[bottom_loader.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/widgets/bottom_loader.dart ':include')
 
 Por último, necesitamos implementar nuestro `PostListItem` que representará una publicación individual.
 
-[post_list_item.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/post_list_item.dart ':include')
+[post_list_item.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/posts/widgets/post_list_item.dart ':include')
 
 En este punto, deberíamos poder ejecutar nuestra aplicación y todo debería funcionar; Sin embargo, hay una cosa más que podemos hacer.
 
@@ -171,7 +171,7 @@ Aunque en esta aplicación solo tenemos un bloque, es bastante común en aplicac
 
 Si queremos poder hacer algo en respuesta a todas las `Transiciones`, simplemente podemos crear nuestro propio `BlocObserver`.
 
-[simple_bloc_observer.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/simple_bloc_observer.dart ':include')
+[simple_bloc_observer.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_infinite_list/lib/simple_bloc_observer.dart ':include')
 
 ?> Todo lo que necesitamos hacer es extender `BlocObserver` y anular el método `onTransition`.
 
@@ -181,8 +181,8 @@ Ahora, cuando ejecutamos nuestra aplicación, cada vez que se produce un Bloc 'T
 
 ?> En práctica, puedes crear diferentes `BlocObservers` y, dado que se registran todos los cambios de estado, ¡podemos instrumentar fácilmente nuestras aplicaciones y rastrear todas las interacciones del usuario y los cambios de estado en un solo lugar!
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una lista infinita en flutter usando los paquetes [bloc](https://pub.dev/packages/bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una lista infinita en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
 
 Nuestro `HomePage` no tiene idea de dónde provienen las `Posts` o cómo se están recuperando. Por el contrario, nuestro `PostBloc` no tiene idea de cómo se representa el `Estado`, simplemente convierte los eventos en estados.
 
-La fuente completa para este ejemplo se puede encontrar [aquí](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).
+La fuente completa para este ejemplo se puede encontrar [aquí](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_infinite_list).

@@ -1,6 +1,6 @@
 # Əsas Konseptlər
 
-?> Zəhmət olmasa, [bloc](https://pub.dev/packages/bloc)-la işləməzdən öncə, aşağıdakı bölmələri diqqətli şəkildə oxuyub, anladığınıza əmin olun.
+?> Zəhmət olmasa, [bloc](https://pub.dev/packages/true_bloc)-la işləməzdən öncə, aşağıdakı bölmələri diqqətli şəkildə oxuyub, anladığınıza əmin olun.
 
 Bloc istifadə etmək üçün, bir sıra vacib konseptləri anlamaq lazımdır.
 

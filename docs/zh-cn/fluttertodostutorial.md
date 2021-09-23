@@ -469,6 +469,6 @@ The entire `main.dart` should look like this:
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-That’s all there is to it! We’ve now successfully implemented a todos app in flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
+That’s all there is to it! We’ve now successfully implemented a todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
 
-The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos).
+The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

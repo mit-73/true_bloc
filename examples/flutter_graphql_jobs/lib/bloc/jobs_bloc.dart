@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:flutter_graphql_jobs/api/api.dart';
 import 'package:flutter_graphql_jobs/api/job_api_client.dart';
 import 'package:meta/meta.dart';

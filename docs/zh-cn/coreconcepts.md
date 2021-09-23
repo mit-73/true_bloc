@@ -1,6 +1,6 @@
 # 核心思想
 
-?> 使用前请确保仔细阅读并理解以下部分 [bloc](https://pub.dev/packages/bloc).
+?> 使用前请确保仔细阅读并理解以下部分 [bloc](https://pub.dev/packages/true_bloc).
 
 有几个核心概念对于理解如何使用Bloc至关重要。
 
@@ -635,7 +635,7 @@ class CounterBloc extends Bloc<CounterEvent, int> {
 ```sh
 Exception: increment error!, #0      CounterBloc.mapEventToState (file:///main.dart:55:60)
 <asynchronous suspension>
-#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/bloc.dart:232:20)
+#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/true_bloc.dart:232:20)
 #2      Stream.asyncExpand.onListen.<anonymous closure> (dart:async/stream.dart:579:30)
 #3      _RootZone.runUnaryGuarded (dart:async/zone.dart:1374:10)
 #4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
@@ -649,7 +649,7 @@ Exception: increment error!, #0      CounterBloc.mapEventToState (file:///main.d
 
 CounterBloc Exception: increment error! #0      CounterBloc.mapEventToState (file:///main.dart:55:60)
 <asynchronous suspension>
-#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/bloc.dart:232:20)
+#1      Bloc._bindEventsToStates.<anonymous closure> (package:bloc/src/true_bloc.dart:232:20)
 #2      Stream.asyncExpand.onListen.<anonymous closure> (dart:async/stream.dart:579:30)
 #3      _RootZone.runUnaryGuarded (dart:async/zone.dart:1374:10)
 #4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)

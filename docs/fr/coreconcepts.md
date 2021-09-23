@@ -1,6 +1,6 @@
 # Concepts de base
 
-?> Veuillez lire attentivement et comprendre les sections suivantes avant de travailler avec [bloc](https://pub.dev/packages/bloc).
+?> Veuillez lire attentivement et comprendre les sections suivantes avant de travailler avec [bloc](https://pub.dev/packages/true_bloc).
 
 Il y a plusieurs concepts fondamentaux qui sont essentiels pour comprendre comment utiliser Bloc.
 

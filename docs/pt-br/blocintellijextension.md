@@ -1,10 +1,10 @@
 # Plugin Bloc para IntelliJ e Android Studio
 
-![dialog](https://github.com/mit-73/bloc/raw/master/extensions/intellij/assets/dialog.png)
+![dialog](https://github.com/mit-73/true_bloc/raw/master/extensions/intellij/assets/dialog.png)
 
 ## Introdução
 
-Plugin Bloc para [IntelliJ](https://www.jetbrains.com/idea/) e [Android Studio](https://developer.android.com/studio/) com suporte para o [Bloc](https://bloclibrary.dev) e provê ferramentas para criar Blocs eficientemente para apps [Flutter](https://flutter.dev/) e [AngularDart](https://angulardart.dev/).
+Plugin Bloc para [IntelliJ](https://www.jetbrains.com/idea/) e [Android Studio](https://developer.android.com/studio/) com suporte para o [Bloc](https://mit-73.github.io/true_bloc) e provê ferramentas para criar Blocs eficientemente para apps [Flutter](https://flutter.dev/) e [AngularDart](https://angulardart.dev/).
 
 ## Instalação
 

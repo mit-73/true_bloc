@@ -78,7 +78,7 @@ Nous avons implémenté `copyWith` pour pouvoir copier une instance de `PostSucc
 
 Maintenant que nous avons mis en place nos `Events` et nos `States`, nous pouvons créer notre `PostBloc`.
 
-Pour faciliter l'importation de nos états et événements avec une seule importation, nous pouvons créer `bloc/bloc.dart` qui les exporte tous (nous ajouterons notre exportation `post_bloc.dart` dans la section suivante).
+Pour faciliter l'importation de nos états et événements avec une seule importation, nous pouvons créer `bloc/true_bloc.dart` qui les exporte tous (nous ajouterons notre exportation `post_bloc.dart` dans la section suivante).
 
 [bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc_initial.dart.md ':include')
 
@@ -96,7 +96,7 @@ Ensuite, nous devons implémenter `mapEventToState` qui sera lancé chaque fois 
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
-Notre `PostBloc` cède à chaque fois qu'il y a un nouvel état car il retourne un `Stream<PostState>`. Consultez [concepts de base](https://mit-73.github.io/bloc/#/coreconcepts?id=streams) pour plus d'informations sur `Streams` et d'autres concepts de base.
+Notre `PostBloc` cède à chaque fois qu'il y a un nouvel état car il retourne un `Stream<PostState>`. Consultez [concepts de base](https://mit-73.github.io/true_bloc/#/coreconcepts?id=streams) pour plus d'informations sur `Streams` et d'autres concepts de base.
 
 Maintenant, chaque fois qu'un `PostEvent` est envoyé, s'il s'agit d'un événement `PostFetched` et qu'il y a plus de messages à récupérer, notre `PostBloc` ira chercher les 20 messages suivants.
 
@@ -116,9 +116,9 @@ Notre `PostBloc` fini devrait maintenant ressembler à ceci :
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc.dart.md ':include')
 
-N'oubliez pas de mettre à jour `bloc/bloc.dart` pour inclure notre `PostBloc` !
+N'oubliez pas de mettre à jour `bloc/true_bloc.dart` pour inclure notre `PostBloc` !
 
-[bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc.dart.md ':include')
+[bloc.dart](../_snippets/flutter_infinite_list_tutorial/true_bloc.dart.md ':include')
 
 Super ! Maintenant que nous avons fini d'implémenter la logique métier, il ne nous reste plus qu'à implémenter la couche de présentation.
 
@@ -173,8 +173,8 @@ Maintenant, lorsque nous exécutons notre application, chaque fois qu'un Bloc `T
 
 ?> En pratique, vous pouvez créer différents `BlocObservers` et parce que chaque changement d'état est enregistré, nous sommes capables d'instrumenter très facilement nos applications et de suivre toutes les interactions utilisateur et les changements d'état en un seul endroit !
 
-C'est tout ce qu'il y a à faire ! Nous avons maintenant implémenté avec succès une liste infinie dans Flutter en utilisant les paquets [bloc](https://pub.dev/packages/bloc) et [flutter_bloc](https://pub.dev/packages/flutter_bloc) et nous avons réussi à séparer notre couche de présentation de notre logique métier.
+C'est tout ce qu'il y a à faire ! Nous avons maintenant implémenté avec succès une liste infinie dans Flutter en utilisant les paquets [bloc](https://pub.dev/packages/true_bloc) et [flutter_bloc](https://pub.dev/packages/flutter_bloc) et nous avons réussi à séparer notre couche de présentation de notre logique métier.
 
 Notre page d'accueil n'a aucune idée d'où viennent les `Posts` ou comment ils sont récupérés. Inversement, notre `PostBloc` n'a aucune idée de la façon dont le `State` est rendu, il convertit simplement les événements en états.
 
-La source complète de cet exemple se trouve à l'adresse suivante [ici](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).
+La source complète de cet exemple se trouve à l'adresse suivante [ici](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_infinite_list).

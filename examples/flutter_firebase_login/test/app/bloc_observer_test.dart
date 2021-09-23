@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:flutter_firebase_login/app/app.dart';
 import 'package:flutter_test/flutter_test.dart';
 

@@ -6,7 +6,7 @@
 
 Bloc consists of several pub packages:
 
-- [bloc](https://pub.dev/packages/bloc) - Core bloc library
+- [bloc](https://pub.dev/packages/true_bloc) - Core bloc library
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Powerful Flutter Widgets built to work with bloc in order to build fast, reactive mobile applications.
 - [angular_bloc](https://pub.dev/packages/angular_bloc) - Powerful Angular Components built to work with bloc in order to build fast, reactive web applications.
 - [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.

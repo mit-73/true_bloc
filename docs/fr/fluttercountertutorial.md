@@ -16,7 +16,7 @@ flutter create flutter_counter
 
 Continuons en renplaçant tout le contenu du `pubspec.yaml` avec
 
-[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/pubspec.yaml ':include')
 
 et ensuite nous allons installer toutes les dépendances
 
@@ -50,7 +50,7 @@ La première chose que nous allons regarder et comment créer un `BlocObserver` 
 
 Crééons `lib/counter_observer.dart`:
 
-[counter_observer.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/counter_observer.dart ':include')
+[counter_observer.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/counter_observer.dart ':include')
 
 Dans ce cas, nous surchargeons uniquement `onChange` pour surveiller tous les changements de states.
 
@@ -60,7 +60,7 @@ Dans ce cas, nous surchargeons uniquement `onChange` pour surveiller tous les ch
 
 Ensuite, nous allons remplacer le contenu du `main.dart` avec:
 
-[main.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/main.dart ':include')
+[main.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/main.dart ':include')
 
 Nous initialisations le `CounterObserver` que nous venons de créer et nous appelons `runApp` avec le widget `CounterApp` que l'on verra juste après.
 
@@ -68,7 +68,7 @@ Nous initialisations le `CounterObserver` que nous venons de créer et nous appe
 
 `CounterApp` sera un widget `MaterialApp` et le paramètre `home` instanciera notre `CounterPage`.
 
-[app.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/app.dart ':include')
+[app.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/app.dart ':include')
 
 ?> **Note**: Nous étendons `MaterialApp` car `CounterApp` _est_ un `MaterialApp`. Dans la plus part des cas, nous allons simplement créer des instances `StatelessWidget` ou `StatefulWidget` et nous allons composer nos widgets à l'intérieur du `build` mais dans ce cas précis il n'y a pas de widgets à composer donc il est plus simple de juste étendre `MaterialApp`.
 
@@ -78,7 +78,7 @@ Passons maintenant à `CounterPage` !
 
 Le widget `CounterPage` va créer un `CounterCubit` (nous l'étudierons plus en détails juste après) et il va le fournir au `CounterView`.
 
-[counter_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/counter/view/counter_page.dart ':include')
+[counter_page.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/counter/view/counter_page.dart ':include')
 
 ?> **Note**: Il est important de séparer ou découper la création d'un `Cubit` de la conception d'un `Cubit` dans le but d'avoir un code bien plus testable et réutilisable.
 
@@ -91,7 +91,7 @@ La class `CounterCubit` va exposer deux méthodes:
 
 Le type du state de `CounterCubit` est un simple `int` et son state initial est `0`.
 
-[counter_cubit.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/counter/cubit/counter_cubit.dart ':include')
+[counter_cubit.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/counter/cubit/counter_cubit.dart ':include')
 
 ?> **Conseil**: Utilisez la [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc) ou [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/12129-bloc) pour créer vos cubits automatiquement.
 
@@ -101,7 +101,7 @@ Ensuite, regardons le `CounterView` qui sera responsable pour consommer le state
 
 Le `CounterView` est responsable de l'affichage du compteur et va afficher deux FloatingActionButtons pour ajouter/soustraire le compteur.
 
-[counter_view.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/counter/view/counter_view.dart ':include')
+[counter_view.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/counter/view/counter_view.dart ':include')
 
 Un `BlocBuilder` est utilisé pour envelopper le widget `Text` dans le but d'actualiser le texte peu importe quand le state du `CounterCubit` change. En plus, `context.read<CounterCubit>()` est utilisé pour chercher l'instance `CounterCubit` la plus proche.
 
@@ -111,10 +111,10 @@ Un `BlocBuilder` est utilisé pour envelopper le widget `Text` dans le but d'act
 
   Créons enfin un fichier `counter.dart` pour exporter tous les fichiers de notre fonctionnalité compteur et ainsi faciliter leur import plus tard.
 
-  [counter.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_counter/lib/counter/counter.dart ':include')
+  [counter.dart](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_counter/lib/counter/counter.dart ':include')
 
 C'est tout ! Nous avons séparé la couche de présentation de celle qui s'occupe de la logique. Le `CounterView` n'a aucune idée de ce qui ce passe quand un utilisateur presse le boutton; cela notifie juste le `CounterCubit`. D'autant plus que le `CounterCubit` n'a pas idée de ce qui se passe à l'intérieur du state (la valeur du compteur); cela envoie simplement des nouveaux states en réponse aux méthodes qui sont appelées.
 
 Nous pouvons lancer notre appli avec `flutter run` et la voir sur notre simulateur/émulateur.
 
-L'entiéreté du code source (qui inclut les tests unitaires et de widgets) pour cet exemple, est trouvable [ici](https://github.com/mit-73/Bloc/tree/master/examples/flutter_counter).
+L'entiéreté du code source (qui inclut les tests unitaires et de widgets) pour cet exemple, est trouvable [ici](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_counter).

@@ -79,7 +79,7 @@ We can now create `bloc/post_state.dart` and implement it like so.
 
 Now that we have our `Events` and `States` implemented, we can create our `PostBloc`.
 
-To make it convenient to import our states and events with a single import we can create `bloc/bloc.dart` which exports them all (we'll add our `post_bloc.dart` export in the next section).
+To make it convenient to import our states and events with a single import we can create `bloc/true_bloc.dart` which exports them all (we'll add our `post_bloc.dart` export in the next section).
 
 [bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc_initial.dart.md ':include')
 
@@ -97,7 +97,7 @@ Next, we need to implement `mapEventToState` which will be fired every time a `P
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
-Our `PostBloc` will `yield` whenever there is a new state because it returns a `Stream<PostState>`. Check out [core concepts](https://bloclibrary.dev/#/coreconcepts?id=streams) for more information about `Streams` and other core concepts.
+Our `PostBloc` will `yield` whenever there is a new state because it returns a `Stream<PostState>`. Check out [core concepts](https://mit-73.github.io/true_bloc/#/coreconcepts?id=streams) for more information about `Streams` and other core concepts.
 
 Now every time a `PostEvent` is added, if it is a `PostFetched` event and there are more posts to fetch, our `PostBloc` will fetch the next 20 posts.
 
@@ -117,9 +117,9 @@ Our finished `PostBloc` should now look like this:
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc.dart.md ':include')
 
-Don't forget to update `bloc/bloc.dart` to include our `PostBloc`!
+Don't forget to update `bloc/true_bloc.dart` to include our `PostBloc`!
 
-[bloc.dart](../_snippets/flutter_infinite_list_tutorial/bloc.dart.md ':include')
+[bloc.dart](../_snippets/flutter_infinite_list_tutorial/true_bloc.dart.md ':include')
 
 Great! Now that we’ve finished implementing the business logic all that’s left to do is implement the presentation layer.
 
@@ -175,8 +175,8 @@ Now when we run our application, every time a Bloc `Transition` occurs we can se
 
 ?> In practice, you can create different `BlocObservers` and because every state change is recorded, we are able to very easily instrument our applications and track all user interactions and state changes in one place!
 
-That’s all there is to it! We’ve now successfully implemented an infinite list in flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
+That’s all there is to it! We’ve now successfully implemented an infinite list in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
 
 Our `HomePage` has no idea where the `Posts` are coming from or how they are being retrieved. Conversely, our `PostBloc` has no idea how the `State` is being rendered, it simply converts events into states.
 
-The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).
+The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_infinite_list).

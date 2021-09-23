@@ -1,7 +1,7 @@
 ```dart
 import 'dart:async';
 import 'package:rxdart/rxdart.dart';
-import 'package:bloc/bloc.dart';
+import 'package:bloc/true_bloc.dart';
 
 import 'package:common_github_search/common_github_search.dart';
 

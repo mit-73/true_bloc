@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bloc/bloc.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_firestore_todos/blocs/authentication_bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
+import 'package:flutter_firestore_todos/blocs/authentication_true_bloc/bloc.dart';
 import 'package:todos_repository/todos_repository.dart';
 import 'package:flutter_firestore_todos/blocs/blocs.dart';
 import 'package:firebase_core/firebase_core.dart';

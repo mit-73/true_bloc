@@ -9,17 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bloc:
-    path: ../../packages/bloc
+  true_bloc:
+    path: ../../packages/true_bloc
   equatable: ^2.0.0
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+  true_bloc:
+    path: ../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../packages/flutter_true_bloc
 
 flutter:
   uses-material-design: true

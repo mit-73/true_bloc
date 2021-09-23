@@ -1,5 +1,5 @@
 import 'package:bloc_test/bloc_test.dart';
-import 'package:flutter_infinite_list/posts/bloc/post_bloc.dart';
+import 'package:flutter_infinite_list/posts/true_bloc/post_bloc.dart';
 import 'package:flutter_infinite_list/posts/models/post.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;

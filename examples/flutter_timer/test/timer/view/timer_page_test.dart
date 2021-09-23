@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_timer/timer/timer.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:mocktail/mocktail.dart';
 
 class MockTimerBloc extends MockBloc<TimerEvent, TimerState>

@@ -9,12 +9,12 @@ environment:
 dependencies:
   authentication_repository:
     path: packages/authentication_repository
-  bloc: ^7.1.0
+  true_bloc: ^7.1.0
   equatable: ^2.0.3
   flow_builder: ^0.0.4
   flutter:
     sdk: flutter
-  flutter_bloc: ^7.1.0
+  flutter_true_bloc: ^7.1.0
   font_awesome_flutter: ^9.1.0
   form_inputs:
     path: packages/form_inputs
@@ -24,7 +24,7 @@ dependencies:
   very_good_analysis: ^2.3.0
 
 dev_dependencies:
-  bloc_test: ^8.1.0
+  true_bloc_test: ^8.1.0
   flutter_test:
     sdk: flutter
   mocktail: ^0.1.4

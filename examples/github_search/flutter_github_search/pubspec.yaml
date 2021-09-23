@@ -9,19 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bloc:
-    path: ../../../packages/bloc
-  flutter_bloc:
-    path: ../../../packages/flutter_bloc
+  true_bloc:
+    path: ../../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../../packages/flutter_true_bloc
   url_launcher: ^6.0.0
   common_github_search:
     path: ../common_github_search
 
 dependency_overrides:
-  bloc:
-    path: ../../../packages/bloc
-  flutter_bloc:
-    path: ../../../packages/flutter_bloc
+  true_bloc:
+    path: ../../../packages/true_bloc
+  flutter_true_bloc:
+    path: ../../../packages/flutter_true_bloc
 
 flutter:
   uses-material-design: true

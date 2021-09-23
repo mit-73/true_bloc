@@ -2,11 +2,11 @@
 
 ![avançado](https://img.shields.io/badge/level-advanced-red.svg)
 
-> No tutorial a seguir, criaremos um aplicativo Todos reativo que se conecta ao Firestore. Vamos construir no topo do exemplo [flutter todos](https://bloclibrary.dev/#/fluttertodostutorial) para não entrarmos na interface do usuário, pois tudo será o mesmo.
+> No tutorial a seguir, criaremos um aplicativo Todos reativo que se conecta ao Firestore. Vamos construir no topo do exemplo [flutter todos](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) para não entrarmos na interface do usuário, pois tudo será o mesmo.
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-As únicas coisas que vamos refatorar em nosso exemplo de [todos](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) são a camada de repositório e as partes da camada de bloc.
+As únicas coisas que vamos refatorar em nosso exemplo de [todos](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos) são a camada de repositório e as partes da camada de bloc.
 
 Começaremos na camada de repositório com o `TodosRepository`.
 
@@ -138,7 +138,7 @@ Vamos criar um novo aplicativo Flutter chamado `flutter_firestore_todos`. Podemo
 
 Como queremos poder entrar em nossos usuários, precisamos criar um `AuthenticationBloc`.
 
-?> Se você ainda não viu o [tutorial de login do flutter firebase](https://bloclibrary.dev/#/flutterfirebaselogintutorial), eu recomendo dar uma olhada agora, porque simplesmente vamos reutilizar o mesmo `AuthenticationBloc`.
+?> Se você ainda não viu o [tutorial de login do flutter firebase](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial), eu recomendo dar uma olhada agora, porque simplesmente vamos reutilizar o mesmo `AuthenticationBloc`.
 
 #### Authentication Events
 
@@ -152,7 +152,7 @@ Como queremos poder entrar em nossos usuários, precisamos criar um `Authenticat
 
 [authentication_bloc.dart](../_snippets/flutter_firestore_todos_tutorial/authentication_bloc.dart.md ':include')
 
-Agora que nosso `AuthenticationBloc` foi concluído, precisamos modificar o `TodosBloc` do [Todos Tutorial](https://bloclibrary.dev/#/fluttertodostutorial) para consumir o novo `TodosRepository`.
+Agora que nosso `AuthenticationBloc` foi concluído, precisamos modificar o `TodosBloc` do [Todos Tutorial](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) para consumir o novo `TodosRepository`.
 
 ### Todos Bloc
 
@@ -174,6 +174,6 @@ A última coisa que precisamos modificar é o nosso `main.dart`.
 
 As principais diferenças a serem observadas são o fato de envolvermos todo o nosso aplicativo em um `MultiBlocProvider` que inicializa e fornece o `AuthenticationBloc` e o `TodosBloc`. Em seguida, renderizamos o aplicativo Todos apenas se o `AuthenticationState` for `Authenticated` usando o `BlocBuilder`. Todo o resto permanece o mesmo que no `todos tutorial` anterior.
 
-Isso é tudo! Agora implementamos com sucesso um aplicativo firestore todos no flutter usando os pacotes [bloc](https://pub.dev/packages/bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito a camada de apresentação da lógica de negócios e também criamos um aplicativo que é atualizado em tempo real.
+Isso é tudo! Agora implementamos com sucesso um aplicativo firestore todos no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito a camada de apresentação da lógica de negócios e também criamos um aplicativo que é atualizado em tempo real.
 
-O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).
+O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

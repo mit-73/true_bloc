@@ -1,6 +1,6 @@
 # コアコンセプト
 
-?> 下記の説明をよく読んで理解してから[bloc](https://pub.dev/packages/bloc)を使い始めてください。
+?> 下記の説明をよく読んで理解してから[bloc](https://pub.dev/packages/true_bloc)を使い始めてください。
 
 Bloc を使いこなすにはいくつかコアとなるコンセプトを理解する必要があります。
 

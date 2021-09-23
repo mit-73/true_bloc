@@ -7,8 +7,8 @@ environment:
   sdk: ">=2.12.0-0 <3.0.0"
 
 dependencies:
-  bloc:
-    path: ../../../packages/bloc
+  true_bloc:
+    path: ../../../packages/true_bloc
   equatable: ^2.0.3
   http: ^0.13.3
   rxdart: ^0.27.1

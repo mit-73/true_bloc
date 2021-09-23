@@ -1,21 +1,21 @@
-name: bloc
+name: true_bloc
 
 on:
   push:
     paths:
-      - "packages/bloc/**"
-      - ".github/workflows/bloc.yaml"
+      - "packages/true_bloc/**"
+      - ".github/workflows/true_bloc.yaml"
 
   pull_request:
     paths:
-      - "packages/bloc/**"
-      - ".github/workflows/bloc.yaml"
+      - "packages/true_bloc/**"
+      - ".github/workflows/true_bloc.yaml"
 
 jobs:
   build:
     defaults:
       run:
-        working-directory: packages/bloc
+        working-directory: packages/true_bloc
 
     runs-on: ubuntu-latest
 
@@ -41,7 +41,7 @@ jobs:
       - name: Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
         with:
-          path: packages/bloc/coverage/lcov.info
+          path: packages/true_bloc/coverage/lcov.info
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
@@ -51,7 +51,7 @@ jobs:
   pana:
     defaults:
       run:
-        working-directory: packages/bloc
+        working-directory: packages/true_bloc
 
     runs-on: ubuntu-latest
 

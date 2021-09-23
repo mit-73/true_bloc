@@ -1,6 +1,6 @@
 # Guide de migration
 
-?> **Conseil** : Pour plus d'informations sur ce qui a changé à chaque mise à jour, veuillez vous référer à [l'historique des versions](https://github.com/mit-73/bloc/releases).
+?> **Conseil** : Pour plus d'informations sur ce qui a changé à chaque mise à jour, veuillez vous référer à [l'historique des versions](https://github.com/mit-73/true_bloc/releases).
 
 ## v6.1.0
 
@@ -14,7 +14,7 @@
 
 **context.watch**
 
-`context.watch` répond à la demande d'avoir un [MultiBlocBuilder](https://github.com/mit-73/bloc/issues/538) en observant plusieurs blocs dans un seul` Builder` et ainsi pouvoir redessiner l'interface utilisateur selon plusieurs états :
+`context.watch` répond à la demande d'avoir un [MultiBlocBuilder](https://github.com/mit-73/true_bloc/issues/538) en observant plusieurs blocs dans un seul` Builder` et ainsi pouvoir redessiner l'interface utilisateur selon plusieurs états :
 
 ```dart
 Builder(
@@ -30,7 +30,7 @@ Builder(
 
 **context.select**
 
-`context.select` permet aux développeurs de dessiner / mettre à jour l'interface utilisateur en fonction d'une partie d'un état de bloc et répond à la demande d'avoir un [buildWhen plus simple](https://github.com/mit-73/bloc/issues/1521).
+`context.select` permet aux développeurs de dessiner / mettre à jour l'interface utilisateur en fonction d'une partie d'un état de bloc et répond à la demande d'avoir un [buildWhen plus simple](https://github.com/mit-73/true_bloc/issues/1521).
 
 ```dart
 final name = context.select((UserBloc bloc) => bloc.state.user.name);
@@ -186,7 +186,7 @@ class CounterBloc extends Bloc<CounterEvent, int> {
 }
 ```
 
-?> Pour plus d'informations, rendez vous ici (ENG) [#1304](https://github.com/mit-73/bloc/issues/1304)
+?> Pour plus d'informations, rendez vous ici (ENG) [#1304](https://github.com/mit-73/true_bloc/issues/1304)
 
 #### ❗BlocDelegate renommé BlocObserver
 

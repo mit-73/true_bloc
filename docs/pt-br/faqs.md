@@ -91,7 +91,7 @@ A Biblioteca de Blocs usa o `provedor` internamente para facilitar o forneciment
 
 ❔ **Pergunta**: Como faço para navegar com o Bloc?
 
-💡 **Resposta**: Confira https://bloclibrary.dev/#/recipesflutternavigation
+💡 **Resposta**: Confira https://mit-73.github.io/true_bloc/#/recipesflutternavigation
 
 ## BlocProvider.of() não encontra o bloco
 
@@ -116,7 +116,7 @@ A Biblioteca de Blocs usa o `provedor` internamente para facilitar o forneciment
 💡 **Resposta**: Embora não haja realmente uma resposta certa/errada para esta pergunta, algumas referências recomendadas são:
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 O mais importante é ter uma estrutura de projeto **consistente** e **intencional**.

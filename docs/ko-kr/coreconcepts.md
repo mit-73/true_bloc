@@ -1,6 +1,6 @@
 # 주요 개념
 
-?> [bloc](https://pub.dev/packages/bloc)을 사용하기 전에 다음 내용을 잘 읽고 이해하기 바랍니다.
+?> [bloc](https://pub.dev/packages/true_bloc)을 사용하기 전에 다음 내용을 잘 읽고 이해하기 바랍니다.
 
 Bloc을 어떻게 사용하는지 이해하기 위해서는 알아야 하는 몇가지 개념이 있습니다.
 

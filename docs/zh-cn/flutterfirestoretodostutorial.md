@@ -2,11 +2,11 @@
 
 ![advanced](https://img.shields.io/badge/level-advanced-red.svg)
 
-> In the following tutorial, we're going to build a reactive Todos App which hooks up to Firestore. We're going to be building on top of the [flutter todos](https://bloclibrary.dev/#/fluttertodostutorial) example so we won't go into the UI since it will all be the same.
+> In the following tutorial, we're going to build a reactive Todos App which hooks up to Firestore. We're going to be building on top of the [flutter todos](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) example so we won't go into the UI since it will all be the same.
 
 ![demo](./assets/gifs/flutter_firestore_todos.gif)
 
-The only things we're going to be refactoring in our existing [todos example](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) are the repository layer and parts of the bloc layer.
+The only things we're going to be refactoring in our existing [todos example](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos) are the repository layer and parts of the bloc layer.
 
 We'll start off in the repository layer with the `TodosRepository`.
 
@@ -138,7 +138,7 @@ Let's create a new Flutter app called `flutter_firestore_todos`. We can replace 
 
 Since we want to be able to sign in our users, we'll need to create an `AuthenticationBloc`.
 
-?> If you haven't already checked out the [flutter firebase login tutorial](https://bloclibrary.dev/#/flutterfirebaselogintutorial), I highly recommend checking it out now because we're simply going to reuse the same `AuthenticationBloc`.
+?> If you haven't already checked out the [flutter firebase login tutorial](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial), I highly recommend checking it out now because we're simply going to reuse the same `AuthenticationBloc`.
 
 #### Authentication Events
 
@@ -152,7 +152,7 @@ Since we want to be able to sign in our users, we'll need to create an `Authenti
 
 [authentication_bloc.dart](../_snippets/flutter_firestore_todos_tutorial/authentication_bloc.dart.md ':include')
 
-Now that our `AuthenticationBloc` is finished, we need to modify the `TodosBloc` from the original [Todos Tutorial](https://bloclibrary.dev/#/fluttertodostutorial) to consume the new `TodosRepository`.
+Now that our `AuthenticationBloc` is finished, we need to modify the `TodosBloc` from the original [Todos Tutorial](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) to consume the new `TodosRepository`.
 
 ### Todos Bloc
 
@@ -174,6 +174,6 @@ The last thing we need to modify is our `main.dart`.
 
 The main differences to note are the fact that we've wrapped our entire application in a `MultiBlocProvider` which initializes and provides the `AuthenticationBloc` and `TodosBloc`. We then, only render the todos app if the `AuthenticationState` is `Authenticated` using `BlocBuilder`. Everything else remains the same as in the previous `todos tutorial`.
 
-That’s all there is to it! We’ve now successfully implemented a firestore todos app in flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic while also building an app that updates in real-time.
+That’s all there is to it! We’ve now successfully implemented a firestore todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic while also building an app that updates in real-time.
 
-The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).
+The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

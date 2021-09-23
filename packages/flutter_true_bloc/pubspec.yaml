@@ -1,0 +1,20 @@
+name: flutter_true_bloc
+description: Flutter Widgets that make it easy to implement the true_bloc (Business Logic Component) design pattern. Built to be used with the true_bloc state management package.
+version: 7.2.0
+repository: https://github.com/mit-73/true_bloc/tree/master/packages/flutter_true_bloc
+issue_tracker: https://github.com/mit-73/true_bloc/issues
+homepage: https://mit-73.github.io/true_bloc
+documentation: https://mit-73.github.io/true_bloc/#/gettingstarted
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  true_bloc: ^7.0.0
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

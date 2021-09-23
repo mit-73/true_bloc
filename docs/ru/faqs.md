@@ -112,7 +112,7 @@
 💡 **Ответ**: Хотя на этот вопрос нет правильного/неправильного ответа, некоторые рекомендуемые ссылки приведены ниже:
 
 - [Пример архитектуры Flutter - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter - пример корзины покупателя](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter - пример корзины покупателя](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Курс - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 Наиболее важным является наличие **согласованной** и **преднамеренной** структуры проекта.

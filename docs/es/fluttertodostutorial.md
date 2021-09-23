@@ -468,6 +468,6 @@ Todo el `main.dart` debería verse así:
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación todos en flutter usando los paquetes [bloc](https://pub.dev/packages/bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación todos en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
 
-La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos).
+La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

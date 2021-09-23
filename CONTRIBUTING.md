@@ -41,7 +41,7 @@ accepted.
 
 ## Contributing to Documentation
 
-If you would like to contribute to the [documentation](https://bloclibrary.dev)
+If you would like to contribute to the [documentation](https://mit-73.github.io/true_bloc)
 please follow the same process for "Creating a Pull Request" and double check
 that your changes look good by running the docs locally.
 
@@ -104,7 +104,7 @@ so other contributors can easily see what's already done.
 Examples live in the `examples` folder.
 
 When you're adding an example, make sure to add CI checks for it in
-[main.yaml](https://github.com/mit-73/bloc/blob/master/.github/workflows/main.yaml):
+[main.yaml](https://github.com/mit-73/true_bloc/blob/master/.github/workflows/main.yaml):
 - For a Flutter example, add it to the `folder` list in the `examples-flutter`
 step.
 - For a web example, add it to the `folder` list in the `examples-web` step.
@@ -114,7 +114,7 @@ step.
 ## Getting in Touch
 
 If you want to just ask a question or get feedback on an idea you can post it
-on [Discord](https://discord.gg/bloc).
+on [Discord](https://discord.gg/true_bloc).
 
 ## License
 

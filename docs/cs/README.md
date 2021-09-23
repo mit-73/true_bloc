@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
-[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
+[![build](https://github.com/mit-73/true_bloc/workflows/build/badge.svg)](https://github.com/mit-73/true_bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/true_bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/true_bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
 [![Flutter Samples](https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true)](http://fluttersamples.com)
-[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/bloc)
+[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/true_bloc)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -16,14 +16,14 @@ Prediktivní knihovna pro state management, která pomáhá implementovat [návr
 
 | Balíček                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                 | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                 |
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## Přehled
 
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Architektura Blocu" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_architecture.png" alt="Architektura Blocu" />
 
 Cílem této knihovne je umožnit jednoduše rozdělit _prezenční_ a _logickou_ část, usnadňující testování a opětovné použití.
 
@@ -31,10 +31,10 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 
 ## Dokumentace
 
-- [Officiální dokumentace](https://bloclibrary.dev/#/cs/)
-- [Balíček Bloc](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
-- [Balíček Flutter Bloc](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Balíček Angular Bloc](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Officiální dokumentace](https://mit-73.github.io/true_bloc/#/cs/)
+- [Balíček Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
+- [Balíček Flutter Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
+- [Balíček Angular Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migrace
 
@@ -46,35 +46,35 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
     <table>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/fluttercountertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_counter.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/cs/fluttercountertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_counter.gif" width="200"/>
                 </a>
             </td>            
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/flutterinfinitelisttutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_infinite_list.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/cs/flutterinfinitelisttutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_infinite_list.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/flutterfirebaselogintutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_firebase_login.gif" width="200" />
+                <a href="https://mit-73.github.io/true_bloc/#/cs/flutterfirebaselogintutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_firebase_login.gif" width="200" />
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/flutterangulargithubsearch">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_github_search.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/cs/flutterangulargithubsearch">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_github_search.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/flutterweathertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_weather.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/cs/flutterweathertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_weather.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/cs/fluttertodostutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_todos.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/cs/fluttertodostutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_todos.gif" width="200"/>
                 </a>
             </td>
         </tr>
@@ -83,31 +83,31 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 
 ### Dart
 
-- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - ukázka jak vytvořit `CounterBloc` (v čistém Dartu).
+- [Counter](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/example) - ukázka jak vytvořit `CounterBloc` (v čistém Dartu).
 
 ### Flutter
 
-- [Počítadlo](https://bloclibrary.dev/#/cs/fluttercountertutorial) - ukázka jak vytvořit `CounterBloc` k implementaci klasické Flutter aplikace počítadla.
-- [Validace formuláře](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - ukázka jak použít balíčky `bloc` a `flutter_bloc` pro implementaci validaci formulářů.
-- [Bloc se Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - ukázka jak propojit `bloc` se `Streamem` a překreslit UI v reakci na data ze `Stream`.
-- [Nekonečný List](https://bloclibrary.dev/#/cs/flutterinfinitelisttutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci nekonečného skrolovacího listu.
-- [Přihlašování](https://bloclibrary.dev/#/cs/flutterlogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování.
-- [Firebase přihlášování](https://bloclibrary.dev/#/cs/flutterfirebaselogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování pomocí Firebase.
-- [Github vyhledávání](https://bloclibrary.dev/#/cs/flutterangulargithubsearch) - ukázka jak vytvořit aplikaci na Github vyhledávání použitím balíčků `bloc` a `flutter_bloc`.
-- [Počasí](https://bloclibrary.dev/#/cs/flutterweathertutorial) - ukázka jak vytvořit aplikaci počasí použitím balíčků `bloc` a `flutter_bloc`. Aplikace používá `RefreshIndicator` k implementaci "zatáhnout pro obnovení" a také dynamické motivy.
-- [Plánovač](https://bloclibrary.dev/#/cs/fluttertodostutorial) - ukázka jak vytvořit aplikaci plánování použitím balíčků `bloc` a `flutter_bloc`.
-- [Časovač](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - ukázka jak vytvořit časovač použitím balíčků `bloc` a `flutter_bloc`.
-- [Firestore plánovač](https://bloclibrary.dev/#/cs/flutterfirestoretodostutorial) - ukázka jak vytvořit aplikaci plánovaní použitím balíčků `bloc` a `flutter_bloc`, s využitím Cloud Firestore.
-- [Nákupní košík](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - ukázka jak vytvořit aplikaci nákupního košíku použitím balíčků `bloc` a `flutter_bloc` založených na [flutter ukázkách](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Počítadlo](https://mit-73.github.io/true_bloc/#/cs/fluttercountertutorial) - ukázka jak vytvořit `CounterBloc` k implementaci klasické Flutter aplikace počítadla.
+- [Validace formuláře](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_form_validation) - ukázka jak použít balíčky `bloc` a `flutter_bloc` pro implementaci validaci formulářů.
+- [Bloc se Stream](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_bloc_with_stream) - ukázka jak propojit `bloc` se `Streamem` a překreslit UI v reakci na data ze `Stream`.
+- [Nekonečný List](https://mit-73.github.io/true_bloc/#/cs/flutterinfinitelisttutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci nekonečného skrolovacího listu.
+- [Přihlašování](https://mit-73.github.io/true_bloc/#/cs/flutterlogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování.
+- [Firebase přihlášování](https://mit-73.github.io/true_bloc/#/cs/flutterfirebaselogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování pomocí Firebase.
+- [Github vyhledávání](https://mit-73.github.io/true_bloc/#/cs/flutterangulargithubsearch) - ukázka jak vytvořit aplikaci na Github vyhledávání použitím balíčků `bloc` a `flutter_bloc`.
+- [Počasí](https://mit-73.github.io/true_bloc/#/cs/flutterweathertutorial) - ukázka jak vytvořit aplikaci počasí použitím balíčků `bloc` a `flutter_bloc`. Aplikace používá `RefreshIndicator` k implementaci "zatáhnout pro obnovení" a také dynamické motivy.
+- [Plánovač](https://mit-73.github.io/true_bloc/#/cs/fluttertodostutorial) - ukázka jak vytvořit aplikaci plánování použitím balíčků `bloc` a `flutter_bloc`.
+- [Časovač](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_timer) - ukázka jak vytvořit časovač použitím balíčků `bloc` a `flutter_bloc`.
+- [Firestore plánovač](https://mit-73.github.io/true_bloc/#/cs/flutterfirestoretodostutorial) - ukázka jak vytvořit aplikaci plánovaní použitím balíčků `bloc` a `flutter_bloc`, s využitím Cloud Firestore.
+- [Nákupní košík](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart) - ukázka jak vytvořit aplikaci nákupního košíku použitím balíčků `bloc` a `flutter_bloc` založených na [flutter ukázkách](https://github.com/flutter/samples/tree/master/provider_shopper).
 
 ### Web
 
-- [Počítadlo](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - ukázka jak použít `CounterBloc` v AngularDart aplikaci.
-- [Github vyhledávání](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání použitím balíčků `bloc` a `angular_bloc`.
+- [Počítadlo](https://github.com/mit-73/true_bloc/tree/master/examples/angular_counter) - ukázka jak použít `CounterBloc` v AngularDart aplikaci.
+- [Github vyhledávání](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání použitím balíčků `bloc` a `angular_bloc`.
 
 ### Flutter + Web
 
-- [Github vyhledávání](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání se sdílením kódu mezi Flutterem a AngularDartem.
+- [Github vyhledávání](https://github.com/mit-73/true_bloc/tree/master/examples/github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání se sdílením kódu mezi Flutterem a AngularDartem.
 
 ## Články (anglicky)
 
@@ -121,7 +121,7 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 - [firebase login tutorial with flutter_bloc](https://medium.com/flutter-community/firebase-login-with-flutter-bloc-47455e6047b0) - Jak vytvořit plně funkční přihlašování a registraci pomocí balíčků bloc a flutter_bloc s Firebase Authentication and Google Sign In.
 - [flutter timer tutorial with flutter_bloc](https://medium.com/flutter-community/flutter-timer-with-flutter-bloc-a464e8332ceb) - Jak vytvořit aplikaci časovače pomocí balíčků bloc a flutter_bloc.
 - [firestore todos tutorial with flutter_bloc](https://medium.com/flutter-community/firestore-todos-with-flutter-bloc-7b2d5fadcc80) - Jak vytvořit aplikaci plánovače s použitím balíčků bloc and flutter_bloc, které integruje s cloud firestore.
-- [Dynamický formulář](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - Jak použít balíčky `bloc` a `flutter_bloc` k implementaci dynamického formuláře, který stahuje data z repozitáře.
+- [Dynamický formulář](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_dynamic_form) - Jak použít balíčky `bloc` a `flutter_bloc` k implementaci dynamického formuláře, který stahuje data z repozitáře.
 
 ## Rozšíření
 

@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
-[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
+[![build](https://github.com/mit-73/true_bloc/workflows/build/badge.svg)](https://github.com/mit-73/true_bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/true_bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/true_bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
 [![Flutter Samples](https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true)](http://fluttersamples.com)
-[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/bloc)
+[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/true_bloc)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -16,23 +16,23 @@ Une librairie pour gérer le state de notre application en implémentant le [pat
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                 | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                 |
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## Aperçu
 
-<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 Le but de cette architecte est de facilité la séparation entre _présentation_ et _la business logic_, facilitant à la fois les test et sa réutilisation.
 
 ## Documentation
 
-- [Documentation officielle](https://bloclibrary.dev)
-- [Bloc Package](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Package](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Package](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Documentation officielle](https://mit-73.github.io/true_bloc)
+- [Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
+- [Flutter Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migration
 
@@ -44,35 +44,35 @@ Le but de cette architecte est de facilité la séparation entre _présentation_
     <table>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttercountertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_counter.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttercountertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_counter.gif" width="200"/>
                 </a>
             </td>            
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterinfinitelisttutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_infinite_list.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_infinite_list.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterfirebaselogintutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_firebase_login.gif" width="200" />
+                <a href="https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_firebase_login.gif" width="200" />
                 </a>
             </td>
         </tr>
         <tr>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterangulargithubsearch">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_github_search.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_github_search.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/flutterweathertutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_weather.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/flutterweathertutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_weather.gif" width="200"/>
                 </a>
             </td>
             <td style="text-align: center">
-                <a href="https://bloclibrary.dev/#/fluttertodostutorial">
-                    <img src="https://bloclibrary.dev/assets/gifs/flutter_todos.gif" width="200"/>
+                <a href="https://mit-73.github.io/true_bloc/#/fluttertodostutorial">
+                    <img src="https://mit-73.github.io/true_bloc/assets/gifs/flutter_todos.gif" width="200"/>
                 </a>
             </td>
         </tr>
@@ -81,32 +81,32 @@ Le but de cette architecte est de facilité la séparation entre _présentation_
 
 ### Dart
 
-- [Compteur](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - un exemple pour créer un `CounterBloc` (dart pur).
+- [Compteur](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/example) - un exemple pour créer un `CounterBloc` (dart pur).
 
 ### Flutter
 
-- [Compteur](https://bloclibrary.dev/#/fluttercountertutorial) - un exemple pour montrer comment créer un `CounterBloc` pour implémenter la classique application compteur de Flutter.
-- [Validation d'un formulaire](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - un exemple pour apprendre à utiliser les packages `bloc` et `flutter_bloc` pour implémenter la validation d'un formulaire.
-- [Bloc avec Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - un exemple sur comment relier un `bloc` à un `Stream` et actualiser son UI en réponse aux données venant du `Stream`.
-- [Liste infinie](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - un exemple pour utiliser les packages `bloc` et `flutter_bloc` pour implémenter une liste avec un scroll infini.
-- [Espace de connexion](https://bloclibrary.dev/#/flutterlogintutorial) - un exemple pour apprendre à utiliser les packages `bloc` et `flutter_bloc` pour implémenter un espace de connexion.
-- [Connexion avec Firebase](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - un exemple sur comment utiliser les packages `bloc` et `flutter_bloc`pour implémenter un formulaire de connexion avec Firebase.
-- [Recherche Gihub](https://bloclibrary.dev/#/flutterangulargithubsearch) - un exemple sur comment créer une application de recherche sur Github en utilisant les packages `bloc` et `flutter_bloc`.
-- [Météo](https://bloclibrary.dev/#/flutterweathertutorial) - un exemple pour créer une application météorologique en utilisant les packages `bloc` et `flutter_bloc`. L'app utiliser un `RefreshIndicator` pour implémenter un "tirer pour rafraichir la page" ainsi qu'un thème dynamique.
-- [Liste de choses à faire](https://bloclibrary.dev/#/fluttertodostutorial) - un exemple pour créer une application "Liste de choses à faire" en utilisant les packages `bloc` et `flutter_bloc`.
-- [Minuteur](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - un exemple pour créer un Minuteur en utilisant les packages `bloc` et `flutter_bloc`.
-- [Liste de choses à faire avec Firestore](https://bloclibrary.dev/#/flutterfirestoretodostutorial) - un exemple pour créer une application "Liste de choses à faire" en utilisant les packages `bloc` et `flutter_bloc` qui intègre le cloud firestore.
-- [Panier Shopping](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - un exemple pour créer une application contenant un panier de Shopping en utilisant les packages `bloc`et `flutter_bloc` basé sur les [flutter samples](https://github.com/flutter/samples/tree/master/provider_shopper).
-- [Formulaire dynamique](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - un exemple pour créer utiliser les packages `bloc` et `flutter_bloc` afin d'implémenter un formulaire dynamique qui extrait des données depuis un répertoire.
+- [Compteur](https://mit-73.github.io/true_bloc/#/fluttercountertutorial) - un exemple pour montrer comment créer un `CounterBloc` pour implémenter la classique application compteur de Flutter.
+- [Validation d'un formulaire](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_form_validation) - un exemple pour apprendre à utiliser les packages `bloc` et `flutter_bloc` pour implémenter la validation d'un formulaire.
+- [Bloc avec Stream](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_bloc_with_stream) - un exemple sur comment relier un `bloc` à un `Stream` et actualiser son UI en réponse aux données venant du `Stream`.
+- [Liste infinie](https://mit-73.github.io/true_bloc/#/flutterinfinitelisttutorial) - un exemple pour utiliser les packages `bloc` et `flutter_bloc` pour implémenter une liste avec un scroll infini.
+- [Espace de connexion](https://mit-73.github.io/true_bloc/#/flutterlogintutorial) - un exemple pour apprendre à utiliser les packages `bloc` et `flutter_bloc` pour implémenter un espace de connexion.
+- [Connexion avec Firebase](https://mit-73.github.io/true_bloc/#/flutterfirebaselogintutorial) - un exemple sur comment utiliser les packages `bloc` et `flutter_bloc`pour implémenter un formulaire de connexion avec Firebase.
+- [Recherche Gihub](https://mit-73.github.io/true_bloc/#/flutterangulargithubsearch) - un exemple sur comment créer une application de recherche sur Github en utilisant les packages `bloc` et `flutter_bloc`.
+- [Météo](https://mit-73.github.io/true_bloc/#/flutterweathertutorial) - un exemple pour créer une application météorologique en utilisant les packages `bloc` et `flutter_bloc`. L'app utiliser un `RefreshIndicator` pour implémenter un "tirer pour rafraichir la page" ainsi qu'un thème dynamique.
+- [Liste de choses à faire](https://mit-73.github.io/true_bloc/#/fluttertodostutorial) - un exemple pour créer une application "Liste de choses à faire" en utilisant les packages `bloc` et `flutter_bloc`.
+- [Minuteur](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_timer) - un exemple pour créer un Minuteur en utilisant les packages `bloc` et `flutter_bloc`.
+- [Liste de choses à faire avec Firestore](https://mit-73.github.io/true_bloc/#/flutterfirestoretodostutorial) - un exemple pour créer une application "Liste de choses à faire" en utilisant les packages `bloc` et `flutter_bloc` qui intègre le cloud firestore.
+- [Panier Shopping](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_shopping_cart) - un exemple pour créer une application contenant un panier de Shopping en utilisant les packages `bloc`et `flutter_bloc` basé sur les [flutter samples](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Formulaire dynamique](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_dynamic_form) - un exemple pour créer utiliser les packages `bloc` et `flutter_bloc` afin d'implémenter un formulaire dynamique qui extrait des données depuis un répertoire.
 
 ### Web
 
-- [Compteur](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - un exemple qui montre comment utiliser un example  `CounterBloc` dans une application AngularDart.
-- [Recherche Github](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - un exemple qui montre comment créer une Application de recherche Github en utilisant les packages `bloc` et `angular_bloc`.
+- [Compteur](https://github.com/mit-73/true_bloc/tree/master/examples/angular_counter) - un exemple qui montre comment utiliser un example  `CounterBloc` dans une application AngularDart.
+- [Recherche Github](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/angular_github_search) - un exemple qui montre comment créer une Application de recherche Github en utilisant les packages `bloc` et `angular_bloc`.
 
 ### Flutter + Web
 
-- [Recherche Github](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - un exemple pour apprendre comment créer une Application de recherche Github et en partageant le code entre Flutter et AngularDart.
+- [Recherche Github](https://github.com/mit-73/true_bloc/tree/master/examples/github_search) - un exemple pour apprendre comment créer une Application de recherche Github et en partageant le code entre Flutter et AngularDart.
 
 ## Articles
 

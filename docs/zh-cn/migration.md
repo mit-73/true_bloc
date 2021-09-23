@@ -1,6 +1,6 @@
 # 迁移指南
 
-?> **提示**: 请参考 [发布日志](https://github.com/mit-73/bloc/releases) 以获取有关每个版本中更改内容的更多信息。
+?> **提示**: 请参考 [发布日志](https://github.com/mit-73/true_bloc/releases) 以获取有关每个版本中更改内容的更多信息。
 
 ## v6.1.0
 
@@ -14,7 +14,7 @@
 
 **context.watch**
 
-`context.watch` 解决了拥有[MultiBlocBuilder]（https://github.com/mit-73/bloc/issues/538）的请求，因为我们可以在单个 `Builder` 中观察多个bloc，以便基于多种状态：
+`context.watch` 解决了拥有[MultiBlocBuilder]（https://github.com/mit-73/true_bloc/issues/538）的请求，因为我们可以在单个 `Builder` 中观察多个bloc，以便基于多种状态：
 
 ```dart
 Builder(
@@ -31,7 +31,7 @@ Builder(
 **context.select**
 
 
-`context.select` 允许开发人员根据整体状态的一部分来呈现/更新UI，并解决具有[更简单的buildWhen]（https://github.com/mit-73/bloc/issues/1521）的请求。
+`context.select` 允许开发人员根据整体状态的一部分来呈现/更新UI，并解决具有[更简单的buildWhen]（https://github.com/mit-73/true_bloc/issues/1521）的请求。
 
 ```dart
 final name = context.select((UserBloc bloc) => bloc.state.user.name);
@@ -462,7 +462,7 @@ class CounterBloc extends Bloc<CounterEvent, int> {
 }
 ```
 
-?> 想要了解更多请查看 [#1304](https://github.com/mit-73/bloc/issues/1304)
+?> 想要了解更多请查看 [#1304](https://github.com/mit-73/true_bloc/issues/1304)
 
 #### ❗BlocDelegate 重命名为 BlocObserver
 

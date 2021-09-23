@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:true_bloc/bloc.dart';
 
 // We can extend `BlocObserver` and override `onTransition` and `onError`
 // in order to handle transitions and errors from all Blocs.

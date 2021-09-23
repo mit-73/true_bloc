@@ -6,7 +6,7 @@
 
 Bloc besteht aus mehreren Pub-Paketen:
 
-- [bloc](https://pub.dev/packages/bloc) - Kernstück der Block-Bibliothek
+- [bloc](https://pub.dev/packages/true_bloc) - Kernstück der Block-Bibliothek
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Leistungsstarke Flutter-Widgets, die mit bloc zusammenarbeiten, um schnelle, reaktive mobile Anwendungen zu erstellen.
 - [angular_bloc](https://pub.dev/packages/angular_bloc) - Leistungsstarke Angular-Komponenten, die für die Zusammenarbeit mit bloc entwickelt wurden, um schnelle, reaktive Webanwendungen zu erstellen.
 - [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) - Eine Erweiterung der Bibliothek zur Verwaltung von Blockzuständen, die automatisch Blockzustände aufrechterhält und wiederherstellt.

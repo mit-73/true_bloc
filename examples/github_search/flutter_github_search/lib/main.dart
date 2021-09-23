@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:common_github_search/common_github_search.dart';
 import 'package:flutter_github_search/search_form.dart';
 
