@@ -43,7 +43,7 @@ Agora vamos dar uma olhada em como conectar nosso `MyBloc` a um widget e mostrar
 
 ?> Usamos o widget `BlocProvider` para tornar nossa instância do `MyBloc` disponível para toda a árvore do widget.
 
-O código completo dessa receita pode ser encontrado [aqui](https://gist.github.com/felangel/386c840aad41c7675ab8695f15c4cb09).
+O código completo dessa receita pode ser encontrado [aqui](https://gist.github.com/mit-73/386c840aad41c7675ab8695f15c4cb09).
 
 ## Navegação por Rotas
 
@@ -65,4 +65,4 @@ Vamos dar uma olhada em como direcionar para uma página diferente com base no e
 
 !> Para fins deste exemplo, estamos adicionando um evento apenas para navegação. Em um aplicativo real, você não deve criar eventos de navegação explícitos. Se não houver uma "lógica comercial" necessária para ativar a navegação, você deve sempre navegar diretamente em resposta à entrada do usuário (no retorno de chamada `onPressed`, etc ...). Navegue apenas em resposta a alterações de estado se alguma "lógica de negócios" for necessária para determinar para onde navegar.
 
-O código completo dessa receita pode ser encontrado [aqui](https://gist.github.com/felangel/6bcd4be10c046ceb33eecfeb380135dd).
+O código completo dessa receita pode ser encontrado [aqui](https://gist.github.com/mit-73/6bcd4be10c046ceb33eecfeb380135dd).

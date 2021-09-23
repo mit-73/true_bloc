@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,23 +16,23 @@ Eine vorhersagbare Zustandsverwaltungsbibliothek, die bei der Implementierung de
 
 | Paket                                                                              | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## Überblick
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 Das Ziel dieser Bibliothek ist es, eine erleichterte Trennung von _Präsentation_ und _Geschäftslogik_ zu ermöglichen, um die Testbarkeit und Wiederverwendbarkeit zu verbessern.
 
 ## Dokumentation
 
 - [Offizielle Dokumentation](https://bloclibrary.dev)
-- [Bloc Paket](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Paket](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Paket](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Bloc Paket](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Flutter Bloc Paket](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Paket](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migration
 
@@ -81,32 +81,32 @@ Das Ziel dieser Bibliothek ist es, eine erleichterte Trennung von _Präsentation
 
 ### Dart
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - ein Beispiel dafür, wie man einen "CounterBloc" (reiner Dart) erstellt.
+- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - ein Beispiel dafür, wie man einen "CounterBloc" (reiner Dart) erstellt.
 
 ### Flutter
 
 - [Counter](https://bloclibrary.dev/#/fluttercountertutorial) - ein Beispiel, wie man einen `CounterBloc` erstellt, um die klassische Flutter Counter App zu implementieren.
-- [Formular-Validierung](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung der Formularvalidierung.
-- [Bloc mit Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - ein Beispiel dafür, wie man einen `bloc` an einen `Stream` anschließt und die Benutzeroberfläche als Reaktion auf Daten aus dem `Stream` aktualisiert.
+- [Formular-Validierung](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung der Formularvalidierung.
+- [Bloc mit Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - ein Beispiel dafür, wie man einen `bloc` an einen `Stream` anschließt und die Benutzeroberfläche als Reaktion auf Daten aus dem `Stream` aktualisiert.
 - [Unbegrenzte Liste](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung einer Liste mit unendlichem Bildlauf.
 - [Anmeldevorgang](https://bloclibrary.dev/#/flutterlogintutorial) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung eines Anmeldevorgangs.
 - [Firebase-Anmeldung](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung der Anmeldung über Firebase.
 - [Github Suche](https://bloclibrary.dev/#/flutterangulargithubsearch) - ein Beispiel für die Erstellung einer Github-Suchanwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`.
 - [Wetter](https://bloclibrary.dev/#/flutterweathertutorial) - ein Beispiel für die Erstellung einer Wetteranwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`. Die Anwendung verwendet einen `RefreshIndicator`, um "pull-to-refresh" sowie dynamische Themes
 - [Todos](https://bloclibrary.dev/#/fluttertodostutorial) - ein Beispiel für die Erstellung einer Todo-Anwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`.
-- [Timer](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - ein Beispiel für die Erstellung eines Timers unter Verwendung der Pakete `bloc` und `flutter_bloc`.
+- [Timer](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - ein Beispiel für die Erstellung eines Timers unter Verwendung der Pakete `bloc` und `flutter_bloc`.
 - [Firestore Todos](https://bloclibrary.dev/#/flutterfirestoretodostutorial) - ein Beispiel für die Erstellung einer Todo-Anwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`, die mit der Firestore Cloud integriert ist.
-- [Warenkorb](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - ein Beispiel für die Erstellung einer Warenkorb-Anwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`, basierend auf [flutter samples](https://github.com/flutter/samples/tree/master/provider_shopper).
-- [Dynamische Formular](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung eines dynamischen Formulars, das Daten aus einem Repository abruft.
+- [Warenkorb](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - ein Beispiel für die Erstellung einer Warenkorb-Anwendung unter Verwendung der Pakete `bloc` und `flutter_bloc`, basierend auf [flutter samples](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Dynamische Formular](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - ein Beispiel für die Verwendung der Pakete `bloc` und `flutter_bloc` zur Implementierung eines dynamischen Formulars, das Daten aus einem Repository abruft.
 
 ### Web
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - ein Beispiel für die Verwendung eines `CounterBloc` in einer AngularDart-App.
-- [Github Suche](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - ein Beispiel für die Erstellung einer Github-Suchanwendung unter Verwendung der Pakete `bloc` und `angular_bloc`.
+- [Counter](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - ein Beispiel für die Verwendung eines `CounterBloc` in einer AngularDart-App.
+- [Github Suche](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - ein Beispiel für die Erstellung einer Github-Suchanwendung unter Verwendung der Pakete `bloc` und `angular_bloc`.
 
 ### Flutter + Web
 
-- [Github Suche](https://github.com/felangel/Bloc/tree/master/examples/github_search) - ein Beispiel dafür, wie man eine Github-Suchanwendung erstellt und Code zwischen Flutter und AngularDart austauscht.
+- [Github Suche](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - ein Beispiel dafür, wie man eine Github-Suchanwendung erstellt und Code zwischen Flutter und AngularDart austauscht.
 
 ## Articles
 
@@ -130,17 +130,9 @@ Das Ziel dieser Bibliothek ist es, eine erleichterte Trennung von _Präsentation
 
 Weitere Informationen finden Sie unter den folgenden Links, die von der Community zur Verfügung gestellt wurden.
 
-### Packages
-
-- [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc) - Eine Erweiterung der `bloc`-Zustandsverwaltungsbibliothek, die automatisch `bloc`-Zustände persistiert und wiederherstellt, von [Felix Angelov](https://github.com/felangel).
-- [Bloc.js](https://github.com/felangel/bloc.js) - Eine Portierung der Zustandsverwaltungsbibliothek `bloc` von Dart nach JavaScript, von [Felix Angelov](https://github.com/felangel).
-- [Bloc Code Generator](https://pub.dev/packages/bloc_code_generator) - Ein Codegenerator, der die Arbeit mit bloc erleichtert, von [Adson Leal](https://github.com/adsonpleal).
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - Ein Web, Mobile Firebase Auth Plugin, von [Rody Davis](https://github.com/AppleEducate).
-- [Form Bloc](https://pub.dev/packages/form_bloc) - Ein einfacher Weg, um Formulare mit BLoC-Muster zu erstellen, ohne eine Menge Boilerplate-Code zu schreiben, von [Giancarlo](https://github.com/GiancarloCode).
-
 ### Video Tutorials (englisch)
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Vortrag bei [Flutter Europe](https://fluttereurope.dev) über die Grundlagen der Bloc-Bibliothek, von [Felix Angelov](https://github.com/felangel).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Vortrag bei [Flutter Europe](https://fluttereurope.dev) über die Grundlagen der Bloc-Bibliothek, von [MiT](https://github.com/mit-73).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) - Einführung in die Bloc-Bibliothek, von [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - Wie man eine Youtube-Such-App erstellt, die mit einer API interagiert, indem man die Pakete bloc und flutter_bloc verwendet, von [Reso Coder](https://resocoder.com).
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - Aktualisiertes Tutorial über das Flutter Bloc Paket, von [Reso Coder](https://resocoder.com).
@@ -162,4 +154,4 @@ Weitere Informationen finden Sie unter den folgenden Links, die von der Communit
 
 ## Maintainers
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)

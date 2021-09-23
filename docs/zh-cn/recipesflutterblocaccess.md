@@ -42,7 +42,7 @@ UI 由三部分组成：
 
 `CounterText` 部件使用 `BlocBuilder` ，在 `CounterBloc` 状态改变时重新构建自己。我们使用 `BlocProvider.of<CounterBloc>(context)` 访问 `CounterBloc`，并在 `Text` 部件中返回当前的计数。
 
-以上就是本地 bloc 访问部分，您可以在[这里](https://gist.github.com/felangel/20b03abfef694c00038a4ffbcc788c35)查看完整源代码。
+以上就是本地 bloc 访问部分，您可以在[这里](https://gist.github.com/mit-73/20b03abfef694c00038a4ffbcc788c35)查看完整源代码。
 
 接下来，我们将展示如何在多个页面（路由）之间提供 bloc。
 
@@ -86,7 +86,7 @@ UI 由三部分组成：
 
 `CounterPage` 是一个超级简单的 `StatelessWidget`，它使用 `BlocBuilder` 重新渲染当前计数值的 `Text` 部件。跟上面一样，我们可以使用 `BlocProvider.of<CounterBloc>(context)` 访问 `CounterBloc`。
 
-这就是示例的全部内容，您可以在[这里](https://gist.github.com/felangel/92b256270c5567210285526a07b4cf21)查看完整源代码。
+这就是示例的全部内容，您可以在[这里](https://gist.github.com/mit-73/92b256270c5567210285526a07b4cf21)查看完整源代码。
 
 接下来，我们将展示如何把 bloc 的访问范围限定在一个或多个命名路由。
 
@@ -130,7 +130,7 @@ UI 由三部分组成：
 
 `CounterPage` 是一个超级简单的 `StatelessWidget`，它使用 `BlocBuilder` 重新渲染当前计数值的 `Text` 部件。跟之前一样，我们可以使用 `BlocProvider.of<CounterBloc>(context)` 访问 `CounterBloc`。
 
-这就是该示例的全部内容，您可以在[这里](https://gist.github.com/felangel/8d143cf3b7da38d80de4bcc6f65e9831)查看完整源代码。
+这就是该示例的全部内容，您可以在[这里](https://gist.github.com/mit-73/8d143cf3b7da38d80de4bcc6f65e9831)查看完整源代码。
 
 接下来，我们将展示如何创建一个 `Router` 来管理 bloc，并将它的范围限定为一个或多个生成的路由。
 
@@ -183,7 +183,7 @@ UI 由三部分组成：
 
 `CounterPage` 是一个超级简单的 `StatelessWidget`，它使用 `BlocBuilder` 重新渲染当前计数值的 `Text` 部件。跟之前一样，我们可以使用 `BlocProvider.of<CounterBloc>(context)` 访问 `CounterBloc`。
 
-这就是该示例的全部内容，您可以在[这里](https://gist.github.com/felangel/354f9499dc4573699c62fc90c6bb314e)查看完整源代码。
+这就是该示例的全部内容，您可以在[这里](https://gist.github.com/mit-73/354f9499dc4573699c62fc90c6bb314e)查看完整源代码。
 
 最后，我们将展示如何让 bloc 在部件树中全局可访问。
 
@@ -227,4 +227,4 @@ UI 由三部分组成：
 
 这里没有新的知识点；`CounterText` 部件跟第一个例子一样。它只是一个 `StatelessWidget`，当 `CounterBloc` 的状态改变时，使用 `BlocBuilder` 重新渲染，并使用 `BlocProvider.of<CounterBloc>(context)` 访问全局的 `CounterBloc` 实例。
 
-您可以在[这里](https://gist.github.com/felangel/be891e73a7c91cdec9e7d5f035a61d5d)查看完整源代码。
+您可以在[这里](https://gist.github.com/mit-73/be891e73a7c91cdec9e7d5f035a61d5d)查看完整源代码。

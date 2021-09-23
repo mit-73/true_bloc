@@ -132,4 +132,4 @@ class Home extends StatelessWidget {
 
 !> **NUNCA** "fazemos as coisas" em resposta a alterações de estado no método `builder` do `BlocBuilder` porque esse método só pode ser chamado várias vezes pela estrutura do Flutter. O método `builder` deve ser uma [função pura](https://en.wikipedia.org/wiki/Pure_function) que retorna um widget como resposta ao estado do Bloc.
 
-O código completo desta receita você encontra [aqui](https://gist.github.com/felangel/1e5b2c25b263ad1aa7bbed75d8c76c44).
+O código completo desta receita você encontra [aqui](https://gist.github.com/mit-73/1e5b2c25b263ad1aa7bbed75d8c76c44).

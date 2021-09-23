@@ -118,7 +118,7 @@ Bloc ライブラリーは内部で`provider`を使い bloc が子孫要素た�
 💡 **答え**: 明確に正解・不正解はありませんが、いくつか参考になる例はこちらにあります。
 
 - [Flutter Architecture Samples - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter Shopping Card Example](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter Shopping Card Example](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD Course - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 一番大切なのは**一貫**して**意図的な**プロジェクト構造にすることです。

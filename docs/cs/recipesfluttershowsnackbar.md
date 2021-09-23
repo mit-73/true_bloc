@@ -44,4 +44,4 @@ Nyní se pojďme podívat jak připojit `DataBloc` wiget a zobrazit `Snackbar` v
 
 !> **NIKDY** bychom neměli "dělat věci" v závislosti na změně stavu v `builder` metodě `BlocBuilderu`, protože tato metoda může být zavolána Flutter frameworkem mnohokrát. `builder` metoda by měla být vez vedlejších účinků ([pure funkce](https://en.wikipedia.org/wiki/Pure_function)), která vrací widget v reakci na stav blocu.
 
-Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/felangel/1e5b2c25b263ad1aa7bbed75d8c76c44).
+Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/mit-73/1e5b2c25b263ad1aa7bbed75d8c76c44).

@@ -471,4 +471,4 @@
 
 Вот и все, что нужно сделать! Теперь мы успешно реализовали приложение todos в Flutter, используя пакеты [bloc](https://pub.dev/packages/bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили наш уровень представления от нашей бизнес логики.
 
-Полный исходный код этого примера можно найти [здесь](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos).
+Полный исходный код этого примера можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos).

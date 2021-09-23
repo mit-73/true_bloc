@@ -42,7 +42,7 @@ El widget `CounterPage` es un `StatelessWidget` que accede al `CounterBloc` a tr
 
 Nuestro widget `CounterText` está utilizando un `BlocBuilder` para reconstruirse cada vez que cambia el estado de `CounterBloc`. Utilizamos `BlocProvider.of<CounterBloc>(context)` para acceder al `CounterBloc` proporcionado y devolver un widget `Text` con el conteo actual.
 
-Eso envuelve la porción de acceso al bloc local de esta receta y el código fuente completo se puede encontrar [aquí](https://gist.github.com/felangel/20b03abfef694c00038a4ffbcc788c35).
+Eso envuelve la porción de acceso al bloc local de esta receta y el código fuente completo se puede encontrar [aquí](https://gist.github.com/mit-73/20b03abfef694c00038a4ffbcc788c35).
 
 A continuación, veremos cómo proporcionar un bloc en varias páginas/rutas.
 
@@ -86,7 +86,7 @@ Cuando el usuario toca el `ElevatedButton`, empujamos/insertamos un nuevo `Mater
 
 `CounterPage` es un `StatelessWidget` súper simple que usa `BlocBuilder` para volver a representar un widget `Text` con el conteo actual. Al igual que antes, podemos usar `BlocProvider.of<CounterBloc>(context)` para acceder al `CounterBloc`.
 
-Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/felangel/92b256270c5567210285526a07b4cf21).
+Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/mit-73/92b256270c5567210285526a07b4cf21).
 
 A continuación, veremos cómo abarcar un bloc a solo una o más rutas con nombre.
 
@@ -130,7 +130,7 @@ El `HomePage` es similar al ejemplo anterior; sin embargo, cuando el usuario toc
 
 `CounterPage` es un `StatelessWidget` súper simple que usa `BlocBuilder` para volver a representar un widget `Text` con el conteo actual. Al igual que antes, podemos usar `BlocProvider.of<CounterBloc>(context)` para acceder al `CounterBloc`.
 
-Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/felangel/8d143cf3b7da38d80de4bcc6f65e9831).
+Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/mit-73/8d143cf3b7da38d80de4bcc6f65e9831).
 
 A continuación, veremos cómo crear un `Router` para administrar y abarcar un bloc a solo una o más rutas generadas.
 
@@ -183,7 +183,7 @@ La `HomePage` es idéntica al ejemplo anterior. Cuando el usuario toca el `Eleva
 
 `CounterPage` es un `StatelessWidget` súper simple que usa `BlocBuilder` para volver a representar un widget `Text` con el conteo actual. Al igual que antes, podemos usar `BlocProvider.of<CounterBloc>(context)` para acceder al `CounterBloc`.
 
-Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/felangel/354f9499dc4573699c62fc90c6bb314e).
+Eso es todo lo que hay en este ejemplo y la fuente completa se puede encontrar [aquí](https://gist.github.com/mit-73/354f9499dc4573699c62fc90c6bb314e).
 
 Por último, veremos cómo hacer que un bloc que esté disponible globalmente para el árbol de widgets.
 
@@ -227,4 +227,4 @@ Nuestro `CounterPage` es un `StatelessWidget` porque no necesita administrar nin
 
 Nada nuevo aquí; El widget `CounterText` es el mismo que en el primer ejemplo. Es solo un `StatelessWidget` que usa un `BlocBuilder` para volver a renderizar cuando el estado de `CounterBloc` cambia y accede a la instancia global de `CounterBloc` usando `BlocProvider.of<CounterBloc>(context)`.
 
-¡Eso es todo al respecto! La fuente completa se puede encontrar [aquí](https://gist.github.com/felangel/be891e73a7c91cdec9e7d5f035a61d5d).
+¡Eso es todo al respecto! La fuente completa se puede encontrar [aquí](https://gist.github.com/mit-73/be891e73a7c91cdec9e7d5f035a61d5d).

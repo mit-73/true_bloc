@@ -42,7 +42,7 @@ Ahora echemos un vistazo a cómo conectar nuestro `MyBloc` a un widget y mostrar
 
 ?> Usamos el widget `BlocProvider` para que nuestra instancia de `MyBloc` esté disponible para todo el árbol de widgets.
 
-La fuente completa de esta receta se puede encontrar [aquí](https://gist.github.com/felangel/386c840aad41c7675ab8695f15c4cb09).
+La fuente completa de esta receta se puede encontrar [aquí](https://gist.github.com/mit-73/386c840aad41c7675ab8695f15c4cb09).
 
 ## Navegación de ruta
 
@@ -64,4 +64,4 @@ Echemos un vistazo a cómo enrutar a una página diferente según el estado de `
 
 !> Por el bien de este ejemplo, estamos agregando un evento solo para navegación. En una aplicación real, no debe crear eventos de navegación explícitos. Si no es necesaria una "lógica empresarial" para activar la navegación, siempre debe navegar directamente en respuesta a la entrada del usuario (en la devolución de llamada `onPressed`, etc.). Solo navegue en respuesta a los cambios de estado si se requiere alguna "lógica de negocios" para determinar dónde navegar.
 
-La fuente completa de esta receta se puede encontrar [aquí](https://gist.github.com/felangel/6bcd4be10c046ceb33eecfeb380135dd).
+La fuente completa de esta receta se puede encontrar [aquí](https://gist.github.com/mit-73/6bcd4be10c046ceb33eecfeb380135dd).

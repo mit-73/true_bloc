@@ -43,7 +43,7 @@ Now let's take a look at how to hook up our `MyBloc` to a widget and show a diff
 
 ?> We use the `BlocProvider` widget in order to make our instance of `MyBloc` available to the entire widget tree.
 
-The full source for this recipe can be found [here](https://gist.github.com/felangel/386c840aad41c7675ab8695f15c4cb09).
+The full source for this recipe can be found [here](https://gist.github.com/mit-73/386c840aad41c7675ab8695f15c4cb09).
 
 ## Route Navigation
 
@@ -65,4 +65,4 @@ Let's take a look at how to route to a different page based on the state of `MyB
 
 !> For the sake of this example we are adding an event just for navigation. In a real application, you should not create explicit navigation events. If there is no "business logic" necessary in order to trigger navigation you should always directly navigate in response to user input (in the `onPressed` callback, etc...). Only navigate in response to state changes if some "business logic" is required in order to determine where to navigate.
 
-The full source for this recipe can be found [here](https://gist.github.com/felangel/6bcd4be10c046ceb33eecfeb380135dd).
+The full source for this recipe can be found [here](https://gist.github.com/mit-73/6bcd4be10c046ceb33eecfeb380135dd).

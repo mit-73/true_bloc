@@ -1,11 +1,11 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="100" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="100" alt="Bloc" />
 </p>
 
 <p align="center">
-<a href="https://github.com/felangel/bloc/actions"><img src="https://img.shields.io/github/workflow/status/felangel/bloc/build.svg?logo=github" alt="build"></a>
-<a href="https://codecov.io/gh/felangel/bloc"><img src="https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg" alt="codecov"></a>
-<a href="https://github.com/felangel/bloc"><img src="https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
+<a href="https://github.com/mit-73/bloc/actions"><img src="https://img.shields.io/github/workflow/status/mit-73/bloc/build.svg?logo=github" alt="build"></a>
+<a href="https://codecov.io/gh/mit-73/bloc"><img src="https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://github.com/mit-73/bloc"><img src="https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc"><img src="https://vsmarketplacebadge.apphb.com/version-short/FelixAngelov.bloc.svg" alt="Version"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc"><img src="https://vsmarketplacebadge.apphb.com/installs-short/FelixAngelov.bloc.svg" alt="Installs"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc"><img src="https://vsmarketplacebadge.apphb.com/rating-short/FelixAngelov.bloc.svg" alt="Ratings"></a>
@@ -14,7 +14,7 @@
 <a href="http://fluttersamples.com"><img src="https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true" alt="Flutter Samples"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 <a href="https://discord.gg/bloc"><img src="https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue" alt="Discord"></a>
-<a href="https://github.com/felangel/bloc"><img src="https://tinyurl.com/bloc-library" alt="Bloc Library"></a>
+<a href="https://github.com/mit-73/bloc"><img src="https://tinyurl.com/bloc-library" alt="Bloc Library"></a>
 </p>
 
 ---
@@ -37,7 +37,7 @@
 Вы можете активировать команду, запустив палитру команд (View -> Command Palette) и запустив команда.
 Или вы можете щелкнуть правой кнопкой мыши на каталоге, в котором вы хотите создать блок/кубит и выбрать команду из контекстного меню.
 
-![demo](https://raw.githubusercontent.com/felangel/bloc/master/extensions/vscode/assets/new-bloc-usage.gif)
+![demo](https://raw.githubusercontent.com/mit-73/bloc/master/extensions/vscode/assets/new-bloc-usage.gif)
 
 ## Code Actions
 
@@ -49,7 +49,7 @@
 | `Wrap with BlocProvider`       | Wraps current widget in a `BlocProvider`       |
 | `Wrap with RepositoryProvider` | Wraps current widget in a `RepositoryProvider` |
 
-![demo](https://raw.githubusercontent.com/felangel/bloc/master/extensions/vscode/assets/wrap-with-usage.gif)
+![demo](https://raw.githubusercontent.com/mit-73/bloc/master/extensions/vscode/assets/wrap-with-usage.gif)
 
 ## Фрагменты
 

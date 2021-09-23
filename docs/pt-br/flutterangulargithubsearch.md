@@ -24,7 +24,7 @@ Em seguida, criaremos o Scaffold para a biblioteca `common_github_search`.
 
 Precisamos criar um `pubspec.yaml` com as dependências necessárias.
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
 
 Por fim, precisamos instalar nossas dependências.
 
@@ -146,7 +146,7 @@ Crie `github_search_bloc.dart`
 ?> **Nota:** Sobrescrevemos `onTransition` para que possamos registrar sempre que ocorrer uma alteração de estado.
 
 Impressionante! Todos nós terminamos o nosso pacote `common_github_search`.
-O produto final deve ter a aparência [assim](https://github.com/felangel/Bloc/tree/master/examples/github_search/common_github_search).
+O produto final deve ter a aparência [assim](https://github.com/mit-73/Bloc/tree/master/examples/github_search/common_github_search).
 
 Em seguida, trabalharemos na implementação do Flutter.
 
@@ -162,7 +162,7 @@ Precisamos começar criando um novo projeto Flutter em nosso diretório `github_
 
 Em seguida, precisamos atualizar nosso `pubspec.yaml` para incluir todas as dependências necessárias.
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
 
 ?> **Nota:** Estamos incluindo nossa recém-criada biblioteca `common_github_search` como uma dependência.
 
@@ -239,7 +239,7 @@ Agora tudo o que precisamos fazer é implementar nosso aplicativo principal em `
 
 Isso é tudo! Agora implementamos com sucesso um aplicativo de pesquisa do github no Flutter usando os pacotes [bloc](https://pub.dev/packages/bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com sucesso nossa camada de apresentação da nossa lógica de negócios.
 
-O código fonte completo pode ser encontrada [aqui](https://github.com/felangel/Bloc/tree/master/examples/github_search/flutter_github_search).
+O código fonte completo pode ser encontrada [aqui](https://github.com/mit-73/Bloc/tree/master/examples/github_search/flutter_github_search).
 
 Por fim, vamos criar nosso aplicativo AngularDart Github Search.
 
@@ -257,7 +257,7 @@ Precisamos começar criando um novo projeto AngularDart em nosso diretório gith
 
 Podemos então prosseguir e substituir o conteúdo de `pubspec.yaml` por:
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
 
 ### Search Form
 
@@ -352,7 +352,7 @@ Temos todos os nossos componentes e agora é hora de reuni-los no nosso `app_com
 
 Isso é tudo! Agora, implementamos com sucesso um aplicativo de pesquisa do github no AngularDart usando os pacotes `bloc` e `angular_bloc` e separamos com êxito a camada de apresentação da lógica de negócios.
 
-O código fonte completo pode ser encontrado [aqui](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search).
+O código fonte completo pode ser encontrado [aqui](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search).
 
 ## Sumário
 
@@ -360,4 +360,4 @@ Neste tutorial, criamos um aplicativo Flutter e AngularDart enquanto compartilha
 
 A única coisa que realmente tivemos que escrever duas vezes foi a camada de apresentação (UI), que é impressionante em termos de eficiência e velocidade de desenvolvimento. Além disso, é bastante comum que aplicativos da Web e aplicativos móveis tenham experiências e estilos de usuário diferentes e essa abordagem realmente demonstra como é fácil criar dois aplicativos que parecem totalmente diferentes, mas compartilham as mesmas camadas de dados e lógica de negócios.
 
-O código fonte completo pode ser encontrado [aqui](https://github.com/felangel/Bloc/tree/master/examples/github_search).
+O código fonte completo pode ser encontrado [aqui](https://github.com/mit-73/Bloc/tree/master/examples/github_search).

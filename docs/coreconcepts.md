@@ -46,7 +46,7 @@ A `Cubit` can expose functions which can be invoked to trigger state changes.
 
 > States are the output of a `Cubit` and represent a part of your application's state. UI components can be notified of states and redraw portions of themselves based on the current state.
 
-> **Note**: For more information about the origins of `Cubit` checkout [the following issue](https://github.com/felangel/cubit/issues/69).
+> **Note**: For more information about the origins of `Cubit` checkout [the following issue](https://github.com/mit-73/cubit/issues/69).
 
 ### Creating a Cubit
 

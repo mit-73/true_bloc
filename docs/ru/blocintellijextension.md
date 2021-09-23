@@ -1,6 +1,6 @@
 # Bloc плагин для IntelliJ и Android Studio
 
-![dialog](https://github.com/felangel/bloc/raw/master/extensions/intellij/assets/dialog.png)
+![dialog](https://github.com/mit-73/bloc/raw/master/extensions/intellij/assets/dialog.png)
 
 ## Введение
 
@@ -14,7 +14,7 @@
 
 ### Как использовать
 
-Просто щелкните правой кнопкой мыши на представлении `File Project`, перейдите в `New -> Bloc Class`, дайте ему имя, выберите хотите ли вы использовать [Equatable](https://github.com/felangel/equatable) и нажмите `ОК`, чтобы увидеть все сгенерированные шаблоны.
+Просто щелкните правой кнопкой мыши на представлении `File Project`, перейдите в `New -> Bloc Class`, дайте ему имя, выберите хотите ли вы использовать [Equatable](https://github.com/mit-73/equatable) и нажмите `ОК`, чтобы увидеть все сгенерированные шаблоны.
 
 ## Развертывание
 

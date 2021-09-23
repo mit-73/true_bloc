@@ -96,7 +96,7 @@ Ensuite, nous devons implémenter `mapEventToState` qui sera lancé chaque fois 
 
 [post_bloc.dart](../_snippets/flutter_infinite_list_tutorial/post_bloc_map_event_to_state.dart.md ':include')
 
-Notre `PostBloc` cède à chaque fois qu'il y a un nouvel état car il retourne un `Stream<PostState>`. Consultez [concepts de base](https://felangel.github.io/bloc/#/coreconcepts?id=streams) pour plus d'informations sur `Streams` et d'autres concepts de base.
+Notre `PostBloc` cède à chaque fois qu'il y a un nouvel état car il retourne un `Stream<PostState>`. Consultez [concepts de base](https://mit-73.github.io/bloc/#/coreconcepts?id=streams) pour plus d'informations sur `Streams` et d'autres concepts de base.
 
 Maintenant, chaque fois qu'un `PostEvent` est envoyé, s'il s'agit d'un événement `PostFetched` et qu'il y a plus de messages à récupérer, notre `PostBloc` ira chercher les 20 messages suivants.
 
@@ -177,4 +177,4 @@ C'est tout ce qu'il y a à faire ! Nous avons maintenant implémenté avec succ�
 
 Notre page d'accueil n'a aucune idée d'où viennent les `Posts` ou comment ils sont récupérés. Inversement, notre `PostBloc` n'a aucune idée de la façon dont le `State` est rendu, il convertit simplement les événements en états.
 
-La source complète de cet exemple se trouve à l'adresse suivante [ici](https://github.com/felangel/Bloc/tree/master/examples/flutter_infinite_list).
+La source complète de cet exemple se trouve à l'adresse suivante [ici](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).

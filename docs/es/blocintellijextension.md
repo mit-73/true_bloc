@@ -1,6 +1,6 @@
 # Bloc Plugin para IntelliJ y Android Studio
 
-![dialog](https://github.com/felangel/bloc/raw/master/extensions/intellij/assets/dialog.png)
+![dialog](https://github.com/mit-73/bloc/raw/master/extensions/intellij/assets/dialog.png)
 
 ## Introducción
 
@@ -14,7 +14,7 @@ Puede encontrar el plugin en la tienda oficial de IntelliJ y Android Studio:
 
 ### Cómo utilizar
 
-Simplemente haga clic con el botón derecho en la vista Proyecto de archivo, vaya a `New -> Bloc Class`, asígnele un nombre, seleccione si desea usar [Equatable](https://github.com/felangel/equatable) y haga clic en `OK` para ver toda la plantilla generada.
+Simplemente haga clic con el botón derecho en la vista Proyecto de archivo, vaya a `New -> Bloc Class`, asígnele un nombre, seleccione si desea usar [Equatable](https://github.com/mit-73/equatable) y haga clic en `OK` para ver toda la plantilla generada.
 
 ## Despliegue
 

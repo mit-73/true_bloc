@@ -43,7 +43,7 @@ Nyní se pojďme podívat na to, jak propojit `MyBloc` k widgetu a zobrazit jino
 
 ?> Používáme `BlocProvider` widget abychom zpřístupnili naší instanci `MyBloc` celému stromu widgetů.
 
-Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/felangel/386c840aad41c7675ab8695f15c4cb09).
+Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/mit-73/386c840aad41c7675ab8695f15c4cb09).
 
 ## Navigace routami
 
@@ -65,4 +65,4 @@ Podívejme se na to, jak routovat na jinou stránku v závislosti na stavu `MyBl
 
 !> Pro jednoduchost přidáváme událost pouze pro navigaci. V reálné aplikaci byste však konkrétní události pro navigaci nevytvářeli. Pokud pro spuštění navigace není nutná žádná logika, měli byste vždy přímo navigovat v reakci na vstup uživatele (v `onPressed` callbacku atp.). Navigujte v závislosti na změně stavu pouze když je vyžadována nějaká logika k určení, kam navigovat.
 
-Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/felangel/6bcd4be10c046ceb33eecfeb380135dd).
+Celý zdrojový kód pro tento recept můžete najít [zde](https://gist.github.com/mit-73/6bcd4be10c046ceb33eecfeb380135dd).

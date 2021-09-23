@@ -25,7 +25,7 @@ flutter create flutter_infinite_list
 
 We can then go ahead and replace the contents of pubspec.yaml with
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/pubspec.yaml ':include')
 
 and then install all of our dependencies
 
@@ -81,7 +81,7 @@ Great, now that we know what our data is going to look like, let’s create the 
 
 Create `post.dart` and let’s get to work creating the model of our Post object.
 
-[post.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/models/post.dart ':include')
+[post.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/models/post.dart ':include')
 
 `Post` is just a class with an `id`, `title`, and `body`.
 
@@ -97,7 +97,7 @@ At a high level, it will be responding to user input (scrolling) and fetching mo
 
 Our `PostBloc` will only be responding to a single event; `PostFetched` which will be added by the presentation layer whenever it needs more Posts to present. Since our `PostFetched` event is a type of `PostEvent` we can create `bloc/post_event.dart` and implement the event like so.
 
-[post_event.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_event.dart ':include')
+[post_event.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_event.dart ':include')
 
 To recap, our `PostBloc` will be receiving `PostEvents` and converting them to `PostStates`. We have defined all of our `PostEvents` (PostFetched) so next let’s define our `PostState`.
 
@@ -114,7 +114,7 @@ Our presentation layer will need to have several pieces of information in order 
 
 We can now create `bloc/post_state.dart` and implement it like so.
 
-[post_state.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_state.dart ':include')
+[post_state.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_state.dart ':include')
 
 ?> We implemented `copyWith` so that we can copy an instance of `PostSuccess` and update zero or more properties conveniently (this will come in handy later).
 
@@ -152,7 +152,7 @@ One optimization we can make is to `debounce` the `Events` in order to prevent s
 
 Our finished `PostBloc` should now look like this:
 
-[post_bloc.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_bloc.dart ':include')
+[post_bloc.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/bloc/post_bloc.dart ':include')
 
 Great! Now that we’ve finished implementing the business logic all that’s left to do is implement the presentation layer.
 
@@ -160,21 +160,21 @@ Great! Now that we’ve finished implementing the business logic all that’s le
 
 In our `main.dart` we can start by implementing our main function and calling `runApp` to render our root widget. Here, we can also include our bloc observer to log transitions and any errors.
 
-[main.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/main.dart ':include')
+[main.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/main.dart ':include')
 
 ?> **Note:** `EquatableConfig.stringify = kDebugMode;` is a constant that affects the output of toString. When in debug mode, equatable's toString method will behave differently than profile and release mode and can use constants like kDebugMode or kReleaseMode to understand if you are running on debug or release.
 
 In our `App` widget, the root of our project, we can then set the home to `PostsPage`
 
-[app.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/app.dart ':include')
+[app.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/app.dart ':include')
 
 In our `PostsPage` widget, we use `BlocProvider` to create and provide an instance of `PostBloc` to the subtree. Also, we add a `PostFetched` event so that when the app loads, it requests the initial batch of Posts.
 
-[posts_page.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_page.dart ':include')
+[posts_page.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_page.dart ':include')
 
 Next, we need to implement our `PostsList` view which will present our posts and hook up to our `PostBloc`.
 
-[posts_list.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_list.dart ':include')
+[posts_list.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/view/posts_list.dart ':include')
 
 ?> `PostsList` is a `StatefulWidget` because it will need to maintain a `ScrollController`. In `initState`, we add a listener to our `ScrollController` so that we can respond to scroll events. We also access our `PostBloc` instance via `context.read<PostBloc>()`.
 
@@ -186,11 +186,11 @@ Whenever the user scrolls, we calculate how far you have scrolled down the page 
 
 Next, we need to implement our `BottomLoader` widget which will indicate to the user that we are loading more posts.
 
-[bottom_loader.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/bottom_loader.dart ':include')
+[bottom_loader.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/bottom_loader.dart ':include')
 
 Lastly, we need to implement our `PostListItem` which will render an individual Post.
 
-[post_list_item.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/post_list_item.dart ':include')
+[post_list_item.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/posts/widgets/post_list_item.dart ':include')
 
 At this point, we should be able to run our app and everything should work; however, there’s one more thing we can do.
 
@@ -204,7 +204,7 @@ Even though in this application we only have one bloc, it's fairly common in lar
 
 If we want to be able to do something in response to all `Transitions` we can simply create our own `BlocObserver`.
 
-[simple_bloc_observer.dart](https://raw.githubusercontent.com/felangel/bloc/master/examples/flutter_infinite_list/lib/simple_bloc_observer.dart ':include')
+[simple_bloc_observer.dart](https://raw.githubusercontent.com/mit-73/bloc/master/examples/flutter_infinite_list/lib/simple_bloc_observer.dart ':include')
 
 ?> All we need to do is extend `BlocObserver` and override the `onTransition` method.
 
@@ -216,4 +216,4 @@ That’s all there is to it! We’ve now successfully implemented an infinite li
 
 Our `PostsPage` has no idea where the `Posts` are coming from or how they are being retrieved. Conversely, our `PostBloc` has no idea how the `State` is being rendered, it simply converts events into states.
 
-The full source for this example can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_infinite_list).
+The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).

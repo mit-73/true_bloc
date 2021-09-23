@@ -44,4 +44,4 @@
 
 !> 我们一定**不要**在 `BlocBuilder` 的 `builder` 方法中“做某些事情”来响应状态的改变，因为 Flutter 框架会多次调用该方法。 `builder` 方法应该是一个[纯方法](https://en.wikipedia.org/wiki/Pure_function)，它只是返回一个部件来响应 bloc 的状态改变。
 
-您可以在[这里](https://gist.github.com/felangel/1e5b2c25b263ad1aa7bbed75d8c76c44)查看完整源代码。
+您可以在[这里](https://gist.github.com/mit-73/1e5b2c25b263ad1aa7bbed75d8c76c44)查看完整源代码。

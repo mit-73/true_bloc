@@ -74,4 +74,4 @@ Por último, nuestro `counter_page_component.html` debería verse así:
 
 Podemos ejecutar nuestra aplicación con `webdev serve` y podemos verla [localmente](http://localhost:8080).
 
-La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/felangel/Bloc/tree/master/examples/angular_counter).
+La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter).

@@ -1,4 +1,4 @@
-/// An extension to [package:bloc](https://github.com/felangel/bloc)
+/// An extension to [package:bloc](https://github.com/mit-73/bloc)
 /// which automatically persists and restores bloc and cubit states.
 /// Built to work with [package:bloc](https://pub.dev/packages/bloc).
 library hydrated_bloc;

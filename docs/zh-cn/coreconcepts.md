@@ -49,7 +49,7 @@ We can create a `Stream` in Dart by writing an `async*` (async generator) functi
 >状态是从 `Cubit` 中输出的，代表应用程序状态的一部分。可以通知UI组件状态，并根据当前状态重绘其自身的某些部分。
 > States are the output of a `Cubit` and represent a part of your application's state. UI components can be notified of states and redraw portions of themselves based on the current state.
 
-> **提示**: 有关 `Cubit` 来源的更多信息请查看 [以下 Github Issue](https://github.com/felangel/cubit/issues/69).
+> **提示**: 有关 `Cubit` 来源的更多信息请查看 [以下 Github Issue](https://github.com/mit-73/cubit/issues/69).
 
 ### 创建一个 Cubit
 

@@ -1,6 +1,6 @@
 # Migration Guide
 
-?> **Tip**: Por favor, consulte o [release log](https://github.com/felangel/bloc/releases) para obter mais informações sobre o que mudou em cada versão.
+?> **Tip**: Por favor, consulte o [release log](https://github.com/mit-73/bloc/releases) para obter mais informações sobre o que mudou em cada versão.
 
 ## v7.0.0
 
@@ -12,15 +12,15 @@
 
 Como desenvolvedor, a relação entre blocs e cubits era um pouco estranha. Quando o cubit foi introduzido pela primeira vez, ele começou como a classe base para blocs, o que fazia sentido porque tinha um subconjunto das funcionalidades e os blocs apenas estenderiam o cubit e definiriam APIs adicionais. Isso veio com algumas desvantagens:
 
-- Todas as APIs teriam que ser renomeadas para aceitar um cubit para acurácia ou deveriam ser mantidas como um bloc para consistência, mesmo que hierarquicamente seja impreciso ([#1708](https://github.com/felangel/bloc/issues/1708), [#1560](https://github.com/felangel/bloc/issues/1560)).
+- Todas as APIs teriam que ser renomeadas para aceitar um cubit para acurácia ou deveriam ser mantidas como um bloc para consistência, mesmo que hierarquicamente seja impreciso ([#1708](https://github.com/mit-73/bloc/issues/1708), [#1560](https://github.com/mit-73/bloc/issues/1560)).
 
-- O Cubit precisaria estender o Stream e implementar EventSink para ter uma base comum em que widgets como BlocBuilder, BlocListener, etc. podem ser implementados ([#1429](https://github.com/felangel/bloc/issues/1429)).
+- O Cubit precisaria estender o Stream e implementar EventSink para ter uma base comum em que widgets como BlocBuilder, BlocListener, etc. podem ser implementados ([#1429](https://github.com/mit-73/bloc/issues/1429)).
 
 Mais tarde, experimentamos inverter a relação e tornar o bloc a classe base que resolveu parcialmente o primeiro item acima, mas introduziu outros problemas:
 
-- A API cubit está inchada devido às APIs de bloc subjacentes, como mapEventToState, add, etc.([#2228](https://github.com/felangel/bloc/issues/2228))
+- A API cubit está inchada devido às APIs de bloc subjacentes, como mapEventToState, add, etc.([#2228](https://github.com/mit-73/bloc/issues/2228))
 - Os desenvolvedores podem invocar tecnicamente essas APIs e quebrar coisas
-- Ainda temos o mesmo problema de cubit expondo toda a API de fluxo de antes ([#1429](https://github.com/felangel/bloc/issues/1429))
+- Ainda temos o mesmo problema de cubit expondo toda a API de fluxo de antes ([#1429](https://github.com/mit-73/bloc/issues/1429))
 
 Para resolver esses problemas, introduzimos uma classe base para `Bloc` e` Cubit` chamada `BlocBase` para que os componentes upstream ainda possam interoperar com instâncias de bloc e cubit, mas sem expor toda a API` Stream` e `EventSink` diretamente.
 
@@ -251,7 +251,7 @@ when(() => bloc.state).thenReturn(MyState());
 verify(() => bloc.add(any())).called(1);
 ```
 
-> Por favor, consulte [#347](https://github.com/dart-lang/mockito/issues/347) assim como o [mocktail documentation](https://github.com/felangel/mocktail/tree/main/packages/mocktail) for more information.
+> Por favor, consulte [#347](https://github.com/dart-lang/mockito/issues/347) assim como o [mocktail documentation](https://github.com/mit-73/mocktail/tree/main/packages/mocktail) for more information.
 
 ### package:flutter_bloc
 
@@ -342,7 +342,7 @@ API com a qual muitos desenvolvedores estão familiarizados e para resolver prob
 
 **context.watch**
 
-`context.watch` aborda a solicitação para ter um [MultiBlocBuilder](https://github.com/felangel/bloc/issues/538) porque podemos assistir a vários blocos dentro de um único `Builder`, a fim de renderizar a IU com base em vários estados:
+`context.watch` aborda a solicitação para ter um [MultiBlocBuilder](https://github.com/mit-73/bloc/issues/538) porque podemos assistir a vários blocos dentro de um único `Builder`, a fim de renderizar a IU com base em vários estados:
 
 ```dart
 Builder(
@@ -358,7 +358,7 @@ Builder(
 
 **context.select**
 
-`context.select` permite que os desenvolvedores renderizem / atualizem a IU com base em uma parte de um estado de bloc e endereça a solicitação para ter um [simpler buildWhen](https://github.com/felangel/bloc/issues/1521).
+`context.select` permite que os desenvolvedores renderizem / atualizem a IU com base em uma parte de um estado de bloc e endereça a solicitação para ter um [simpler buildWhen](https://github.com/mit-73/bloc/issues/1521).
 
 ```dart
 final name = context.select((UserBloc bloc) => bloc.state.user.name);
@@ -787,7 +787,7 @@ class CounterBloc extends Bloc<CounterEvent, int> {
 }
 ```
 
-?> Para mais informações confira [#1304](https://github.com/felangel/bloc/issues/1304)
+?> Para mais informações confira [#1304](https://github.com/mit-73/bloc/issues/1304)
 
 #### ❗BlocDelegate renomeado para BlocObserver
 

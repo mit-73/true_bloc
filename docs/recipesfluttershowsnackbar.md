@@ -44,4 +44,4 @@ Now let's take a look at how to hook up our `DataBloc` to a widget and show a `S
 
 !> We should **NEVER** "do things" in response to state changes in the `builder` method of `BlocBuilder` because that method can be called many times by the Flutter framework. The `builder` method should be a [pure function](https://en.wikipedia.org/wiki/Pure_function) that just returns a widget in response to the state of the bloc.
 
-The full source for this recipe can be found [here](https://gist.github.com/felangel/1e5b2c25b263ad1aa7bbed75d8c76c44).
+The full source for this recipe can be found [here](https://gist.github.com/mit-73/1e5b2c25b263ad1aa7bbed75d8c76c44).

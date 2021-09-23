@@ -1,6 +1,6 @@
 # Guía de migración
 
-?> **Sugerencia**: Consulte el [registro de versiones](https://github.com/felangel/bloc/releases) para obtener más información sobre los cambios en cada versión.
+?> **Sugerencia**: Consulte el [registro de versiones](https://github.com/mit-73/bloc/releases) para obtener más información sobre los cambios en cada versión.
 
 ## v6.1.0
 
@@ -14,7 +14,7 @@
 
 **context.watch**
 
-`context.watch` aborda la solicitud de tener un [MultiBlocBuilder](https://github.com/felangel/bloc/issues/538) porque podemos ver varios blocs dentro de un solo `Builder` para representar la interfaz de usuario basada en múltiples estados:
+`context.watch` aborda la solicitud de tener un [MultiBlocBuilder](https://github.com/mit-73/bloc/issues/538) porque podemos ver varios blocs dentro de un solo `Builder` para representar la interfaz de usuario basada en múltiples estados:
 
 ```dart
 Builder(
@@ -29,7 +29,7 @@ Builder(
 
 **context.select**
 
-`context.select` permite a los desarrolladores renderizar/actualizar la interfaz de usuario en función de una parte de un estado de bloc y responde a la solicitud de tener un [buildWhen más simple](https://github.com/felangel/bloc/issues/1521).
+`context.select` permite a los desarrolladores renderizar/actualizar la interfaz de usuario en función de una parte de un estado de bloc y responde a la solicitud de tener un [buildWhen más simple](https://github.com/mit-73/bloc/issues/1521).
 
 ```dart
 final name = context.select((UserBloc bloc) => bloc.state.user.name);
@@ -459,7 +459,7 @@ class CounterBloc extends Bloc<CounterEvent, int> {
 }
 ```
 
-?> Para obtener más información, consulte [#1304](https://github.com/felangel/bloc/issues/1304)
+?> Para obtener más información, consulte [#1304](https://github.com/mit-73/bloc/issues/1304)
 
 ### BlocDelegate renombrado a BlocObserver
 

@@ -189,7 +189,7 @@
 
 # 4.0.1
 
-- Fix `ProviderNotFoundException` handling ([#1286](https://github.com/felangel/bloc/pull/1286))
+- Fix `ProviderNotFoundException` handling ([#1286](https://github.com/mit-73/bloc/pull/1286))
 
 # 4.0.0
 
@@ -214,23 +214,23 @@
 
 # 3.2.0
 
-- Fix type inference for: `MultiBlocProvider`, `MultiRepositoryProvider`, `MultiBlocListener` ([#773](https://github.com/felangel/bloc/pull/773))
-- Fix swallowed exceptions within `BlocProvider` and `RepositoryProvider` ([#807](https://github.com/felangel/bloc/issues/807))
-- Add `BlocProviderExtension` and `RepositoryProviderExtension` on `BuildContext` ([#608](https://github.com/felangel/bloc/issues/608))
+- Fix type inference for: `MultiBlocProvider`, `MultiRepositoryProvider`, `MultiBlocListener` ([#773](https://github.com/mit-73/bloc/pull/773))
+- Fix swallowed exceptions within `BlocProvider` and `RepositoryProvider` ([#807](https://github.com/mit-73/bloc/issues/807))
+- Add `BlocProviderExtension` and `RepositoryProviderExtension` on `BuildContext` ([#608](https://github.com/mit-73/bloc/issues/608))
 
 # 3.1.0
 
-- Expose lazy parameter on `RepositoryProvider` and `BlocProvider` ([#749](https://github.com/felangel/bloc/pull/749))
-- Updated to `provider: ^4.0.1` ([#748](https://github.com/felangel/bloc/issues/748))
-- Add `BlocConsumer` ([#545](https://github.com/felangel/bloc/issues/545))
+- Expose lazy parameter on `RepositoryProvider` and `BlocProvider` ([#749](https://github.com/mit-73/bloc/pull/749))
+- Updated to `provider: ^4.0.1` ([#748](https://github.com/mit-73/bloc/issues/748))
+- Add `BlocConsumer` ([#545](https://github.com/mit-73/bloc/issues/545))
 - Export `bloc` as part of `flutter_bloc`
 
 # 3.0.0
 
-- Updated to `bloc: ^3.0.0` ([#700](https://github.com/felangel/bloc/pull/700))
-- Updated to `flutter >=1.12.1` ([#700](https://github.com/felangel/bloc/pull/700))
-- Updated to `provider: ^4.0.0` ([#700](https://github.com/felangel/bloc/pull/700), [#734](https://github.com/felangel/bloc/pull/734))
-- Revert `BlocBuilder` and `BlocListener` condition behavior to set `previousState` to the previous bloc state ([#709](https://github.com/felangel/bloc/issues/709))
+- Updated to `bloc: ^3.0.0` ([#700](https://github.com/mit-73/bloc/pull/700))
+- Updated to `flutter >=1.12.1` ([#700](https://github.com/mit-73/bloc/pull/700))
+- Updated to `provider: ^4.0.0` ([#700](https://github.com/mit-73/bloc/pull/700), [#734](https://github.com/mit-73/bloc/pull/734))
+- Revert `BlocBuilder` and `BlocListener` condition behavior to set `previousState` to the previous bloc state ([#709](https://github.com/mit-73/bloc/issues/709))
 
 # 3.0.0-dev.1
 
@@ -254,7 +254,7 @@
 # 2.0.0
 
 - Updated to `bloc: ^2.0.0` and Documentation Updates
-- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/felangel/bloc/issues/561))
+- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/mit-73/bloc/issues/561))
 
 # 1.0.0
 
@@ -279,17 +279,17 @@ Updated to `bloc: ^0.15.0` and Documentation Updates
 
 # 0.20.0
 
-- Add Automatic Bloc Lookup to `BlocBuilder` and `BlocListener` ([#415](https://github.com/felangel/bloc/pull/415))
-- Support for `BlocProvider` instantiation and look-up within the same `BuildContext` ([#415](https://github.com/felangel/bloc/pull/415))
+- Add Automatic Bloc Lookup to `BlocBuilder` and `BlocListener` ([#415](https://github.com/mit-73/bloc/pull/415))
+- Support for `BlocProvider` instantiation and look-up within the same `BuildContext` ([#415](https://github.com/mit-73/bloc/pull/415))
 - Documentation Updates
 
 # 0.19.1
 
-Add optional `condition` to `BlocListener` to control listener calls ([#406](https://github.com/felangel/bloc/pull/406)) and Documentation Updates
+Add optional `condition` to `BlocListener` to control listener calls ([#406](https://github.com/mit-73/bloc/pull/406)) and Documentation Updates
 
 # 0.19.0
 
-Addresses [#354](https://github.com/felangel/bloc/issues/354)
+Addresses [#354](https://github.com/mit-73/bloc/issues/354)
 
 #### BlocProvider
 
@@ -312,11 +312,11 @@ Addresses [#354](https://github.com/felangel/bloc/issues/354)
 
 # 0.18.3
 
-Fix `BlocProvider` bug where `copyWith` does not preserve `dispose` value ([#376](https://github.com/felangel/bloc/issues/376)).
+Fix `BlocProvider` bug where `copyWith` does not preserve `dispose` value ([#376](https://github.com/mit-73/bloc/issues/376)).
 
 # 0.18.2
 
-Fix `BlocListener` bug where `listener` gets called even when no state change occurs ([#368](https://github.com/felangel/bloc/issues/368)).
+Fix `BlocListener` bug where `listener` gets called even when no state change occurs ([#368](https://github.com/mit-73/bloc/issues/368)).
 
 # 0.18.1
 
@@ -324,23 +324,23 @@ Minor Documentation Updates
 
 # 0.18.0
 
-Expose `ImmutableProvider` & `ImmutableProviderTree` to enable developers to provide immutable values, such as repositories, throughout the widget tree ([#364](https://github.com/felangel/bloc/pull/364)) and Documentation Updates
+Expose `ImmutableProvider` & `ImmutableProviderTree` to enable developers to provide immutable values, such as repositories, throughout the widget tree ([#364](https://github.com/mit-73/bloc/pull/364)) and Documentation Updates
 
 # 0.17.0
 
-Update `BlocProvider` to automatically `dispose` the provided bloc ([#349](https://github.com/felangel/bloc/pull/349)) and Documentation Updates
+Update `BlocProvider` to automatically `dispose` the provided bloc ([#349](https://github.com/mit-73/bloc/pull/349)) and Documentation Updates
 
 # 0.16.0
 
-Update `BlocProvider` to expose `builder` and `dispose` ([#344](https://github.com/felangel/bloc/pull/344) and [#347](https://github.com/felangel/bloc/pull/347)) and Documentation Updates
+Update `BlocProvider` to expose `builder` and `dispose` ([#344](https://github.com/mit-73/bloc/pull/344) and [#347](https://github.com/mit-73/bloc/pull/347)) and Documentation Updates
 
 # 0.15.1
 
-Fix `null` initial `previousState` in `BlocBuilder` `condition` ([#328](https://github.com/felangel/bloc/issues/328)) and Documentation Updates
+Fix `null` initial `previousState` in `BlocBuilder` `condition` ([#328](https://github.com/mit-73/bloc/issues/328)) and Documentation Updates
 
 # 0.15.0
 
-Added optional `condition` to `BlocBuilder` to control widget rebuilds ([#315](https://github.com/felangel/bloc/issues/315)) and Documentation Updates
+Added optional `condition` to `BlocBuilder` to control widget rebuilds ([#315](https://github.com/mit-73/bloc/issues/315)) and Documentation Updates
 
 # 0.14.0
 

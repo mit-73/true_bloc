@@ -76,4 +76,4 @@ That's it! We've separated our presentation layer from our business logic layer.
 
 We can run our app with `webdev serve` and can view it [locally](http://localhost:8080).
 
-The full source for this example can be found [here](https://github.com/felangel/Bloc/tree/master/examples/angular_counter).
+The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter).

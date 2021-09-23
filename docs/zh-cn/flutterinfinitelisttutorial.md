@@ -187,4 +187,4 @@
 
 `HomePage(主页面)`完全不知道`Post`从哪里来, 也完全不知道`Post`的数据是怎么加载到的. `PostBloc`也同样不知道`State(状态)`是怎么被渲染到屏幕的, 他只是很简单的把`Event(事件)`转化成`State(事件)`
 
-在[这里](https://github.com/felangel/Bloc/tree/master/examples/flutter_infinite_list)你可以找到这个例子的完整代码
+在[这里](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list)你可以找到这个例子的完整代码

@@ -74,4 +74,4 @@
 
 Мы можем запустить приложение с `webdev serve` и просматривать его локально [по ссылке](http://localhost:8080).
 
-Полные исходные тексты этого примера можно найти [здесь](https://github.com/felangel/Bloc/tree/master/examples/angular_counter).
+Полные исходные тексты этого примера можно найти [здесь](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter).

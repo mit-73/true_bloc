@@ -6,7 +6,7 @@
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-The only things we're going to be refactoring in our existing [todos example](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos) are the repository layer and parts of the bloc layer.
+The only things we're going to be refactoring in our existing [todos example](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) are the repository layer and parts of the bloc layer.
 
 We'll start off in the repository layer with the `TodosRepository`.
 
@@ -176,4 +176,4 @@ The main differences to note are the fact that we've wrapped our entire applicat
 
 That’s all there is to it! We’ve now successfully implemented a firestore todos app in flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic while also building an app that updates in real-time.
 
-The full source for this example can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_firestore_todos).
+The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).

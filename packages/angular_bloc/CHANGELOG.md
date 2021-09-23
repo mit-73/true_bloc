@@ -90,7 +90,7 @@
 # 2.0.0
 
 - Update to `bloc: ^2.0.0` and Documentation Updates
-- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/felangel/bloc/issues/561))
+- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/mit-73/bloc/issues/561))
 
 # 1.0.0
 

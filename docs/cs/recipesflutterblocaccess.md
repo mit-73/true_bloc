@@ -42,7 +42,7 @@ Widget `CounterPage` je `StatelessWidget`, který přistupuje k `CounterBlocu` p
 
 Náš `CounterText` widget používá `BlocBuilder` k opětovnému renderování sebe sama kdykoli se stav `CounterBlocu` změní. Abychom mohli přistoupit k poskytovanému `CounterBlocu`, používáme `BlocProvider.of<CounterBloc>(context)` a vracíme `Text` widget s aktuálním číslem.
 
-To je vše k lokálnímu přístupu blocu tohoto receptu. Celý zdrojový kód najdete [zde](https://gist.github.com/felangel/20b03abfef694c00038a4ffbcc788c35).
+To je vše k lokálnímu přístupu blocu tohoto receptu. Celý zdrojový kód najdete [zde](https://gist.github.com/mit-73/20b03abfef694c00038a4ffbcc788c35).
 
 Jako další si ukážeme, jak poskytovat bloc napříč vícero stránkami/routami.
 
@@ -86,7 +86,7 @@ Když uživatel klepne na `ElevatedButton`, přidáme novou `MaterialPageRoute` 
 
 `CounterPage` je super jednoduchý `StatelessWidget`, který používá `BlocBuilder` k překreslení `Text` widgetu s aktuálním číslem. Stejně jako předtím, můžeme použít `BlocProvider.of<CounterBloc>(context)` abychom přistoupili k `CounterBloc`.
 
-To je vše k tomuto příkladu. Celý zdrojový kód najdete [zde](https://gist.github.com/felangel/92b256270c5567210285526a07b4cf21).
+To je vše k tomuto příkladu. Celý zdrojový kód najdete [zde](https://gist.github.com/mit-73/92b256270c5567210285526a07b4cf21).
 
 Nakonec se podíváme na to, jak globálně zpřístupnit bloc stromu widgetů.
 
@@ -130,4 +130,4 @@ Naše `CounterPage` je `StatelessWidget`, protože nepotřebuje spravovat svůj 
 
 Nic nového, `CounterText` widget je ten samý jako v naší první ukázce. Je to jen `StatelessWidget`, který používá `BlocBuilder` k překreslení když se stav `CounterBloc` změní a přistupuje k globální instanci `CounterBloc` pomocí `BlocProvider.of<CounterBloc>(context)`.
 
-To je vše. Celý zdrojový kód můžete najít [zde](https://gist.github.com/felangel/be891e73a7c91cdec9e7d5f035a61d5d).
+To je vše. Celý zdrojový kód můžete najít [zde](https://gist.github.com/mit-73/be891e73a7c91cdec9e7d5f035a61d5d).

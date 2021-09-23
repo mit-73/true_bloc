@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,23 +16,23 @@
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## 总览
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 本库的目的是用来轻松实现将逻辑层从展示层中分离，促进其可测试性和复用性。
 
 ## 文档
 
 - [官方文档](https://bloclibrary.dev)
-- [Bloc Package 的文档](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Package 的文档](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Package 的文档](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Flutter Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Package 的文档](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
 
 ## 版本迁移
 
@@ -81,32 +81,32 @@
 
 ### Dart
 
-- [计数器](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - 一个制作计数器的示例 (纯 dart).
+- [计数器](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - 一个制作计数器的示例 (纯 dart).
 
 ### Flutter
 
 - [计数器](https://bloclibrary.dev/#/fluttercountertutorial) - 使用 Flutter 制作一个 经典`计数器Bloc` 的示例
-- [表单验证（Form Validation)](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - 如何使用 `bloc`和`flutter_bloc`的包来实现表单验证的示例
-- [Bloc 和 Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - 如何将 `bloc`和`stream`相互关联并且实时更新界面，这里使用的数据是来自 `Stream`的
+- [表单验证（Form Validation)](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - 如何使用 `bloc`和`flutter_bloc`的包来实现表单验证的示例
+- [Bloc 和 Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - 如何将 `bloc`和`stream`相互关联并且实时更新界面，这里使用的数据是来自 `Stream`的
 - [无限列表](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现一个无限可滚动的列表的示例
 - [登陆流程](https://bloclibrary.dev/#/flutterlogintutorial) - 一个使用`bloc`和`flutter_bloc`的包来实现的登陆流程的示例
 - [使用 Firebase 实现登陆](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - 如何使用`bloc`和`flutter_bloc`的包来实现通过 Firebase 登陆的示例
 - [Github 搜索](https://bloclibrary.dev/#/flutterangulargithubsearch) - 如何使用`bloc`和`flutter_bloc`的包来制作一个 Github 搜索程序的示例
 - [天气预报](https://bloclibrary.dev/#/flutterweathertutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个天气预报的程序， 这个程序使用了`RefreshIndicator`从而实现了“下拉更新”，同时还有动态主题展示。
 - [备忘录](https://bloclibrary.dev/#/fluttertodostutorial) - 如何使用`bloc`和`flutter_bloc`的包来制作一个备忘录程序的示例
-- [计时器](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - 如何使用`bloc`和`flutter_bloc`的包来制作一个计时器的示例
+- [计时器](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - 如何使用`bloc`和`flutter_bloc`的包来制作一个计时器的示例
 - [使用 Firebase 制作备忘录](https://bloclibrary.dev/#/flutterfirestoretodostutorial) - 如何使用`bloc`和`flutter_bloc`的包并整合 Firebase 来制作一个备忘录程序的示例
-- [购物车](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - 如何使用 `bloc` 和 `flutter_bloc`的包来制作一个购物车的示例 - 可参考(https://github.com/flutter/samples/tree/master/provider_shopper)
-- [动态表单（Dynamic Form )](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - 如何使用`bloc`和`flutter_bloc`的包来实现动态表单从而使得表单中的数据来自于一个存储库
+- [购物车](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - 如何使用 `bloc` 和 `flutter_bloc`的包来制作一个购物车的示例 - 可参考(https://github.com/flutter/samples/tree/master/provider_shopper)
+- [动态表单（Dynamic Form )](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - 如何使用`bloc`和`flutter_bloc`的包来实现动态表单从而使得表单中的数据来自于一个存储库
 
 ### Web
 
-- [计数器](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - 在一个 `AngularDart`的程序中如何使用 `CounterBloc`
-- [Github 搜索](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - 如何使用 `bloc` 和 `angular_bloc` 的包来实现一个 Github 搜索的程序
+- [计数器](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - 在一个 `AngularDart`的程序中如何使用 `CounterBloc`
+- [Github 搜索](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - 如何使用 `bloc` 和 `angular_bloc` 的包来实现一个 Github 搜索的程序
 
 ### Flutter + Web
 
-- [Github 搜索](https://github.com/felangel/Bloc/tree/master/examples/github_search) - 如何创建一个 Github 搜索的程序并且将其代码分享于 Flutter 和 AngularDart 之间
+- [Github 搜索](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - 如何创建一个 Github 搜索的程序并且将其代码分享于 Flutter 和 AngularDart 之间
 
 ## 文章
 
@@ -130,17 +130,9 @@
 
 通过以下链接，了解更多关于社区的贡献
 
-### 包
-
-- [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc) - 对`bloc`状态管理库的扩展，该库可以自动保存并恢复`bloc`的状态,作者：[Felix Angelov](https://github.com/felangel).
-- [Bloc.js](https://github.com/felangel/bloc.js) - `bloc`状态管理库的一部分，从 Dart 到 JavaScript，作者：[Felix Angelov](https://github.com/felangel)
-- [Bloc Code Generator](https://pub.dev/packages/bloc_code_generator) - 一个代码生成工具将使用`bloc`变得更加简单，作者：[Adson Leal](https://github.com/adsonpleal).
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - 一个网页，移动端`Firebase`身份验证的插件,作者：[Rody Davis](https://github.com/AppleEducate).
-- [Form Bloc](https://pub.dev/packages/form_bloc) - 一个简单的方式在`bloc`的模式下创建表单，这样将避免大量的样板代码,作者：[Giancarlo](https://github.com/GiancarloCode).
-
 ### 视屏教程
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - [Felix Angelov](https://github.com/felangel)在 [Flutter Europe](https://fluttereurope.dev) 上关于基础 Bloc 库的讲座.
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - [Felix Angelov](https://github.com/mit-73)在 [Flutter Europe](https://fluttereurope.dev) 上关于基础 Bloc 库的讲座.
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) -
   Bloc 库的教程, 作者： [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - 如何使用 Bloc 和 flutter_bloc 软件包构建与 API 交互的 Youtube Search 应用, 作者： [Reso Coder](https://resocoder.com).
@@ -158,8 +150,8 @@
 
 ## 维护者
 
-- [Felix Angelov](https://github.com/felangel)
+- [Felix Angelov](https://github.com/mit-73)
 
 ## 赞助商
 
-[<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)
+[<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)

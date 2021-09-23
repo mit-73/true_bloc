@@ -24,7 +24,7 @@ Next, we'll create the scaffold for the `common_github_search` library.
 
 We need to create a `pubspec.yaml` with the required dependencies.
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/common_github_search/pubspec.yaml ':include')
 
 Lastly, we need to install our dependencies.
 
@@ -147,7 +147,7 @@ Create `github_search_bloc.dart`
 ?> **Note:** We override `onTransition` so that we can log any time a state change occurs.
 
 Awesome! We're all done with our `common_github_search` package.
-The finished product should look like [this](https://github.com/felangel/Bloc/tree/master/examples/github_search/common_github_search).
+The finished product should look like [this](https://github.com/mit-73/Bloc/tree/master/examples/github_search/common_github_search).
 
 Next, we'll work on the Flutter implementation.
 
@@ -163,7 +163,7 @@ We need to start by creating a new Flutter project in our `github_search` direct
 
 Next, we need to update our `pubspec.yaml` to include all the necessary dependencies.
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/flutter_github_search/pubspec.yaml ':include')
 
 ?> **Note:** We are including our newly created `common_github_search` library as a dependency.
 
@@ -240,7 +240,7 @@ Now all that's left to do is implement our main app in `main.dart`.
 
 That’s all there is to it! We’ve now successfully implemented a github search app in Flutter using the [bloc](https://pub.dev/packages/bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
 
-The full source can be found [here](https://github.com/felangel/Bloc/tree/master/examples/github_search/flutter_github_search).
+The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search/flutter_github_search).
 
 Finally, we're going to build our AngularDart Github Search app.
 
@@ -258,7 +258,7 @@ We need to start by creating a new AngularDart project in our github_search dire
 
 We can then go ahead and replace the contents of `pubspec.yaml` with:
 
-[pubspec.yaml](https://raw.githubusercontent.com/felangel/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
+[pubspec.yaml](https://raw.githubusercontent.com/mit-73/bloc/master/examples/github_search/angular_github_search/pubspec.yaml ':include')
 
 ### Search Form
 
@@ -353,7 +353,7 @@ We have all of our components and now it's time to put them all together in our 
 
 That’s all there is to it! We’ve now successfully implemented a github search app in AngularDart using the `bloc` and `angular_bloc` packages and we’ve successfully separated our presentation layer from our business logic.
 
-The full source can be found [here](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search).
+The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search).
 
 ## Summary
 
@@ -361,4 +361,4 @@ In this tutorial we created a Flutter and AngularDart app while sharing all of t
 
 The only thing we actually had to write twice was the presentation layer (UI) which is awesome in terms of efficiency and development speed. In addition, it's fairly common for web apps and mobile apps to have different user experiences and styles and this approach really demonstrates how easy it is to build two apps that look totally different but share the same data and business logic layers.
 
-The full source can be found [here](https://github.com/felangel/Bloc/tree/master/examples/github_search).
+The full source can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/github_search).

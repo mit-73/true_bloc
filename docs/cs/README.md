@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,14 +16,14 @@ Prediktivní knihovna pro state management, která pomáhá implementovat [návr
 
 | Balíček                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## Přehled
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Architektura Blocu" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Architektura Blocu" />
 
 Cílem této knihovne je umožnit jednoduše rozdělit _prezenční_ a _logickou_ část, usnadňující testování a opětovné použití.
 
@@ -32,9 +32,9 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 ## Dokumentace
 
 - [Officiální dokumentace](https://bloclibrary.dev/#/cs/)
-- [Balíček Bloc](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Balíček Flutter Bloc](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Balíček Angular Bloc](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Balíček Bloc](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Balíček Flutter Bloc](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Balíček Angular Bloc](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migrace
 
@@ -83,31 +83,31 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 
 ### Dart
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - ukázka jak vytvořit `CounterBloc` (v čistém Dartu).
+- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - ukázka jak vytvořit `CounterBloc` (v čistém Dartu).
 
 ### Flutter
 
 - [Počítadlo](https://bloclibrary.dev/#/cs/fluttercountertutorial) - ukázka jak vytvořit `CounterBloc` k implementaci klasické Flutter aplikace počítadla.
-- [Validace formuláře](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - ukázka jak použít balíčky `bloc` a `flutter_bloc` pro implementaci validaci formulářů.
-- [Bloc se Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - ukázka jak propojit `bloc` se `Streamem` a překreslit UI v reakci na data ze `Stream`.
+- [Validace formuláře](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - ukázka jak použít balíčky `bloc` a `flutter_bloc` pro implementaci validaci formulářů.
+- [Bloc se Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - ukázka jak propojit `bloc` se `Streamem` a překreslit UI v reakci na data ze `Stream`.
 - [Nekonečný List](https://bloclibrary.dev/#/cs/flutterinfinitelisttutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci nekonečného skrolovacího listu.
 - [Přihlašování](https://bloclibrary.dev/#/cs/flutterlogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování.
 - [Firebase přihlášování](https://bloclibrary.dev/#/cs/flutterfirebaselogintutorial) - ukázka jak použít balíčky `bloc` a `flutter_bloc` k implementaci přihlašování pomocí Firebase.
 - [Github vyhledávání](https://bloclibrary.dev/#/cs/flutterangulargithubsearch) - ukázka jak vytvořit aplikaci na Github vyhledávání použitím balíčků `bloc` a `flutter_bloc`.
 - [Počasí](https://bloclibrary.dev/#/cs/flutterweathertutorial) - ukázka jak vytvořit aplikaci počasí použitím balíčků `bloc` a `flutter_bloc`. Aplikace používá `RefreshIndicator` k implementaci "zatáhnout pro obnovení" a také dynamické motivy.
 - [Plánovač](https://bloclibrary.dev/#/cs/fluttertodostutorial) - ukázka jak vytvořit aplikaci plánování použitím balíčků `bloc` a `flutter_bloc`.
-- [Časovač](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - ukázka jak vytvořit časovač použitím balíčků `bloc` a `flutter_bloc`.
+- [Časovač](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - ukázka jak vytvořit časovač použitím balíčků `bloc` a `flutter_bloc`.
 - [Firestore plánovač](https://bloclibrary.dev/#/cs/flutterfirestoretodostutorial) - ukázka jak vytvořit aplikaci plánovaní použitím balíčků `bloc` a `flutter_bloc`, s využitím Cloud Firestore.
-- [Nákupní košík](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - ukázka jak vytvořit aplikaci nákupního košíku použitím balíčků `bloc` a `flutter_bloc` založených na [flutter ukázkách](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Nákupní košík](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - ukázka jak vytvořit aplikaci nákupního košíku použitím balíčků `bloc` a `flutter_bloc` založených na [flutter ukázkách](https://github.com/flutter/samples/tree/master/provider_shopper).
 
 ### Web
 
-- [Počítadlo](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - ukázka jak použít `CounterBloc` v AngularDart aplikaci.
-- [Github vyhledávání](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání použitím balíčků `bloc` a `angular_bloc`.
+- [Počítadlo](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - ukázka jak použít `CounterBloc` v AngularDart aplikaci.
+- [Github vyhledávání](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání použitím balíčků `bloc` a `angular_bloc`.
 
 ### Flutter + Web
 
-- [Github vyhledávání](https://github.com/felangel/Bloc/tree/master/examples/github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání se sdílením kódu mezi Flutterem a AngularDartem.
+- [Github vyhledávání](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - ukázka jak vytvořit aplikaci na GitHub vyhledávání se sdílením kódu mezi Flutterem a AngularDartem.
 
 ## Články (anglicky)
 
@@ -121,7 +121,7 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 - [firebase login tutorial with flutter_bloc](https://medium.com/flutter-community/firebase-login-with-flutter-bloc-47455e6047b0) - Jak vytvořit plně funkční přihlašování a registraci pomocí balíčků bloc a flutter_bloc s Firebase Authentication and Google Sign In.
 - [flutter timer tutorial with flutter_bloc](https://medium.com/flutter-community/flutter-timer-with-flutter-bloc-a464e8332ceb) - Jak vytvořit aplikaci časovače pomocí balíčků bloc a flutter_bloc.
 - [firestore todos tutorial with flutter_bloc](https://medium.com/flutter-community/firestore-todos-with-flutter-bloc-7b2d5fadcc80) - Jak vytvořit aplikaci plánovače s použitím balíčků bloc and flutter_bloc, které integruje s cloud firestore.
-- [Dynamický formulář](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - Jak použít balíčky `bloc` a `flutter_bloc` k implementaci dynamického formuláře, který stahuje data z repozitáře.
+- [Dynamický formulář](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - Jak použít balíčky `bloc` a `flutter_bloc` k implementaci dynamického formuláře, který stahuje data z repozitáře.
 
 ## Rozšíření
 
@@ -132,17 +132,9 @@ V rámci této dokumentace se budeme držet originálního názvu `Bloc` (čti _
 
 Více se dozvíte na následujících odkazech, které vytvořila komunita.
 
-### Balíčky
-
-- [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc) - Rozšíření knihovny `bloc` pro state management, které automaticky uchovává a obnovuje `bloc` stavy, od [Felix Angelov](https://github.com/felangel).
-- [Bloc.js](https://github.com/felangel/bloc.js) - Port knihovny `bloc` pro state management z Dartu do JavaScriptu, od [Felix Angelov](https://github.com/felangel).
-- [Bloc Code Generator](https://pub.dev/packages/bloc_code_generator) - Generátor kódu, který činí práci s bloky jednoduší, od [Adson Leal](https://github.com/adsonpleal).
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - Firebase plugin pro weby a mobily, od [Rody Davis](https://github.com/AppleEducate).
-- [Form Bloc](https://pub.dev/packages/form_bloc) - Jednoduchý způsob vytváření formulářů s použitím BLoCu a bez psaní velkého množství zbytečného kódu, od [Giancarlo](https://github.com/GiancarloCode).
-
 ### Video tutoriály (anglicky)
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [Felix Angelov](https://github.com/felangel).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [MiT](https://github.com/mit-73).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=LeLrsnHeCZY) - Úvod do knihovny Bloc, od [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - Jak vytvořit aplikaci na Youtube vyhledávání, která interaguje s API s použitím balíčků bloc a flutter_bloc, od [Reso Coder](https://resocoder.com).
 - [Bloc Library (Updated) – Painless State Management for Flutter](https://www.youtube.com/watch?v=nQMfaQeCL6M) - Aktualizovaný tutoriál na knihovnu Bloc, od [Reso Coder](https://resocoder.com).
@@ -160,4 +152,4 @@ Více se dozvíte na následujících odkazech, které vytvořila komunita.
 
 ## Správci
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)

@@ -472,4 +472,4 @@ Todo o `main.dart` deve ficar assim:
 
 Isso é tudo! Agora, implementamos com sucesso um aplicativo de Todos no flutter usando os pacotes [bloc](https://pub.dev/packages/bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
 
-O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos).
+O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos).

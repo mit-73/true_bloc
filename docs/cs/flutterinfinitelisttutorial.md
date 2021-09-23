@@ -183,4 +183,4 @@ That’s all there is to it! We’ve now successfully implemented an infinite li
 
 Our `HomePage` has no idea where the `Posts` are coming from or how they are being retrieved. Conversely, our `PostBloc` has no idea how the `State` is being rendered, it simply converts events into states.
 
-The full source for this example can be found [here](https://github.com/felangel/Bloc/tree/master/examples/flutter_infinite_list).
+The full source for this example can be found [here](https://github.com/mit-73/Bloc/tree/master/examples/flutter_infinite_list).

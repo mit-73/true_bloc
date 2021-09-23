@@ -121,11 +121,11 @@
 
 # 5.0.0
 
-- **BREAKING**: remove `initialState` override in favor of providing the initial state via super ([#1304](https://github.com/felangel/bloc/issues/1304)).
+- **BREAKING**: remove `initialState` override in favor of providing the initial state via super ([#1304](https://github.com/mit-73/bloc/issues/1304)).
 - **BREAKING**: Remove `BlocSupervisor` and rename `BlocDelegate` to `BlocObserver`.
-- feat: support `null` states ([#1312](https://github.com/felangel/bloc/issues/1312)).
+- feat: support `null` states ([#1312](https://github.com/mit-73/bloc/issues/1312)).
 - refactor: bloc to extend [cubit](https://pub.dev/packages/cubit) rather than `Stream`.
-- feat: ignore newly added events after bloc is closed ([#1236](https://github.com/felangel/bloc/issues/1236)).
+- feat: ignore newly added events after bloc is closed ([#1236](https://github.com/mit-73/bloc/issues/1236)).
 - feat: add `addError` to conform to `EventSink` interface.
 - feat: mark `onError`, `onTransition`, `onEvent` as `protected`.
 - docs: documentation improvements
@@ -150,7 +150,7 @@
 
 # 5.0.0-dev.7
 
-- Ignore newly added events after bloc is closed ([#1236](https://github.com/felangel/bloc/issues/1236)).
+- Ignore newly added events after bloc is closed ([#1236](https://github.com/mit-73/bloc/issues/1236)).
 
 # 5.0.0-dev.6
 
@@ -175,15 +175,15 @@
 
 # 5.0.0-dev.1
 
-- **BREAKING**: remove `initialState` override in favor of providing the initial state via super ([#1304](https://github.com/felangel/bloc/issues/1304)).
-- feat: support `null` states ([#1312](https://github.com/felangel/bloc/issues/1312)).
+- **BREAKING**: remove `initialState` override in favor of providing the initial state via super ([#1304](https://github.com/mit-73/bloc/issues/1304)).
+- feat: support `null` states ([#1312](https://github.com/mit-73/bloc/issues/1312)).
 - refactor: bloc to extend [cubit](https://pub.dev/packages/cubit) rather than `Stream`.
 
 # 4.0.0
 
-- Remove `rxdart` dependency ([#821](https://github.com/felangel/bloc/pull/821))
-- Replace `transformStates` with `transformTransitions` ([#840](https://github.com/felangel/bloc/pull/840))
-- Fix null `stackTrace` in `onError` ([#963](https://github.com/felangel/bloc/pull/963))
+- Remove `rxdart` dependency ([#821](https://github.com/mit-73/bloc/pull/821))
+- Replace `transformStates` with `transformTransitions` ([#840](https://github.com/mit-73/bloc/pull/840))
+- Fix null `stackTrace` in `onError` ([#963](https://github.com/mit-73/bloc/pull/963))
 - Fix remove duplicate terminating state
 - Add `mustCallSuper` to `onEvent`, `onTransition`, and `onError`
 - Surface Unhandled Bloc Errors in Debug Mode
@@ -204,9 +204,9 @@
 
 # 4.0.0-dev.1
 
-- Remove `rxdart` dependency ([#821](https://github.com/felangel/bloc/pull/821))
-- Replace `transformStates` with `transformTransitions` ([#840](https://github.com/felangel/bloc/pull/840))
-- Fix null `stackTrace` in `onError` ([#963](https://github.com/felangel/bloc/pull/963))
+- Remove `rxdart` dependency ([#821](https://github.com/mit-73/bloc/pull/821))
+- Replace `transformStates` with `transformTransitions` ([#840](https://github.com/mit-73/bloc/pull/840))
+- Fix null `stackTrace` in `onError` ([#963](https://github.com/mit-73/bloc/pull/963))
 
 # 3.0.0
 
@@ -219,13 +219,13 @@
 
 # 2.0.0
 
-- Allow blocs to finish processing pending events on `close` ([#639](https://github.com/felangel/bloc/issues/639))
+- Allow blocs to finish processing pending events on `close` ([#639](https://github.com/mit-73/bloc/issues/639))
 - Documentation Updates
 
 # 1.0.1
 
-- Bugfix: Exceptions thrown in `onTransition` are passed to `onError` and should not break bloc functionality ([#641](https://github.com/felangel/bloc/issues/641))
-- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/felangel/bloc/issues/561))
+- Bugfix: Exceptions thrown in `onTransition` are passed to `onError` and should not break bloc functionality ([#641](https://github.com/mit-73/bloc/issues/641))
+- Adhere to [effective dart](https://dart.dev/guides/language/effective-dart) ([#561](https://github.com/mit-73/bloc/issues/561))
 - Documentation and Example Updates
 
 # 1.0.0
@@ -239,19 +239,19 @@
 
 # 0.16.0
 
-- Bloc extends `Stream<State>` ([#558](https://github.com/felangel/bloc/issues/558))
+- Bloc extends `Stream<State>` ([#558](https://github.com/mit-73/bloc/issues/558))
   - `bloc.state.listen` -> `bloc.listen`
   - `bloc.currentState` -> `bloc.state`
-- Bloc implements `Sink<Event>` ([#558](https://github.com/felangel/bloc/issues/558))
+- Bloc implements `Sink<Event>` ([#558](https://github.com/mit-73/bloc/issues/558))
   - `dispatch` deprecated in favor of `add`
   - `dispose` deprecated in favor of `close`
 - Documentation and Example Updates
 
 # 0.15.0
 
-- Removed Bloc `event` Stream ([#326](https://github.com/felangel/bloc/issues/326))
+- Removed Bloc `event` Stream ([#326](https://github.com/mit-73/bloc/issues/326))
 - Renamed `transform` to `transformEvents`
-- Added `transformStates` ([#382](https://github.com/felangel/bloc/issues/382))
+- Added `transformStates` ([#382](https://github.com/mit-73/bloc/issues/382))
 
 # 0.14.4
 
@@ -263,7 +263,7 @@ Dependency and Documentation Updates.
 
 # 0.14.2
 
-- Deprecated Bloc `event` Stream ([#326](https://github.com/felangel/bloc/issues/326))
+- Deprecated Bloc `event` Stream ([#326](https://github.com/mit-73/bloc/issues/326))
 - Documentation Updates
 
 # 0.14.1
@@ -274,17 +274,17 @@ Internal `BlocDelegate` update and Documentation Updates.
 
 `BlocDelegate` initialization improvements and Documentation Updates.
 
-- `BlocSupervisor().delegate = ...` is now `BlocSupervisor.delegate = ...` ([#304](https://github.com/felangel/bloc/issues/304)).
+- `BlocSupervisor().delegate = ...` is now `BlocSupervisor.delegate = ...` ([#304](https://github.com/mit-73/bloc/issues/304)).
 
 # 0.13.0
 
 `Bloc` and `BlocDelegate` Improvements, new Features, and Documentation Updates.
 
-- Improved `dispose` to ignore pending events ([#257](https://github.com/felangel/bloc/issues/257)).
-- Exposed `event` stream on `Bloc` similar to `state` stream to expose a `Stream` of `dispatched` events ([#259](https://github.com/felangel/bloc/issues/259)).
-- Update to use `rxdart` version `^0.22.0` ([#265](https://github.com/felangel/bloc/issues/265)).
-- `BlocDelegate` methods include a reference to the `Bloc` instance ([#259](https://github.com/felangel/bloc/issues/259)).
-- Added `onEvent` to `Bloc` and `BlocDelegate` ([#259](https://github.com/felangel/bloc/issues/259)).
+- Improved `dispose` to ignore pending events ([#257](https://github.com/mit-73/bloc/issues/257)).
+- Exposed `event` stream on `Bloc` similar to `state` stream to expose a `Stream` of `dispatched` events ([#259](https://github.com/mit-73/bloc/issues/259)).
+- Update to use `rxdart` version `^0.22.0` ([#265](https://github.com/mit-73/bloc/issues/265)).
+- `BlocDelegate` methods include a reference to the `Bloc` instance ([#259](https://github.com/mit-73/bloc/issues/259)).
+- Added `onEvent` to `Bloc` and `BlocDelegate` ([#259](https://github.com/mit-73/bloc/issues/259)).
 
 # 0.12.0
 

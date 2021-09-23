@@ -467,4 +467,4 @@ Notre `main.dart` en entier devrait ressmebler à ceci :
 
 C'est tout ce qu'il nous faut! Nous avons réussi à implémenter une todo app dans flutter en utilisant les packages [bloc] https://pub.dev/packages/bloc) et [flutter_bloc](https://pub.dev/packages/flutter_bloc) et nous avons  and we’ve séparés avec succès notre présentation (screens et widgets) de notre business logic.
 
-Le code source en entier est disponible [ici](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos)!
+Le code source en entier est disponible [ici](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos)!

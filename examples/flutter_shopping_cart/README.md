@@ -1,4 +1,4 @@
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
 
 # flutter_shopping_cart
 

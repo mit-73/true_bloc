@@ -1,23 +1,23 @@
 <p align="right">
-<a href="https://flutter.dev/docs/development/packages-and-plugins/favorites"><img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/flutter_favorite.png" width="100" alt="build"></a>
+<a href="https://flutter.dev/docs/development/packages-and-plugins/favorites"><img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/flutter_favorite.png" width="100" alt="build"></a>
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="100" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="100" alt="Bloc" />
 </p>
 
 <p align="center">
 <a href="https://pub.dev/packages/bloc"><img src="https://img.shields.io/pub/v/bloc.svg" alt="Pub"></a>
-<a href="https://github.com/felangel/bloc/actions"><img src="https://github.com/felangel/bloc/workflows/build/badge.svg" alt="build"></a>
-<a href="https://codecov.io/gh/felangel/bloc"><img src="https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg" alt="codecov"></a>
-<a href="https://github.com/felangel/bloc"><img src="https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
+<a href="https://github.com/mit-73/bloc/actions"><img src="https://github.com/mit-73/bloc/workflows/build/badge.svg" alt="build"></a>
+<a href="https://codecov.io/gh/mit-73/bloc"><img src="https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://github.com/mit-73/bloc"><img src="https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
 <a href="https://github.com/tenhobi/effective_dart"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
 <a href="https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx"><img src="https://img.shields.io/badge/flutter-website-deepskyblue.svg" alt="Flutter Website"></a>
 <a href="https://github.com/Solido/awesome-flutter#standard"><img src="https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true" alt="Awesome Flutter"></a>
 <a href="https://fluttersamples.com"><img src="https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true" alt="Flutter Samples"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 <a href="https://discord.gg/bloc"><img src="https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue" alt="Discord"></a>
-<a href="https://github.com/felangel/bloc"><img src="https://tinyurl.com/bloc-library" alt="Bloc Library"></a>
+<a href="https://github.com/mit-73/bloc"><img src="https://tinyurl.com/bloc-library" alt="Bloc Library"></a>
 </p>
 
 ---
@@ -38,16 +38,16 @@ This package is built to work with:
 
 ## Sponsors
 
-Our top sponsors are shown below! [[Become a Sponsor](https://github.com/sponsors/felangel)]
+Our top sponsors are shown below! [[Become a Sponsor](https://github.com/sponsors/mit-73)]
 
 <table>    
     <tbody>
         <tr>
             <td align="center">
-                <a href="https://verygood.ventures"><img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/vgv_logo.png" width="120"/></a>
+                <a href="https://verygood.ventures"><img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/vgv_logo.png" width="120"/></a>
             </td>
             <td align="center">
-                <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/felangel/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/felangel/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank">Try the Flutter Chat Tutorial &nbsp💬</a></span>
+                <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank">Try the Flutter Chat Tutorial &nbsp💬</a></span>
             </td>            
         </tr>
     </tbody>
@@ -63,11 +63,11 @@ This design pattern helps to separate _presentation_ from _business logic_. Foll
 
 ### Cubit
 
-![Cubit Architecture](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/cubit_architecture_full.png)
+![Cubit Architecture](https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/cubit_architecture_full.png)
 
 A `Cubit` is class which extends `BlocBase` and can be extended to manage any type of state. `Cubit` requires an initial state which will be the state before `emit` has been called. The current state of a `cubit` can be accessed via the `state` getter and the state of the `cubit` can be updated by calling `emit` with a new `state`.
 
-![Cubit Flow](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/cubit_flow.png)
+![Cubit Flow](https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/cubit_flow.png)
 
 State changes in cubit begin with predefined function calls which can use the `emit` method to output new states. `onChange` is called right before a state change occurs and contains the current and next state.
 
@@ -172,11 +172,11 @@ void main() {
 
 ### Bloc
 
-![Bloc Architecture](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture_full.png)
+![Bloc Architecture](https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture_full.png)
 
 A `Bloc` is a more advanced class which relies on `events` to trigger `state` changes rather than functions. `Bloc` also extends `BlocBase` which means it has a similar public API as `Cubit`. However, rather than calling a `function` on a `Bloc` and directly emitting a new `state`, `Blocs` receive `events` and convert the incoming `events` into outgoing `states`.
 
-![Bloc Flow](https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_flow.png)
+![Bloc Flow](https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_flow.png)
 
 State changes in bloc begin when events are added which triggers `onEvent`. The events are then funnelled through `transformEvents`. By default, `transformEvents` uses `asyncExpand` to ensure each event is processed in the order it was added but it can be overridden to manipulate the incoming event stream. `mapEventToState` is then invoked with the transformed events and is responsible for yielding states in response to the incoming events. `transitions` are then funnelled through `transformTransitions` which can be overridden to manipulation the outgoing state changes. Lastly, `onTransition` is called just before the state is updated and contains the current state, event, and next state.
 
@@ -336,8 +336,8 @@ void main() {
 
 ## Examples
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - an example of how to create a `CounterBloc` in a pure Dart app.
+- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - an example of how to create a `CounterBloc` in a pure Dart app.
 
 ## Maintainers
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)

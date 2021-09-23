@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,23 +16,23 @@
 
 | Paketlər                                                                           | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## İcmal
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (hesablama və məntiqi hissədən) ayrılmasının, test edilə bilinməsinin və təkrar istifadənin asanlaşdırılmasıdır.
 
 ## Dokumentasiya
 
 - [Rəsmi Dokumentasiya](https://bloclibrary.dev)
-- [Bloc Paketi](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Paketi](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Paketi](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Flutter Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Paketi](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Migrasiya
 
@@ -81,32 +81,32 @@ Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (h
 
 ### Dart
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - `CounterBloc`-un yaradılması ilə bağlı nümunə (sırf dart).
+- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - `CounterBloc`-un yaradılması ilə bağlı nümunə (sırf dart).
 
 ### Flutter
 
 - [Sayğac](https://bloclibrary.dev/#/fluttercountertutorial) - Klassik Flutter Counter tətbiqinin həyəta keçirilməsi üçün `CounterBloc`-un necə yaradılması haqqında nümunə.
-- [Form Təsdiqləmə](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - form təsdiqləməni həyata keçirmək üçün `bloc` və `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
-- [Stream ilə Bloc](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - `bloc`-un `Stream`-ə necə qoşulması və `Stream`-dən gələn məlumata əsasən İstifadəçi İnterfeysinin yenilənməsi haqqında nümunə.
+- [Form Təsdiqləmə](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - form təsdiqləməni həyata keçirmək üçün `bloc` və `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
+- [Stream ilə Bloc](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - `bloc`-un `Stream`-ə necə qoşulması və `Stream`-dən gələn məlumata əsasən İstifadəçi İnterfeysinin yenilənməsi haqqında nümunə.
 - [Sonsuz List](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - sonsuz listin həyatə keçirilməsi üçün `bloc` and `flutter_bloc`-un necə istifadə edilməsi haqqında nümunə.
 - [Login prosesi](https://bloclibrary.dev/#/flutterlogintutorial) - Login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərini necə istifadə etmək haqqında nümunə.
 - [Firebase Login](https://bloclibrary.dev/#/flutterfirebaselogintutorial) - Firebase ilə login prosesini həyata keçirmək üçün `bloc` və `flutter_bloc` paketlərindən necə istifadə etmək haqqında nümunə.
 - [Github-da Axtarış](https://bloclibrary.dev/#/flutterangulargithubsearch) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
 - [Hava](https://bloclibrary.dev/#/flutterweathertutorial) - `bloc` və `flutter_bloc` paketlərini istifadə edərək Hava tətbiqinin yaradılması haqqında nümunə. Tətbiq aşağı sürükləməklə yenilənmə üçün `RefreshIndicator` və dinamik mövzu (theme) dəyişilməsini istifadə edir.
 - [Todo-lar](https://bloclibrary.dev/#/fluttertodostutorial) -`bloc` və `flutter_bloc` paketlərindən istifadə edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
-- [Taymer](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - `bloc` və `flutter_bloc` paketlərindən istifadə edərək Taymerin necə yaradılması haqqında nümunə.
+- [Taymer](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - `bloc` və `flutter_bloc` paketlərindən istifadə edərək Taymerin necə yaradılması haqqında nümunə.
 - [Firestore Todo-lar](https://bloclibrary.dev/#/flutterfirestoretodostutorial) `bloc` və `flutter_bloc` paketlərindən istifadə edərək və onları cloud firestore-a inteqrasiya edərək Todo-lar Tətbiqinin necə yaradılması haqqında nümunə.
-- [Alış-veriş səbəti](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - [flutter nümunələri](https://github.com/flutter/samples/tree/master/provider_shopper) əsasında `bloc` və `flutter_bloc` paketlərini istifadə edərək Alış-Veriş Səbəti tətbiqinin necə yaradılması haqqında nümunə.
-- [Dinamik Form](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - `bloc` və `flutter_bloc` paketlərini istifadə edərək repository-dən məlumatı əldə edən dinamik formun həyata keçirilməsi haqqında nümunə.
+- [Alış-veriş səbəti](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - [flutter nümunələri](https://github.com/flutter/samples/tree/master/provider_shopper) əsasında `bloc` və `flutter_bloc` paketlərini istifadə edərək Alış-Veriş Səbəti tətbiqinin necə yaradılması haqqında nümunə.
+- [Dinamik Form](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - `bloc` və `flutter_bloc` paketlərini istifadə edərək repository-dən məlumatı əldə edən dinamik formun həyata keçirilməsi haqqında nümunə.
 
 ### Veb
 
-- [Sayğac](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - `CounterBloc`un AngularDart tətbiqində necə istifadə olunması haqqında nümunə.
-- [Github-da Axtarış](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - `bloc` və `angular_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
+- [Sayğac](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - `CounterBloc`un AngularDart tətbiqində necə istifadə olunması haqqında nümunə.
+- [Github-da Axtarış](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - `bloc` və `angular_bloc` paketlərini istifadə edərək Github-da Axtarış Tətbiqinin necə yaradılması haqqında nümunə.
 
 ### Flutter + Veb
 
-- [Github-da Axtarış](https://github.com/felangel/Bloc/tree/master/examples/github_search) - Github-da Axtarış Tətbiqinin yaradılması və kodun Flutter və AngularDart arasında bölüşdürülməsi haqqında nümunə.
+- [Github-da Axtarış](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - Github-da Axtarış Tətbiqinin yaradılması və kodun Flutter və AngularDart arasında bölüşdürülməsi haqqında nümunə.
 
 ## Məqalələr
 
@@ -130,17 +130,9 @@ Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (h
 
 İcma tərəfindən yaradılan aşağıdakı linklər ilə daha çox öyrən.
 
-### Paketlər
-
-- [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc) - [Felix Angelov](https://github.com/felangel) tərəfindən hazırlanan, avtomatik olaraq `bloc`-un vəziyyətlərini davam etdirən və bərpa edən `bloc`-da vəziyyətin idarə edilməsi kitabxanası üçün extension.
-- [Bloc.js](https://github.com/felangel/bloc.js) - [Felix Angelov](https://github.com/felangel) tərəfindən hazırlanan, Dart-dan Javascript-ə, `bloc`-da vəziyyətin idarə edilməsi kitabxanasının portu.
-- [Bloc Kod Generatoru](https://pub.dev/packages/bloc_code_generator) - [Adson Leal](https://github.com/adsonpleal) tərəfindən hazırlanan, bloc-la işləməyi asanlaşdıran kod generatoru.
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - [Rody Davis](https://github.com/AppleEducate) tərəfindən hazırlanan veb, mobil Firebase Auth Plugin-i.
-- [Form Bloc](https://pub.dev/packages/form_bloc) - [Giancarlo](https://github.com/GiancarloCode) tərəfindən hazırlanan, Bloc pattern ilə çox qarışıq kodlar yazmadan, form-ların yaradılmasının sadə yolu.
-
 ### Video Dərslər
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [Felix Angelov](https://github.com/felangel).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [MiT](https://github.com/mit-73).
 - [Flutter Bloc Kitabxanası Dərsi](https://www.youtube.com/watch?v=hTExlt1nJZI) - [Reso Coder](https://resocoder.com) tərəfindən, Bloc kitabxanasına giriş.
 - [Flutter Youtube Axtarışı](https://www.youtube.com/watch?v=BJY8nuYUM7M) - [Reso Coder](https://resocoder.com) tərəfindən, bloc və flutter_bloc paketlərini istifadə edərək, API ilə əlaqəli Youtube Axtarış tətbiqinin yaradılması.
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - [Reso Coder](https://resocoder.com) tərəfindən, Flutter Bloc Paketi haqqqında yenilənmiş dərs.
@@ -158,4 +150,4 @@ Kitabxananın məqsədi _presentation_-ın (dizaynın) _businesss logic_-dən (h
 
 ## Maintainer-lər
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)

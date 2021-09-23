@@ -46,7 +46,7 @@ Ein `Cubit` kann Funktionen bereitstellen, die aufgerufen werden können, um Zus
 
 > Zustände sind die Ausgaben eines `Cubits` und stellen einen Teil des Zustands Ihrer Anwendung dar. UI-Komponenten können über Zustände benachrichtigt werden und Teile von sich selbst, basierend auf dem aktuellen Zustand, neu zeichnen.
 
-> **Hinweis**: Weitere Informationen über die Ursprünge von `Cubit` finden Sie [im folgenden Link](https://github.com/felangel/cubit/issues/69).
+> **Hinweis**: Weitere Informationen über die Ursprünge von `Cubit` finden Sie [im folgenden Link](https://github.com/mit-73/cubit/issues/69).
 
 ### Erstellen eines Cubits
 

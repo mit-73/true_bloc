@@ -6,7 +6,7 @@
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-Las únicas cosas que vamos a refactorizar en nuestro [ejemplo todos](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos) existente es la capa de repositorio y partes de la capa de bloc.
+Las únicas cosas que vamos a refactorizar en nuestro [ejemplo todos](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) existente es la capa de repositorio y partes de la capa de bloc.
 
 Comenzaremos en la capa del repositorio con el `TodosRepository`.
 
@@ -174,4 +174,4 @@ Las principales diferencias a tener en cuenta son el hecho de que hemos envuelto
 
 ¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación firestore de quehaceres en flutter usando los paquetes [bloc](https://pub.dev/packages/bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros Hemos separado con éxito nuestra capa de presentación de nuestra lógica empresarial al tiempo que creamos una aplicación que se actualiza en tiempo real.
 
-La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/felangel/Bloc/tree/master/examples/flutter_firestore_todos).
+La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).

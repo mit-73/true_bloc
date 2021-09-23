@@ -43,7 +43,7 @@
 
 ?> 我们使用 `BlocProvider` 部件让 `MyBloc` 的实例在整个部件树上可用。
 
-您可以在[这里](https://gist.github.com/felangel/386c840aad41c7675ab8695f15c4cb09)查看完整源代码。
+您可以在[这里](https://gist.github.com/mit-73/386c840aad41c7675ab8695f15c4cb09)查看完整源代码。
 
 
 ## 路由导航
@@ -66,4 +66,4 @@
 
 !> 为了展示用法，我们添加了一个仅用于导航的事件。在实际的应用程序中，您不应该创建显式的导航事件。如果不需要“业务逻辑”来触发导航，则应该直接响应用户输入（例如在 `onPressed` 回调方法中等等）。只有在需要“业务逻辑”来决定导航到某个页面时，才根据状态改变进行导航。
 
-您可以在[这里](https://gist.github.com/felangel/6bcd4be10c046ceb33eecfeb380135dd)查看完整源代码。
+您可以在[这里](https://gist.github.com/mit-73/6bcd4be10c046ceb33eecfeb380135dd)查看完整源代码。

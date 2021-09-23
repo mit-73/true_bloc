@@ -6,7 +6,7 @@
 
 ![demo](../assets/gifs/flutter_firestore_todos.gif)
 
-As únicas coisas que vamos refatorar em nosso exemplo de [todos](https://github.com/felangel/Bloc/tree/master/examples/flutter_todos) são a camada de repositório e as partes da camada de bloc.
+As únicas coisas que vamos refatorar em nosso exemplo de [todos](https://github.com/mit-73/Bloc/tree/master/examples/flutter_todos) são a camada de repositório e as partes da camada de bloc.
 
 Começaremos na camada de repositório com o `TodosRepository`.
 
@@ -176,4 +176,4 @@ As principais diferenças a serem observadas são o fato de envolvermos todo o n
 
 Isso é tudo! Agora implementamos com sucesso um aplicativo firestore todos no flutter usando os pacotes [bloc](https://pub.dev/packages/bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito a camada de apresentação da lógica de negócios e também criamos um aplicativo que é atualizado em tempo real.
 
-O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/felangel/Bloc/tree/master/examples/flutter_firestore_todos).
+O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/Bloc/tree/master/examples/flutter_firestore_todos).

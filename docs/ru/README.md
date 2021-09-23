@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,23 +16,23 @@
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 ## Обзор
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 Цель этой библиотеки - упростить разделение _представления_ от _бизнес логики_, облегчая тестируемость с возможностю повторного использования.
 
 ## Документация
 
 - [Официальная документация](https://bloclibrary.dev)
-- [Пакет Bloc](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Пакет Flutter Bloc](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Пакет Angular Bloc](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Пакет Bloc](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Пакет Flutter Bloc](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Пакет Angular Bloc](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
 
 ## Миграция
 
@@ -81,32 +81,32 @@
 
 ### Dart
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - пример как создать CounterBloc (чистый dart).
+- [Counter](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - пример как создать CounterBloc (чистый dart).
 
 ### Flutter
 
 - [Counter](https://bloclibrary.dev/#/ru/fluttercountertutorial) - пример как создать CounterBloc для реализации классического приложения Flutter Counter.
-- [Form Validation](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - пример использования пакетов `bloc` и `flutter_bloc` для реализации проверки формы.
-- [Bloc with Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - пример как подключить `Bloc` к `Stream` и обновить пользовательский интерфейс в ответ на данные из `Stream`.
+- [Form Validation](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - пример использования пакетов `bloc` и `flutter_bloc` для реализации проверки формы.
+- [Bloc with Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - пример как подключить `Bloc` к `Stream` и обновить пользовательский интерфейс в ответ на данные из `Stream`.
 - [Infinite List](https://bloclibrary.dev/#/ru/flutterinfinitelisttutorial) - пример использования пакетов `bloc` и `flutter_bloc` по реализации прокрутки бесконечного списка.
 - [Login Flow](https://bloclibrary.dev/#/ru/flutterlogintutorial) - пример использования пакетов `bloc` и `flutter_bloc` по реализации входа в систему.
 - [Firebase Login](https://bloclibrary.dev/#/ru/flutterfirebaselogintutorial) - пример использования пакетов `bloc` и `flutter_bloc` для входа в систему Firebase.
 - [Github Search](https://bloclibrary.dev/#/ru/flutterangulargithubsearch) - пример как создать поисковое приложение Github с использованием пакетов `bloc` и `flutter_bloc`.
 - [Weather](https://bloclibrary.dev/#/ru/flutterweathertutorial) - пример как создать приложение Weather с использованием пакетов `bloc` и `flutter_bloc`. Приложение использует `RefreshIndicator` для реализации "pull-to-refresh", а также динамическое создание тем.
 - [Todos](https://bloclibrary.dev/#/ru/fluttertodostutorial) - пример как создать приложение Todos с использованием пакетов `bloc` и `flutter_bloc`.
-- [Timer](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - пример как создать Timer, используя пакеты `bloc` и `flutter_bloc`.
+- [Timer](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - пример как создать Timer, используя пакеты `bloc` и `flutter_bloc`.
 - [Firestore Todos](https://bloclibrary.dev/#/ru/flutterfirestoretodostutorial) - пример как создать приложение Todos, используя пакеты `bloc` и `flutter_bloc`, которые интегрируются с облачным сервисом Firestore.
-- [Shopping Cart](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - пример как создать приложение Shopping Cart с использованием пакетов `bloc` и `flutter_bloc` на основе [Flutter Samples](https://github.com/flutter/samples/tree/master/provider_shopper).
-- [Dynamic Form](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - пример использования пакетов `bloc` и `flutter_bloc` по реализации динамической формы, которая извлекает данные из хранилища.
+- [Shopping Cart](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - пример как создать приложение Shopping Cart с использованием пакетов `bloc` и `flutter_bloc` на основе [Flutter Samples](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Dynamic Form](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - пример использования пакетов `bloc` и `flutter_bloc` по реализации динамической формы, которая извлекает данные из хранилища.
 
 ### Web
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - пример как использовать CounterBloc в приложении AngularDart.
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - пример как создать поисковое приложение Github с использованием пакетов `bloc` и `angular_bloc`.
+- [Counter](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - пример как использовать CounterBloc в приложении AngularDart.
+- [Github Search](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - пример как создать поисковое приложение Github с использованием пакетов `bloc` и `angular_bloc`.
 
 ### Flutter + Web
 
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search) - пример создания поискового приложения Github с разделяемым кодом между Flutter и AngularDart.
+- [Github Search](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - пример создания поискового приложения Github с разделяемым кодом между Flutter и AngularDart.
 
 ## Статьи
 
@@ -130,17 +130,9 @@
 
 Узнайте больше по следующим ссылкам, которые были предоставлены сообществом.
 
-### Пакеты
-
-- [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc) - расширение библиотеки управления состояниями `bloc`, которая автоматически сохраняет и восстанавливает состояния `bloc` [Felix Angelov](https://github.com/felangel).
-- [Bloc.js](https://github.com/felangel/bloc.js) - порт библиотеки управления состоянием `bloc` из Dart в JavaScript [Felix Angelov](https://github.com/felangel).
-- [Bloc Code Generator](https://pub.dev/packages/bloc_code_generator) - генератор кода, который облегчает работу с блоком [Adson Leal](https://github.com/adsonpleal).
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - A Web, Mobile Firebase Auth Plugin, by [Rody Davis](https://github.com/AppleEducate).
-- [Form Bloc](https://pub.dev/packages/form_bloc) - простой способ создания форм с шаблоном BLoC без написания большого количества стандартного кода [Giancarlo](https://github.com/GiancarloCode).
-
 ### Видео руководства
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [Felix Angelov](https://github.com/felangel).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [MiT](https://github.com/mit-73).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) - введение в библиотеку `Bloc` [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - как создать приложение поиска Youtube, которое взаимодействует с API с помощью пакетов `bloc` и `flutter_bloc` [Reso Coder](https://resocoder.com).
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - обновленное руководство по Flutter Bloc package [Reso Coder](https://resocoder.com).
@@ -157,4 +149,4 @@
 
 ## Сопровождающие
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)

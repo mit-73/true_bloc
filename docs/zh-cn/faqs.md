@@ -117,7 +117,7 @@ Bloc库在内部使用`provider`来简化在整个小部件树中提供和访问
 💡 **答案**: 尽管对于此问题确实没有对错只说，但是还是有一些推荐的参考文献：
 
 - [Flutter架构样本 - Brian Egan](https://github.com/brianegan/flutter_architecture_samples/tree/master/bloc_library)
-- [Flutter购物车示例](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart)
+- [Flutter购物车示例](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart)
 - [Flutter TDD 课程 - ResoCoder](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course)
 
 最重要的是要有一个**一致的**和**有意图的**项目结构。

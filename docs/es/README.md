@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![build](https://github.com/felangel/bloc/workflows/build/badge.svg)](https://github.com/felangel/bloc/actions)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/felangel/bloc)
+[![build](https://github.com/mit-73/bloc/workflows/build/badge.svg)](https://github.com/mit-73/bloc/actions)
+[![codecov](https://codecov.io/gh/mit-73/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/bloc)
+[![Star on GitHub](https://img.shields.io/github/stars/mit-73/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/bloc)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
@@ -16,24 +16,24 @@ Una librería de administración de estado predecible que ayuda a implementar el
 
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
-| [bloc_test](https://github.com/felangel/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc](https://github.com/mit-73/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dev/packages/bloc)                 |
+| [bloc_test](https://github.com/mit-73/bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/mit-73/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
 
 
 ## Patrocinador
 
-¡Nuestros principales patrocinadores se muestran a continuación! [[Conviértete en patrocinador](https://github.com/sponsors/felangel)]
+¡Nuestros principales patrocinadores se muestran a continuación! [[Conviértete en patrocinador](https://github.com/sponsors/mit-73)]
 
 <table>
     <tbody>
         <tr>
             <td align="center">
-                <a href="https://verygood.ventures"><img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/vgv_logo.png" width="120"/></a>
+                <a href="https://verygood.ventures"><img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/vgv_logo.png" width="120"/></a>
             </td>
             <td align="center">
-                <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/felangel/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/felangel/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank">Prueba el tutorial de Chat en Flutter &nbsp💬</a></span>
+                <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank">Prueba el tutorial de Chat en Flutter &nbsp💬</a></span>
             </td>
         </tr>
     </tbody>
@@ -43,18 +43,18 @@ Una librería de administración de estado predecible que ayuda a implementar el
 
 ## Visión general
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 El objetivo de esta librería es facilitar la separación de la _presentación_ de la _lógica empresarial_, facilitando el testeo (testing) y la reutilización.
 
 ## Documentación
 
 - [Documentación oficial](https://bloclibrary.dev)
-- [Paquete Bloc](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Paquete Flutter Bloc](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Paquete Angular Bloc ](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
-- [Paquete Hydrated Bloc](https://github.com/felangel/Bloc/tree/master/packages/hydrated_bloc/README.md)
-- [Paquete Replay Bloc](https://github.com/felangel/Bloc/tree/master/packages/replay_bloc/README.md)
+- [Paquete Bloc](https://github.com/mit-73/Bloc/tree/master/packages/bloc/README.md)
+- [Paquete Flutter Bloc](https://github.com/mit-73/Bloc/tree/master/packages/flutter_bloc/README.md)
+- [Paquete Angular Bloc ](https://github.com/mit-73/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Paquete Hydrated Bloc](https://github.com/mit-73/Bloc/tree/master/packages/hydrated_bloc/README.md)
+- [Paquete Replay Bloc](https://github.com/mit-73/Bloc/tree/master/packages/replay_bloc/README.md)
 
 ## Migración
 
@@ -103,36 +103,36 @@ El objetivo de esta librería es facilitar la separación de la _presentación_ 
 
 ### Dart
 
-- [Contador](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - un ejemplo de cómo crear un `CounterBloc` (dart puro).
+- [Contador](https://github.com/mit-73/Bloc/tree/master/packages/bloc/example) - un ejemplo de cómo crear un `CounterBloc` (dart puro).
 
 ### Flutter
 
 - [Contador](https://bloclibrary.dev/#/es/fluttercountertutorial) - un ejemplo de la implementación de la clásica aplicación de contador (`CounterBloc`) en Flutter.
-- [Validación de formularios](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para implementar la validación de formularios.
-- [Bloc con Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - un ejemplo de cómo conectar un `bloc` a un flujo de eventos asíncronos (`Stream`) y actualizar la interfaz del usuario en respuesta del `Stream`.
-- [Lista Compleja](https://github.com/felangel/bloc/tree/master/examples/flutter_complex_list) - un ejemplo de cómo administrar una lista de elementos y eliminar elementos de uno en uno de forma asíncrona mediante `bloc` y `flutter_bloc`.
+- [Validación de formularios](https://github.com/mit-73/bloc/tree/master/examples/flutter_form_validation) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para implementar la validación de formularios.
+- [Bloc con Stream](https://github.com/mit-73/bloc/tree/master/examples/flutter_bloc_with_stream) - un ejemplo de cómo conectar un `bloc` a un flujo de eventos asíncronos (`Stream`) y actualizar la interfaz del usuario en respuesta del `Stream`.
+- [Lista Compleja](https://github.com/mit-73/bloc/tree/master/examples/flutter_complex_list) - un ejemplo de cómo administrar una lista de elementos y eliminar elementos de uno en uno de forma asíncrona mediante `bloc` y `flutter_bloc`.
 - [Lista Infinita](https://bloclibrary.dev/#/es/flutterinfinitelisttutorial) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para implementar una lista de desplazamiento infinita.
 - [Flujo de Inicio de Sesión](https://bloclibrary.dev/#/es/flutterlogintutorial) - un ejemplo de cómo utilizar los paquetes `bloc` y `flutter_bloc` para implementar un flujo de inicio de sesión.
 - [Inicio de Sesión con Firebase](https://bloclibrary.dev/#/es/flutterfirebaselogintutorial) - Tutorial para implementar una interfaz de inicio de sesión a través de Firebase utilizando los paquetes de `bloc` y `flutter_bloc` .
 - [Búsqueda de Github](https://bloclibrary.dev/#/es/flutterangulargithubsearch) - un ejemplo de cómo crear una aplicación de búsqueda de Github usando los paquetes `bloc` y `flutter_bloc`.
 - [Clima](https://bloclibrary.dev/#/es/flutterweathertutorial) - un ejemplo de cómo crear una aplicación sobre el clima utilizando los paquetes `bloc` y `flutter_bloc`. La aplicación utiliza un inidicador (`RefreshIndicator`) para implementar "desliza para refrescar" (del inglés "pull-to-refresh"), así como temas dinámicos.
 - [Todos](https://bloclibrary.dev/#/es/fluttertodostutorial) - un ejemplo de cómo crear una aplicación de quehaceres(TODO app) usando los paquetes `bloc` y `flutter_bloc`.
-- [Temporizador](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - un ejemplo de cómo crear un temporizador usando los paquetes `bloc` y `flutter_bloc`.
+- [Temporizador](https://github.com/mit-73/bloc/tree/master/examples/flutter_timer) - un ejemplo de cómo crear un temporizador usando los paquetes `bloc` y `flutter_bloc`.
 - [Todos con Firestore](https://bloclibrary.dev/#/es/flutterfirestoretodostutorial) - un ejemplo de cómo crear una aplicación de quehaceres (TODO app) usando los paquetes `bloc` y `flutter_bloc` que se integra con Cloud Firestore.
-- [Carro de Compras](https://github.com/felangel/bloc/tree/master/examples/flutter_shopping_cart) - un ejemplo de cómo crear una aplicación de carrito de compras utilizando los paquetes `bloc` y `flutter_bloc` basado en [ejemplos de flutter](https://github.com/flutter/samples/tree/master/provider_shopper).
-- [Formulario Dinámico](https://github.com/felangel/bloc/tree/master/examples/flutter_dynamic_form) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para implementar un formulario dinámico que extrae datos de un repositorio.
-- [Wizard](https://github.com/felangel/bloc/tree/master/examples/flutter_wizard) - Construye un wizard de varios pasos utilizando los paquetes `bloc` y` flutter_bloc`.
-- [GraphQL](https://github.com/felangel/bloc/tree/master/examples/flutter_graphql_jobs) un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` con `graphql` para buscard datos de [api.graphql.jobs](https://api.graphql.jobs)
-- [Fluttersaurus] (https://github.com/felangel/fluttersaurus) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para crear una aplicación de tesauro - hecha para el Bytconf Flutter 2020.
+- [Carro de Compras](https://github.com/mit-73/bloc/tree/master/examples/flutter_shopping_cart) - un ejemplo de cómo crear una aplicación de carrito de compras utilizando los paquetes `bloc` y `flutter_bloc` basado en [ejemplos de flutter](https://github.com/flutter/samples/tree/master/provider_shopper).
+- [Formulario Dinámico](https://github.com/mit-73/bloc/tree/master/examples/flutter_dynamic_form) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para implementar un formulario dinámico que extrae datos de un repositorio.
+- [Wizard](https://github.com/mit-73/bloc/tree/master/examples/flutter_wizard) - Construye un wizard de varios pasos utilizando los paquetes `bloc` y` flutter_bloc`.
+- [GraphQL](https://github.com/mit-73/bloc/tree/master/examples/flutter_graphql_jobs) un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` con `graphql` para buscard datos de [api.graphql.jobs](https://api.graphql.jobs)
+- [Fluttersaurus] (https://github.com/mit-73/fluttersaurus) - un ejemplo de cómo usar los paquetes `bloc` y `flutter_bloc` para crear una aplicación de tesauro - hecha para el Bytconf Flutter 2020.
 
 ### Web
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - un ejemplo de cómo usar un `CounterBloc` en una aplicación AngularDart.
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - un ejemplo de cómo crear una aplicación de búsqueda de Github utilizando los paquetes `bloc` y `angular_bloc`.
+- [Counter](https://github.com/mit-73/Bloc/tree/master/examples/angular_counter) - un ejemplo de cómo usar un `CounterBloc` en una aplicación AngularDart.
+- [Github Search](https://github.com/mit-73/Bloc/tree/master/examples/github_search/angular_github_search) - un ejemplo de cómo crear una aplicación de búsqueda de Github utilizando los paquetes `bloc` y `angular_bloc`.
 
 ### Flutter + Web
 
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search) - un ejemplo de cómo crear una aplicación de búsqueda de Github y compartir código entre Flutter y AngularDart.
+- [Github Search](https://github.com/mit-73/Bloc/tree/master/examples/github_search) - un ejemplo de cómo crear una aplicación de búsqueda de Github y compartir código entre Flutter y AngularDart.
 
 ## Artículos (Inglés)
 
@@ -160,16 +160,9 @@ El objetivo de esta librería es facilitar la separación de la _presentación_ 
 
 Obtenga más información en los siguientes enlaces, que han sido aportados por la comunidad.
 
-### Paquetes
-
-- [Bloc.js](https://github.com/felangel/bloc.js) - Un puerto de la librería de administración de estado `bloc` de Dart a JavaScript, por [Felix Angelov](https://github.com/felangel).
-- [Bloc Code Generator](https://pub.dev/packages/bloc_code_generator) - Un generador de código que facilita el trabajo con blocs, por [Adson Leal](https://github.com/adsonpleal).
-- [Firebase Auth](https://pub.dev/packages/fb_auth) - Un complemento de autenticación web, Firebase móvil, por [Rody Davis](https://github.com/AppleEducate).
-- [Form Bloc](https://pub.dev/packages/form_bloc) - Una manera fácil de crear formularios con el patrón BLoC sin escribir mucho código repetitivo, por [Giancarlo](https://github.com/GiancarloCode).
-
 ### Tutoriales en vídeo (Inglés)
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Conferencia impartida en [Flutter Europe](https://fluttereurope.dev) acerca de los conceptos básicos de la librería de Bloc, por [Felix Angelov](https://github.com/felangel).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Conferencia impartida en [Flutter Europe](https://fluttereurope.dev) acerca de los conceptos básicos de la librería de Bloc, por [MiT](https://github.com/mit-73).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) - Introducción a la Librería de blocs, por [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - Cómo construir una aplicación de búsqueda de Youtube que interactúa con una API usando los paquetes bloc y flutter_bloc, por [Reso Coder](https://resocoder.com).
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - Tutorial actualizado sobre el paquete Flutter Bloc, por [Reso Coder](https://resocoder.com).
@@ -192,8 +185,8 @@ Obtenga más información en los siguientes enlaces, que han sido aportados por 
 
 ## Mantenedores
 
-- [Felix Angelov](https://github.com/felangel)
+- [MiT](https://github.com/mit-73)
 
 ## Partidarios
 
-[<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)
+[<img src="https://raw.githubusercontent.com/mit-73/bloc/master/docs/assets/vgv_logo.png" width="120" />](https://verygood.ventures)

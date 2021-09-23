@@ -67,8 +67,8 @@
 
 - **BREAKING**: upgrade to `bloc ^6.0.0`
 - fix: json (de)serialization errors ([@orsenkucher](https://github.com/orsenkucher))
-  - Hydrated: type `'_InternalLinkedHashMap<dynamic, dynamic>'` is not a subtype of type `'Map<String, dynamic>'` ([#1452](https://github.com/felangel/bloc/issues/1452))
-  - Hydrated: HiveError: Cannot write, unknown type: Plan ([#1453](https://github.com/felangel/bloc/issues/1453))
+  - Hydrated: type `'_InternalLinkedHashMap<dynamic, dynamic>'` is not a subtype of type `'Map<String, dynamic>'` ([#1452](https://github.com/mit-73/bloc/issues/1452))
+  - Hydrated: HiveError: Cannot write, unknown type: Plan ([#1453](https://github.com/mit-73/bloc/issues/1453))
 - fix: handle empty case for list traversal
 - fix: additional complex list (de)serialization errors ([@orsenkucher](https://github.com/orsenkucher))
 - fix: complex list (de)serialization errors ([@orsenkucher](https://github.com/orsenkucher))
@@ -95,8 +95,8 @@
 # 6.0.0-dev.2
 
 - fix: json (de)serialization errors ([@orsenkucher](https://github.com/orsenkucher))
-  - Hydrated: type `'_InternalLinkedHashMap<dynamic, dynamic>'` is not a subtype of type `'Map<String, dynamic>'` ([#1452](https://github.com/felangel/bloc/issues/1452))
-  - Hydrated: HiveError: Cannot write, unknown type: Plan ([#1453](https://github.com/felangel/bloc/issues/1453))
+  - Hydrated: type `'_InternalLinkedHashMap<dynamic, dynamic>'` is not a subtype of type `'Map<String, dynamic>'` ([#1452](https://github.com/mit-73/bloc/issues/1452))
+  - Hydrated: HiveError: Cannot write, unknown type: Plan ([#1453](https://github.com/mit-73/bloc/issues/1453))
 
 # 6.0.0-dev.1
 
@@ -185,7 +185,7 @@
 
 # 1.1.0
 
-- Optional `storageDirectory` can be provided ([#28](https://github.com/felangel/hydrated_bloc/issues/28)).
+- Optional `storageDirectory` can be provided ([#28](https://github.com/mit-73/hydrated_bloc/issues/28)).
 - Documentation Updates
 
 # 1.0.0
@@ -200,17 +200,17 @@
 
 # 0.7.0
 
-- Desktop support via [path_provider_fde](https://github.com/google/flutter-desktop-embedding/tree/master/plugins/flutter_plugins/path_provider_fde) ([#24](https://github.com/felangel/hydrated_bloc/pull/24)).
+- Desktop support via [path_provider_fde](https://github.com/google/flutter-desktop-embedding/tree/master/plugins/flutter_plugins/path_provider_fde) ([#24](https://github.com/mit-73/hydrated_bloc/pull/24)).
 - Documentation and Example Updates
 
 # 0.6.0
 
-- Support clearing individual `HydratedBloc` caches ([#21](https://github.com/felangel/hydrated_bloc/issues/21))
+- Support clearing individual `HydratedBloc` caches ([#21](https://github.com/mit-73/hydrated_bloc/issues/21))
 - Documentation and Example Updates
 
 # 0.5.0
 
-- Support for Desktop ([#18](https://github.com/felangel/hydrated_bloc/pull/18))
+- Support for Desktop ([#18](https://github.com/mit-73/hydrated_bloc/pull/18))
 - Documentation and Example Updates
 
 # 0.4.1

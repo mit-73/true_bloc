@@ -42,7 +42,7 @@ O widget `CounterPage` é um` StatelessWidget` que acessa o `CounterBloc` atrav�
 
 Nosso widget `CounterText` está usando um `BlocBuilder` para se reconstruir sempre que o estado do `CounterBloc` mudar. Utilizamos `BlocProvider.of <CounterBloc> (context)` para acessar o CounterBloc fornecido e retornar um widget `Text` com a contagem atual.
 
-Isso envolve a parte de acesso ao bloc local desta receita e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/felangel/20b03abfef694c00038a4ffbcc788c35).
+Isso envolve a parte de acesso ao bloc local desta receita e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/mit-73/20b03abfef694c00038a4ffbcc788c35).
 
 A seguir, veremos como fornecer um bloc em várias páginas / rotas.
 
@@ -86,7 +86,7 @@ Quando o usuário toca no `ElevatedButton`, adicionamos uma nova `MaterialPageRo
 
 O `CounterPage` é um `StatelessWidget` super super simples que usa o `BlocBuilder` para renderizar novamente um widget `Text` com a contagem atual. Assim como antes, somos capazes de usar o `BlocProvider.of <CounterBloc> (context)` para acessar o `CounterBloc`.
 
-É tudo o que existe neste exemplo e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/felangel/92b256270c5567210285526a07b4cf21).
+É tudo o que existe neste exemplo e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/mit-73/92b256270c5567210285526a07b4cf21).
 
 A seguir, veremos como definir o escopo de um bloc para apenas uma ou mais rotas nomeadas.
 
@@ -132,7 +132,7 @@ Quando o usuário toca no `ElevatedButton`, empurramos uma nova rota nomeada par
 
 O `CounterPage` é um `StatelessWidget` super super simples que usa o `BlocBuilder` para renderizar novamente um widget `Text` com a contagem atual. Assim como antes, somos capazes de usar o `BlocProvider.of<CounterBloc>(context)` para acessar o `CounterBloc`.
 
-Isso é tudo neste exemplo e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/felangel/8d143cf3b7da38d80de4bcc6f65e9831).
+Isso é tudo neste exemplo e o código fonte completo pode ser encontrado [aqui](https://gist.github.com/mit-73/8d143cf3b7da38d80de4bcc6f65e9831).
 
 ## Accesso Global
 
@@ -174,4 +174,4 @@ Nosso `CounterPage` é um `StatelessWidget` porque não precisa gerenciar nada d
 
 Nada de novo aqui; o widget `CounterText` é o mesmo que no primeiro exemplo. É apenas um `StatelessWidget` que usa um `BlocBuilder` para renderizar novamente quando o estado do `CounterBloc` muda e acessa a instância global do `CounterBloc` usando o `BlocProvider.of <CounterBloc> (context)`.
 
-Isso é tudo! O código fonte completo pode ser encontrado [aqui](https://gist.github.com/felangel/be891e73a7c91cdec9e7d5f035a61d5d).
+Isso é tudo! O código fonte completo pode ser encontrado [aqui](https://gist.github.com/mit-73/be891e73a7c91cdec9e7d5f035a61d5d).
