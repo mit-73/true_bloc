@@ -1,3 +1,14 @@
+# 7.2.0-beta.1
+- **BREAKING**: refactor: `Bloc` implement `IBloc` and `BlocBase` implement `IBlocBase`
+  - refactor: `void onCreate(BlocBase bloc)` -> `void onCreate(IBlocBase bloc)`
+  - refactor: `void onEvent(Bloc bloc, Object? event)` -> `void onEvent(IBloc bloc, Object? event)`
+  - refactor: `void onChange(BlocBase bloc, Change change)` -> `void onChange(IBlocBase bloc, Change change)`
+  - refactor: `void onTransition(Bloc bloc, Transition transition)` -> `void onTransition(IBloc bloc, Transition transition)`
+  - refactor: `void onError(BlocBase bloc, Object error, StackTrace stackTrace)` -> `void onError(IBlocBase bloc, Object error, StackTrace stackTrace)`
+  - refactor: `void onClose(BlocBase bloc)` -> `void onClose(IBlocBase bloc)`
+- feat: Added `addStream` and `done` to the `IBloc` & `Bloc`
+- feat: Added `EmitterMixin`, `void emit(State state)` was deprecated
+
 # 7.1.0
 
 - feat: expose `isClosed` getter on `BlocBase`

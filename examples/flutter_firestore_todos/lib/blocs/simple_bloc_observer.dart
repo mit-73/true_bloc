@@ -4,19 +4,19 @@ import 'package:true_bloc/bloc.dart';
 // in order to handle transitions and errors from all Blocs.
 class SimpleBlocObserver extends BlocObserver {
   @override
-  void onEvent(Bloc bloc, Object? event) {
+  void onEvent(IBloc bloc, Object? event) {
     super.onEvent(bloc, event);
     print(event);
   }
 
   @override
-  void onTransition(Bloc bloc, Transition transition) {
+  void onTransition(IBloc bloc, Transition transition) {
     super.onTransition(bloc, transition);
     print(transition);
   }
 
   @override
-  void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
+  void onError(IBlocBase bloc, Object error, StackTrace stackTrace) {
     print(error);
     super.onError(bloc, error, stackTrace);
   }

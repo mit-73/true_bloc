@@ -1,11 +1,11 @@
-import 'package:meta/meta.dart';
+part of 'bloc.dart';
 
 /// {@template change}
 /// A [Change] represents the change from one [State] to another.
 /// A [Change] consists of the [currentState] and [nextState].
 /// {@endtemplate}
 @immutable
-class Change<State> {
+class Change<State extends Object?> {
   /// {@macro change}
   const Change({required this.currentState, required this.nextState});
 
@@ -37,7 +37,8 @@ class Change<State> {
 /// Consists of the [currentState], an [event], and the [nextState].
 /// {@endtemplate}
 @immutable
-class Transition<Event, State> extends Change<State> {
+class Transition<Event extends Object?, State extends Object?>
+    extends Change<State> {
   /// {@macro transition}
   const Transition({
     required State currentState,
