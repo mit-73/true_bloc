@@ -137,7 +137,7 @@ Em seguida, precisamos implementar nosso widget `HomePage`, que apresentará nos
 
 ?> `HomePage` é um `StatefulWidget` porque precisará manter um `ScrollController`. Em `initState`, adicionamos um ouvinte ao nosso `ScrollController` para que possamos responder aos eventos de rolagem. Também acessamos nossa instância `PostBloc` através de `BlocProvider.of <PostBloc> (context)`.
 
-Seguindo em frente, nosso método de compilação retorna um `BlocBuilder`. O `BlocBuilder` é um widget Flutter do [pacote flutter_bloc](https://pub.dev/packages/flutter_bloc) que lida com a construção de um widget em resposta a novos estados do bloc. Sempre que nosso estado `PostBloc` mudar, nossa função de construtor será chamada com o novo `PostState`.
+Seguindo em frente, nosso método de compilação retorna um `BlocBuilder`. O `BlocBuilder` é um widget Flutter do [pacote flutter_bloc](https://pub.dev/packages/flutter_true_bloc) que lida com a construção de um widget em resposta a novos estados do bloc. Sempre que nosso estado `PostBloc` mudar, nossa função de construtor será chamada com o novo `PostState`.
 
 !> Precisamos lembrar de descartar nosso `ScrollController` quando o StatefulWidget for descartado.
 
@@ -174,7 +174,7 @@ Agora, quando executamos nosso aplicativo, toda vez que ocorre uma transição d
 
 ?> Na prática, você pode criar diferentes `BlocObservers` e, como todas as alterações de estado são registradas, somos capazes de instrumentar nossos aplicativos com muita facilidade e rastrear todas as interações do usuário e alterações de estado em um só lugar!
 
-Isso é tudo! Agora implementamos com sucesso uma lista infinita no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
+Isso é tudo! Agora implementamos com sucesso uma lista infinita no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
 
 Nossa `HomePage` não faz ideia de onde as `Posts` são provenientes ou como estão sendo recuperadas. Por outro lado, nosso `PostBloc` não faz ideia de como o `State` está sendo renderizado, ele simplesmente converte eventos em estados.
 

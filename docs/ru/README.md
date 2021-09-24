@@ -3,11 +3,11 @@
 [![build](https://github.com/mit-73/true_bloc/workflows/build/badge.svg)](https://github.com/mit-73/true_bloc/actions)
 [![codecov](https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/mit-73/true_bloc)
 [![Star on GitHub](https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/mit-73/true_bloc)
-[![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
+
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
-[![Flutter Samples](https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true)](http://fluttersamples.com)
-[![Discord](https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue)](https://discord.gg/true_bloc)
+
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -17,9 +17,9 @@
 | Package                                                                            | Pub                                                                                                    |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                 | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                 |
-| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)       | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)       |
-| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc) |
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc_test)       | [![pub package](https://img.shields.io/pub/v/true_bloc_test.svg)](https://pub.dev/packages/true_bloc_test)       |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_true_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_true_bloc.svg)](https://pub.dev/packages/flutter_true_bloc) |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_true_bloc) | [![pub package](https://img.shields.io/pub/v/angular_true_bloc.svg)](https://pub.dev/packages/angular_true_bloc) |
 
 ## Обзор
 
@@ -31,8 +31,8 @@
 
 - [Официальная документация](https://mit-73.github.io/true_bloc)
 - [Пакет Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
-- [Пакет Flutter Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
-- [Пакет Angular Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
+- [Пакет Flutter Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_true_bloc/README.md)
+- [Пакет Angular Bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_true_bloc/README.md)
 
 ## Миграция
 
@@ -132,7 +132,7 @@
 
 ### Видео руководства
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [MiT](https://github.com/mit-73).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [Felix Angelov](https://github.com/felangel).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) - введение в библиотеку `Bloc` [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - как создать приложение поиска Youtube, которое взаимодействует с API с помощью пакетов `bloc` и `flutter_bloc` [Reso Coder](https://resocoder.com).
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - обновленное руководство по Flutter Bloc package [Reso Coder](https://resocoder.com).

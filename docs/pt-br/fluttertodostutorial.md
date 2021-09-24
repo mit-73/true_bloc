@@ -443,7 +443,7 @@ Vamos criar o `main.dart` e o nosso widget TodosApp. Precisamos criar uma funç�
 
 ?> **Nota:** Estamos configurando o observer para o `SimpleBlocObserver` que criamos anteriormente, para que possamos nos conectar a todas as transições e erros.
 
-?> **Nota:** Também estamos envolvendo nosso widget `TodosApp` em um `BlocProvider` que gerencia a inicialização, o fechamento e o fornecimento de `TodosBloc` para toda a nossa árvore de widgets a partir de [flutter_bloc](https://pub.dev/packages/flutter_bloc). Nós adicionamos imediatamente o evento `TodosLoaded` para solicitar os mais recentes.
+?> **Nota:** Também estamos envolvendo nosso widget `TodosApp` em um `BlocProvider` que gerencia a inicialização, o fechamento e o fornecimento de `TodosBloc` para toda a nossa árvore de widgets a partir de [flutter_bloc](https://pub.dev/packages/flutter_true_bloc). Nós adicionamos imediatamente o evento `TodosLoaded` para solicitar os mais recentes.
 
 Em seguida, vamos implementar nosso widget `TodosApp`.
 
@@ -456,7 +456,7 @@ O `TodosApp` possui duas rotas:
 - `Home` - que renderiza uma `HomeScreen`
 - `TodoAdded` - que renderiza um `AddEditScreen` com `isEditing` definido como `false`.
 
-O `TodosApp` também disponibiliza o `TabBloc`, `FilteredTodosBloc` e `StatsBloc` para os widgets em sua subárvore, usando o widget `MultiBlocProvider` do [flutter_bloc](https://pub.dev/packages/flutter_bloc) .
+O `TodosApp` também disponibiliza o `TabBloc`, `FilteredTodosBloc` e `StatsBloc` para os widgets em sua subárvore, usando o widget `MultiBlocProvider` do [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) .
 
 [multi_bloc_provider.dart](../_snippets/flutter_todos_tutorial/multi_bloc_provider.dart.md ':include')
 
@@ -470,6 +470,6 @@ Todo o `main.dart` deve ficar assim:
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-Isso é tudo! Agora, implementamos com sucesso um aplicativo de Todos no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
+Isso é tudo! Agora, implementamos com sucesso um aplicativo de Todos no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) e nós separamos com êxito nossa camada de apresentação de nossa lógica de negócios.
 
 O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

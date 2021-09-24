@@ -10,7 +10,7 @@
 
 在开始编写测试之前，我们需要为依赖项添加一个测试框架。
 
-我们需要添加 [test](https://pub.dev/packages/test) 和 [bloc_test](https://pub.dev/packages/bloc_test) 到 `pubspec.yaml`文件之中.
+我们需要添加 [test](https://pub.dev/packages/test) 和 [bloc_test](https://pub.dev/packages/true_bloc_test) 到 `pubspec.yaml`文件之中.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -33,7 +33,7 @@
 
 ?> **注意**: 我们可以通过 `pub run test` 该命令来运行我们所有的测试.
 
-此时我们应该可以通过测试！现在，让我们使用[bloc_test](https://pub.dev/packages/bloc_test) 包.
+此时我们应该可以通过测试！现在，让我们使用[bloc_test](https://pub.dev/packages/true_bloc_test) 包.
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

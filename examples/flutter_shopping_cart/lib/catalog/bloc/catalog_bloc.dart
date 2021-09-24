@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_shopping_cart/catalog/catalog.dart';
 import 'package:flutter_shopping_cart/shopping_repository.dart';
+import 'package:true_bloc/bloc.dart';
 
 part 'catalog_event.dart';
 part 'catalog_state.dart';

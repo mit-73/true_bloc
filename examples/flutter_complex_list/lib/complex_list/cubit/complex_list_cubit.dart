@@ -1,8 +1,8 @@
-import 'package:true_bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_complex_list/complex_list/complex_list.dart';
 import 'package:flutter_complex_list/repository.dart';
 import 'package:pedantic/pedantic.dart';
+import 'package:true_bloc/bloc.dart';
 
 part 'complex_list_state.dart';
 

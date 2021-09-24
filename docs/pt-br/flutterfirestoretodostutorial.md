@@ -174,6 +174,6 @@ A última coisa que precisamos modificar é o nosso `main.dart`.
 
 As principais diferenças a serem observadas são o fato de envolvermos todo o nosso aplicativo em um `MultiBlocProvider` que inicializa e fornece o `AuthenticationBloc` e o `TodosBloc`. Em seguida, renderizamos o aplicativo Todos apenas se o `AuthenticationState` for `Authenticated` usando o `BlocBuilder`. Todo o resto permanece o mesmo que no `todos tutorial` anterior.
 
-Isso é tudo! Agora implementamos com sucesso um aplicativo firestore todos no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com êxito a camada de apresentação da lógica de negócios e também criamos um aplicativo que é atualizado em tempo real.
+Isso é tudo! Agora implementamos com sucesso um aplicativo firestore todos no flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) e nós separamos com êxito a camada de apresentação da lógica de negócios e também criamos um aplicativo que é atualizado em tempo real.
 
 O código fonte completo deste exemplo pode ser encontrada [aqui](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

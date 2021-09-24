@@ -442,7 +442,7 @@ Let's create `main.dart` and our `TodosApp` widget. We need to create a `main` f
 
 ?> **Note:** We are setting our observer to the `SimpleBlocObserver` we created earlier so that we can hook into all transitions and errors.
 
-?> **Note:** We are also wrapping our `TodosApp` widget in a `BlocProvider` which manages initializing, closing, and providing the `TodosBloc` to our entire widget tree from [flutter_bloc](https://pub.dev/packages/flutter_bloc). We immediately add the `TodosLoaded` event in order to request the latest todos.
+?> **Note:** We are also wrapping our `TodosApp` widget in a `BlocProvider` which manages initializing, closing, and providing the `TodosBloc` to our entire widget tree from [flutter_bloc](https://pub.dev/packages/flutter_true_bloc). We immediately add the `TodosLoaded` event in order to request the latest todos.
 
 Next, let's implement our `TodosApp` widget.
 
@@ -455,7 +455,7 @@ The `TodosApp` has two routes:
 - `Home` - which renders a `HomeScreen`
 - `TodoAdded` - which renders a `AddEditScreen` with `isEditing` set to `false`.
 
-The `TodosApp` also makes the `TabBloc`, `FilteredTodosBloc`, and `StatsBloc` available to the widgets in its subtree by using the `MultiBlocProvider` widget from [flutter_bloc](https://pub.dev/packages/flutter_bloc).
+The `TodosApp` also makes the `TabBloc`, `FilteredTodosBloc`, and `StatsBloc` available to the widgets in its subtree by using the `MultiBlocProvider` widget from [flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 [multi_bloc_provider.dart](../_snippets/flutter_todos_tutorial/multi_bloc_provider.dart.md ':include')
 
@@ -469,6 +469,6 @@ The entire `main.dart` should look like this:
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-That’s all there is to it! We’ve now successfully implemented a todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
+That’s all there is to it! We’ve now successfully implemented a todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) packages and we’ve successfully separated our presentation layer from our business logic.
 
 The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

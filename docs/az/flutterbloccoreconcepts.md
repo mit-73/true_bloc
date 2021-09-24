@@ -1,6 +1,6 @@
 # Flutter Bloc-un Əsas Konseptləri
 
-?> Zəhmət olmasa, [flutter_bloc](https://pub.dev/packages/flutter_bloc) ilə işləməzdən əvvəl, aşağıdakı bölmələri diqqətli şəkildə oxuduğunuzdan və başa düşdüyünüzdən əmin olun.
+?> Zəhmət olmasa, [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) ilə işləməzdən əvvəl, aşağıdakı bölmələri diqqətli şəkildə oxuduğunuzdan və başa düşdüyünüzdən əmin olun.
 
 ## Bloc Widget-ləri
 

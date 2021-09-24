@@ -442,7 +442,7 @@
 
 ?> **Примечание:** Мы устанавливаем делегата нашего `Bloc.observer` в `SimpleBlocObserver`, который мы создали ранее, чтобы мы могли подключиться ко всем переходам и ошибкам.
 
-?> **Примечание:** Мы также оборачиваем наш виджет `TodosApp` в `BlocProvider`, который управляет инициализацией, закрытием и предоставлением `TodosBloc` для всего нашего дерева виджетов из [flutter_bloc](https://pub.dev/packages/flutter_bloc). Мы немедленно добавляем событие `TodosLoaded`, чтобы запросить последние задачи.
+?> **Примечание:** Мы также оборачиваем наш виджет `TodosApp` в `BlocProvider`, который управляет инициализацией, закрытием и предоставлением `TodosBloc` для всего нашего дерева виджетов из [flutter_bloc](https://pub.dev/packages/flutter_true_bloc). Мы немедленно добавляем событие `TodosLoaded`, чтобы запросить последние задачи.
 
 Далее давайте реализуем наш виджет `TodosApp`.
 
@@ -455,7 +455,7 @@
 - `Home` - отображает`HomeScreen`
 - `TodoAdded` - отображает `AddEditScreen` с `isEditing`, установленным в `false`.
 
-`TodosApp` также делает `TabBloc`, `FilteredTodosBloc` и `StatsBloc` доступными для виджетов в своем поддереве с помощью виджета `MultiBlocProvider` из [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+`TodosApp` также делает `TabBloc`, `FilteredTodosBloc` и `StatsBloc` доступными для виджетов в своем поддереве с помощью виджета `MultiBlocProvider` из [flutter_bloc](https://pub.dev/packages/flutter_true_bloc)
 
 [multi_bloc_provider.dart](../_snippets/flutter_todos_tutorial/multi_bloc_provider.dart.md ':include')
 
@@ -469,6 +469,6 @@
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-Вот и все, что нужно сделать! Теперь мы успешно реализовали приложение todos в Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили наш уровень представления от нашей бизнес логики.
+Вот и все, что нужно сделать! Теперь мы успешно реализовали приложение todos в Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) и мы успешно отделили наш уровень представления от нашей бизнес логики.
 
 Полный исходный код этого примера можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

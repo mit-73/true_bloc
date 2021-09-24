@@ -1,5 +1,5 @@
-import 'package:true_bloc/bloc.dart';
 import 'package:replay_true_bloc/replay_bloc.dart';
+import 'package:true_bloc/bloc.dart';
 
 class CounterCubit extends ReplayCubit<int> {
   CounterCubit({

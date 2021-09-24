@@ -9,8 +9,8 @@ void main() async {
 }
 
 /// A [StatelessWidget] which uses:
-/// * [replay_bloc](https://pub.dev/packages/replay_bloc)
-/// * [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+/// * [replay_bloc](https://pub.dev/packages/replay_true_bloc)
+/// * [flutter_bloc](https://pub.dev/packages/flutter_true_bloc)
 /// to manage the state of a counter.
 class App extends StatelessWidget {
   @override

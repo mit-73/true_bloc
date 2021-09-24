@@ -16,7 +16,7 @@ Em seguida, podemos substituir o conteúdo de pubspec.yaml por:
 
 [pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_timer/pubspec.yaml ':include')
 
-?> **Nota:** Estaremos utilizando o [flutter_bloc](https://pub.dev/packages/flutter_bloc), [equatable](https://pub.dev/packages/equatable), e [wave](https://pub.dev/packages/wave) neste app.
+?> **Nota:** Estaremos utilizando o [flutter_bloc](https://pub.dev/packages/flutter_true_bloc), [equatable](https://pub.dev/packages/equatable), e [wave](https://pub.dev/packages/wave) neste app.
 
 Em seguida, execute o `flutter packages get` para instalar todas as dependências.
 
@@ -154,7 +154,7 @@ Em seguida, implementaremos nosso widget "Ações", que terá as ações adequad
 
 O widget `Actions` é apenas outro `StatelessWidget` que usa o `BlocProvider` para acessar a instância do `TimerBloc` e, em seguida, retorna diferentes `FloatingActionButtons` com base no estado atual do` TimerBloc`. Cada um dos `FloatingActionButtons` adiciona um evento no retorno de chamada `onPressed` para notificar o `TimerBloc`.
 
-Adicionamos outro `BlocBuilder` que renderizará o widget `Actions`; no entanto, desta vez, estamos usando um recurso recém-introduzido [flutter_bloc] (https://pub.dev/packages/flutter_bloc) para controlar a frequência com que o widget `Actions` é reconstruído (introduzido na` v0.15.0`).
+Adicionamos outro `BlocBuilder` que renderizará o widget `Actions`; no entanto, desta vez, estamos usando um recurso recém-introduzido [flutter_bloc] (https://pub.dev/packages/flutter_true_bloc) para controlar a frequência com que o widget `Actions` é reconstruído (introduzido na` v0.15.0`).
 
 Se você deseja um controle refinado sobre quando a função `builder` é chamada, você pode fornecer uma condição opcional ao `BlocBuilder`. A condição pega o estado anterior do bloc e o estado atual do bloc e retorna um `booleano`. Se `buildWhen` retornar `true`, o `builder` será chamado com` state` e o widget será reconstruído. Se `buildWhen` retornar `false`, o `builder` não será chamado com `state` e nenhuma reconstrução ocorrerá.
 

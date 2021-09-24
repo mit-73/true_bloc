@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_graphql_jobs/api/api.dart';
-import 'package:flutter_graphql_jobs/true_bloc/jobs_bloc.dart';
+import 'package:flutter_graphql_jobs/bloc/jobs_bloc.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 
 void main() => runApp(MyApp(jobsApiClient: JobsApiClient.create()));
 

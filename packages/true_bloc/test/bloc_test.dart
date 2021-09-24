@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:pedantic/pedantic.dart';
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
 
 import 'blocs/blocs.dart';
 

@@ -322,7 +322,7 @@ BlocListener<MyBloc, MyState>(
 
 ##### Raisons
 
-Dans le but d'améliorer le code réutiliser entre [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) et [hydrated_cubit](https://pub.dev/packages/hydrated_cubit), l'implémentation concrète du stockage par défaut a été rennomé passant de `HydratedBlocStorage` à `HydratedStorage`. En plus, l'interface `HydratedStorage` est passé de `HydratedStorage` à `Storage`.
+Dans le but d'améliorer le code réutiliser entre [hydrated_bloc](https://pub.dev/packages/hydrated_true_bloc) et [hydrated_cubit](https://pub.dev/packages/hydrated_cubit), l'implémentation concrète du stockage par défaut a été rennomé passant de `HydratedBlocStorage` à `HydratedStorage`. En plus, l'interface `HydratedStorage` est passé de `HydratedStorage` à `Storage`.
 
 **v4.0.0**
 

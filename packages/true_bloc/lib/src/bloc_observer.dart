@@ -1,5 +1,5 @@
-import 'package:true_bloc/bloc.dart';
 import 'package:meta/meta.dart';
+import 'package:true_bloc/bloc.dart';
 
 /// An interface for observing the behavior of [Bloc] instances.
 class BlocObserver {

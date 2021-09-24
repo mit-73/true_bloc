@@ -1,6 +1,6 @@
 # Flutter Bloc的核心理念
 
-?> 使用前请确保仔细阅读并理解以下部分 [flutter_bloc](https://pub.dev/packages/flutter_bloc).
+?> 使用前请确保仔细阅读并理解以下部分 [flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 ## Bloc Widgets
 

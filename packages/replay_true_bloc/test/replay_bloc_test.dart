@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:replay_true_bloc/replay_bloc.dart';
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
 
 import 'blocs/counter_bloc.dart';
 

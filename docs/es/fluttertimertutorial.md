@@ -16,7 +16,7 @@ Luego podemos reemplazar el contenido de pubspec.yaml con:
 
 [pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_timer/pubspec.yaml ':include')
 
-?> **Nota:** Utilizaremos [flutter_bloc](https://pub.dev/packages/flutter_bloc), [equatable](https://pub.dev/packages/equatable) y [wave](https://pub.dev/packages/wave) como paquetes en esta aplicación.
+?> **Nota:** Utilizaremos [flutter_bloc](https://pub.dev/packages/flutter_true_bloc), [equatable](https://pub.dev/packages/equatable) y [wave](https://pub.dev/packages/wave) como paquetes en esta aplicación.
 
 A continuación, ejecute `flutter packages get` para instalar todas las dependencias.
 
@@ -154,7 +154,7 @@ A continuación, implementaremos nuestro widget `Actions` que tendrá las accion
 
 El widget `Actions` es solo otro `StatelessWidget` que utiliza `BlocProvider` para acceder a la instancia de `TimerBloc` y luego devuelve diferentes `FloatingActionButtons` en función del estado actual de `TimerBloc`. Cada uno de los `FloatingActionButtons` agrega un evento en su devolución de llamada `onPressed` para notificar al `TimerBloc`.
 
-Agregamos otro `BlocBuilder` que representará el widget `Actions`; sin embargo, esta vez estamos utilizando una función [flutter_bloc](https://pub.dev/packages/flutter_bloc) recientemente introducida para controlar con qué frecuencia se reconstruye el widget `Actions` (introducido en `v0.15.0`).
+Agregamos otro `BlocBuilder` que representará el widget `Actions`; sin embargo, esta vez estamos utilizando una función [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) recientemente introducida para controlar con qué frecuencia se reconstruye el widget `Actions` (introducido en `v0.15.0`).
 
 Si desea un control detallado sobre cuándo se llama a la función `constructor`, puede proporcionar una `condición` opcional a `BlocBuilder`. La `condición` toma el estado de bloc anterior y el estado de bloc actual y devuelve un `booleano`. Si la `condición` devuelve `verdadero`, se llamará el `constructor` con `estado` y el widget se reconstruirá. Si `condición` devuelve `falso`, no se llamará a `constructor` con `estado` y no se producirá ninguna reconstrucción.
 

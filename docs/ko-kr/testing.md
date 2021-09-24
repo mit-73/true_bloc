@@ -10,7 +10,7 @@
 
 테스트를 작성하기 이전에 테스트를 위한 프레임워크를 dependency에 추가해야 합니다.
 
-[test](https://pub.dev/packages/test)와 [bloc_test](https://pub.dev/packages/bloc_test)을 `pubspec.yaml`에 추가합니다.
+[test](https://pub.dev/packages/test)와 [bloc_test](https://pub.dev/packages/true_bloc_test)을 `pubspec.yaml`에 추가합니다.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@
 
 ?> **노트**: `pub run test` 명령으로 모든 테스트를 진행할 수 있습니다.
 
-이제 처음으로 성공한 테스트가 만들어졌습니다! 그렇다면 [bloc_test](https://pub.dev/packages/bloc_test) 패키지를 이용해서 더 복잡한 테스트를 작성해봅시다.
+이제 처음으로 성공한 테스트가 만들어졌습니다! 그렇다면 [bloc_test](https://pub.dev/packages/true_bloc_test) 패키지를 이용해서 더 복잡한 테스트를 작성해봅시다.
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

@@ -1,6 +1,6 @@
 # Core Concepts (package:flutter_bloc)
 
-?> Please make sure to carefully read the following sections before working with [package:flutter_bloc](https://pub.dev/packages/flutter_bloc).
+?> Please make sure to carefully read the following sections before working with [package:flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 ?> **Note**: All widgets exported by the `flutter_bloc` package integrate with both `Cubit` and `Bloc` instances.
 

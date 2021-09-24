@@ -10,7 +10,7 @@ To recap, the `CounterBloc` implementation looks like
 
 Before we start writing our tests we're going to need to add a testing framework to our dependencies.
 
-We need to add [test](https://pub.dev/packages/test) and [bloc_test](https://pub.dev/packages/bloc_test) to our `pubspec.yaml`.
+We need to add [test](https://pub.dev/packages/test) and [bloc_test](https://pub.dev/packages/true_bloc_test) to our `pubspec.yaml`.
 
 [pubspec.yaml](_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@ Now we can start writing our individual tests.
 
 ?> **Note**: We can run all of our tests with the `pub run test` command.
 
-At this point we should have our first passing test! Now let's write a more complex test using the [bloc_test](https://pub.dev/packages/bloc_test) package.
+At this point we should have our first passing test! Now let's write a more complex test using the [bloc_test](https://pub.dev/packages/true_bloc_test) package.
 
 [counter_bloc_test.dart](_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

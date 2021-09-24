@@ -12,7 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  true_bloc: ^7.0.0
+  true_bloc:
+    path: ../true_bloc
+    
   provider: ^6.0.0
 
 dev_dependencies:

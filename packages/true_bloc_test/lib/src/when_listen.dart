@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:true_bloc/bloc.dart';
 
 /// Creates a stub response for the `listen` method on a [bloc].
 /// Use [whenListen] if you want to return a canned `Stream` of states

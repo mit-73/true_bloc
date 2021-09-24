@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:rxdart/rxdart.dart';
+import 'package:true_bloc/bloc.dart';
 
 part 'complex_event.dart';
 part 'complex_state.dart';

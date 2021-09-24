@@ -1,6 +1,8 @@
 import 'dart:async';
-import 'package:true_bloc/bloc.dart';
+
 import 'package:equatable/equatable.dart';
+import 'package:true_bloc/bloc.dart';
+
 import '../ticker/ticker.dart';
 
 part 'ticker_event.dart';

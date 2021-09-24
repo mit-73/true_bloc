@@ -923,7 +923,7 @@ BlocListener<MyBloc, MyState>(
 
 ##### Justificativa
 
- A fim de melhorar a reutilização de código entre [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) e [hydrated_cubit](https://pub.dev/packages/hydrated_cubit), a implementação de armazenamento padrão concreto foi renomeada de `HydratedBlocStorage` para` HydratedStorage`. Além disso, a interface `HydratedStorage` foi renomeada de` HydratedStorage` para `Storage`.
+ A fim de melhorar a reutilização de código entre [hydrated_bloc](https://pub.dev/packages/hydrated_true_bloc) e [hydrated_cubit](https://pub.dev/packages/hydrated_cubit), a implementação de armazenamento padrão concreto foi renomeada de `HydratedBlocStorage` para` HydratedStorage`. Além disso, a interface `HydratedStorage` foi renomeada de` HydratedStorage` para `Storage`.
 
 **v4.0.0**
 

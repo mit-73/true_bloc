@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:hydrated_true_bloc/hydrated_bloc.dart';
 import 'package:hydrated_true_bloc/src/hydrated_bloc.dart';
 import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
 
 import 'cubits/cubits.dart';
 

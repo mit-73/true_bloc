@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:rxdart/rxdart.dart';
+import 'package:true_bloc/bloc.dart';
 
 import 'blocs.dart';
 

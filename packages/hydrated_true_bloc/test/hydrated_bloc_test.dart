@@ -1,11 +1,11 @@
 // ignore_for_file: invalid_use_of_protected_member
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:hydrated_true_bloc/hydrated_bloc.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:pedantic/pedantic.dart';
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
 import 'package:uuid/uuid.dart';
 
 class MockStorage extends Mock implements Storage {}

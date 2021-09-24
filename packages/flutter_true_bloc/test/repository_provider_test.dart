@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
 class MyApp extends StatelessWidget {
