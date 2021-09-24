@@ -174,6 +174,6 @@ The last thing we need to modify is our `main.dart`.
 
 The main differences to note are the fact that we've wrapped our entire application in a `MultiBlocProvider` which initializes and provides the `AuthenticationBloc` and `TodosBloc`. We then, only render the todos app if the `AuthenticationState` is `Authenticated` using `BlocBuilder`. Everything else remains the same as in the previous `todos tutorial`.
 
-That’s all there is to it! We’ve now successfully implemented a firestore todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_bloc) packages and we’ve successfully separated our presentation layer from our business logic while also building an app that updates in real-time.
+That’s all there is to it! We’ve now successfully implemented a firestore todos app in flutter using the [bloc](https://pub.dev/packages/true_bloc) and [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) packages and we’ve successfully separated our presentation layer from our business logic while also building an app that updates in real-time.
 
 The full source for this example can be found [here](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

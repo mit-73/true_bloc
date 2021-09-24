@@ -441,7 +441,7 @@ Creemos `main.dart` y nuestro widget `TodosApp`. Necesitamos crear una función 
 
 ?> **Nota:** Estamos configurando nuestro delegado de BlocSupervisor para el `SimpleBlocDelegate` que creamos anteriormente para que podamos conectarnos a todas las transiciones y errores.
 
-?> **Nota:** También estamos envolviendo nuestro widget `TodosApp` en un `BlocProvider` que gestiona la inicialización, el cierre y el suministro de `TodosBloc` a todo nuestro árbol de widgets desde [flutter_bloc](https://pub.dev/packages/flutter_bloc). Inmediatamente agregamos el evento `TodosLoadSuccess` para solicitar los últimos todos.
+?> **Nota:** También estamos envolviendo nuestro widget `TodosApp` en un `BlocProvider` que gestiona la inicialización, el cierre y el suministro de `TodosBloc` a todo nuestro árbol de widgets desde [flutter_bloc](https://pub.dev/packages/flutter_true_bloc). Inmediatamente agregamos el evento `TodosLoadSuccess` para solicitar los últimos todos.
 
 A continuación, implementemos nuestro widget `TodosApp`.
 
@@ -454,7 +454,7 @@ El `TodosApp` tiene dos rutas:
 - `Home` - que representa una `HomeScreen`
 - `TodoAdded` - que representa un `AddEditScreen` con `isEditing` establecido en `false`.
 
-El `TodosApp` también hace que el `TabBloc`, `FilteredTodosBloc` y `StatsBloc` estén disponibles para los widgets en su subárbol utilizando el widget `MultiBlocProvider` de [flutter_bloc](https://pub.dev/packages/flutter_bloc).
+El `TodosApp` también hace que el `TabBloc`, `FilteredTodosBloc` y `StatsBloc` estén disponibles para los widgets en su subárbol utilizando el widget `MultiBlocProvider` de [flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 [multi_bloc_provider.dart](../_snippets/flutter_todos_tutorial/multi_bloc_provider.dart.md ':include')
 
@@ -468,6 +468,6 @@ Todo el `main.dart` debería verse así:
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación todos en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación todos en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
 
 La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos).

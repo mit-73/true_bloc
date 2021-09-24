@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
 import 'package:meta/meta.dart';
+import 'package:true_bloc/bloc.dart';
 
 part 'async_event.dart';
 part 'async_state.dart';

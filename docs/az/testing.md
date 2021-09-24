@@ -10,7 +10,7 @@ Təkrar olması üçün qeyd edək ki, `CounterBloc` aşağıdakı kod şəklind
 
 Testlərimizi yazmadan öncə dependency-lərə test üçün framework-ləri əlavə edəcəyik.
 
-[test](https://pub.dev/packages/test) və [bloc_test](https://pub.dev/packages/bloc_test) framework-lərini `pubspec.yaml`-a əlavə etməliyik.
+[test](https://pub.dev/packages/test) və [bloc_test](https://pub.dev/packages/true_bloc_test) framework-lərini `pubspec.yaml`-a əlavə etməliyik.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@ Beləliklə, bütün testlərimizdə istifadə olunacaq `CounterBloc` obyektini 
 
 ?> **Qeyd**: Bütün testlərimizi `pub run test` əmri ilə işlədə bilərik.
 
-Artıq bu nöqtədə bizim ilk düzgün olan testimiz oldu. İndi isə [bloc_test](https://pub.dev/packages/bloc_test) paketini istifadə edərək, daha mürəkkəb test yazaq.
+Artıq bu nöqtədə bizim ilk düzgün olan testimiz oldu. İndi isə [bloc_test](https://pub.dev/packages/true_bloc_test) paketini istifadə edərək, daha mürəkkəb test yazaq.
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

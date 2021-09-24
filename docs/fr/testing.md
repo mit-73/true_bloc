@@ -10,7 +10,7 @@ Pour résumer, l'implémentation de `CounterBloc` ressemble à :
 
 Avant de commencer à écrire nos tests, nous allons devoir ajouter un cadre de test à nos dépendances.
 
-Nous devons ajouter le package [test](https://pub.dev/packages/test) et [bloc_test](https://pub.dev/packages/bloc_test) à notre `pubspec.yaml`.
+Nous devons ajouter le package [test](https://pub.dev/packages/test) et [bloc_test](https://pub.dev/packages/true_bloc_test) à notre `pubspec.yaml`.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 

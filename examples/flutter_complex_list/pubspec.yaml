@@ -17,7 +17,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  true_bloc_test: ^8.0.0
+  true_bloc_test:
+    path: ../../packages/true_bloc_test
   mocktail: ^0.1.0
 
 dependency_overrides:

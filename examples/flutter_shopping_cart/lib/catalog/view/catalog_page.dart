@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_shopping_cart/cart/cart.dart';
 import 'package:flutter_shopping_cart/catalog/catalog.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 
 class CatalogPage extends StatelessWidget {
   @override

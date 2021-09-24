@@ -172,6 +172,6 @@ Lo último que necesitamos modificar es nuestro `main.dart`.
 
 Las principales diferencias a tener en cuenta son el hecho de que hemos envuelto toda nuestra aplicación en un `MultiBlocProvider` que inicializa y proporciona el `AuthenticationBloc` y `TodosBloc`. Entonces, solo renderizamos la aplicación de quehaceres si el `AuthenticationState` está `Authenticated` usando `BlocBuilder`. Todo lo demás permanece igual que en el tutorial anterior de quehaceres.
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación firestore de quehaceres en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros Hemos separado con éxito nuestra capa de presentación de nuestra lógica empresarial al tiempo que creamos una aplicación que se actualiza en tiempo real.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una aplicación firestore de quehaceres en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) y nosotros Hemos separado con éxito nuestra capa de presentación de nuestra lógica empresarial al tiempo que creamos una aplicación que se actualiza en tiempo real.
 
 La fuente completa de este ejemplo se puede encontrar [aquí](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_firestore_todos).

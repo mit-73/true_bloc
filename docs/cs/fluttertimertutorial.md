@@ -25,7 +25,7 @@ We can then replace the contents of pubspec.yaml with:
 
 [pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_timer/pubspec.yaml ':include')
 
-?> **Note:** We’ll be using the [flutter_bloc](https://pub.dev/packages/flutter_bloc) and [equatable](https://pub.dev/packages/equatable) packages in this app.
+?> **Note:** We’ll be using the [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) and [equatable](https://pub.dev/packages/equatable) packages in this app.
 
 Next, run `flutter packages get` to install all the dependencies.
 

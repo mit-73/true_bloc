@@ -1,5 +1,5 @@
-import 'package:true_bloc/bloc.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:true_bloc/bloc.dart';
 
 /// {@template mock_bloc}
 /// Extend or mixin this class to mark the implementation as a [MockBloc].

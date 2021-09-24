@@ -144,7 +144,7 @@
 
 ?> `HomePage`是一个`StatefulWidget`(有状态的widget), 因为它需要维护`ScrollController`. 在`initState`, 我们给`ScrollController`添加了监听器, 这样我们就可以响应滚动事件了. 我们可以通过`BlocProvider.of<PostBloc>(context)`来访问`PostBloc`实例.
 
-继续下去, 我们的build方法会返回一个`BlocBuilder`. `BlocBuilder`是[flutter_bloc 包](https://pub.dev/packages/flutter_bloc)中提供的一个flutter widget. 当bloc的状态更新时, `BlocBuilder`会build(搭建)一个widget. 任何`PostBloc`的状态改变都会导致`BlocBuilder`的build函数被调用, 相应的`PostState`也会被当做参数传入这个build函数.
+继续下去, 我们的build方法会返回一个`BlocBuilder`. `BlocBuilder`是[flutter_bloc 包](https://pub.dev/packages/flutter_true_bloc)中提供的一个flutter widget. 当bloc的状态更新时, `BlocBuilder`会build(搭建)一个widget. 任何`PostBloc`的状态改变都会导致`BlocBuilder`的build函数被调用, 相应的`PostState`也会被当做参数传入这个build函数.
 
 !> 记得在StatefulWidget声明周期结束时释放`ScrollController`.
 
@@ -183,7 +183,7 @@
 
 ?> 实践中, 你可以创建多个`BlocObservers`. 因为每个state(状态)改变都会被记录下来, 我们能很容易的在**同一个地方**让应用程序记录**所有**来自用户的交互和状态改变
 
-这就是我要介绍的所有事情了! 我们已经成功的用[bloc](https://pub.dev/packages/true_bloc)和[flutter_bloc](https://pub.dev/packages/flutter_bloc)实现了无限列表, 并将表现层和业务逻辑分离开来.
+这就是我要介绍的所有事情了! 我们已经成功的用[bloc](https://pub.dev/packages/true_bloc)和[flutter_bloc](https://pub.dev/packages/flutter_true_bloc)实现了无限列表, 并将表现层和业务逻辑分离开来.
 
 `HomePage(主页面)`完全不知道`Post`从哪里来, 也完全不知道`Post`的数据是怎么加载到的. `PostBloc`也同样不知道`State(状态)`是怎么被渲染到屏幕的, 他只是很简单的把`Event(事件)`转化成`State(事件)`
 

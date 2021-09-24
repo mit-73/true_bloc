@@ -1,10 +1,10 @@
-import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_with_stream/true_bloc/ticker_bloc.dart';
+import 'package:flutter_bloc_with_stream/bloc/ticker_bloc.dart';
 import 'package:flutter_bloc_with_stream/main.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:true_bloc_test/bloc_test.dart';
 
 class MockTickerBloc extends MockBloc<TickerEvent, TickerState>
     implements TickerBloc {}

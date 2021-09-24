@@ -598,7 +598,7 @@ BlocListener<MyBloc, MyState>(
 
 ##### 基本原理
 
-为了提高[hydrated_bloc]（https://pub.dev/packages/hydrated_bloc）和[hydrated_cubit]（https://pub.dev/packages/hydrated_cubit）之间的代码重用，将具体的默认存储实现从 `HydratedBlocStorage` 到 `HydratedStorage`。此外，`HydratedStorage` 界面从 `HydratedStorage` 重命名为 `Storage`。
+为了提高[hydrated_bloc]（https://pub.dev/packages/hydrated_true_bloc）和[hydrated_cubit]（https://pub.dev/packages/hydrated_cubit）之间的代码重用，将具体的默认存储实现从 `HydratedBlocStorage` 到 `HydratedStorage`。此外，`HydratedStorage` 界面从 `HydratedStorage` 重命名为 `Storage`。
 
 **v4.0.0**
 

@@ -10,7 +10,7 @@
 
 テストコードを書き始める前にまずテスト用のフレームワークを追加する必要があります。
 
-[test](https://pub.dev/packages/test)と[bloc_test](https://pub.dev/packages/bloc_test)を`pubspec.yaml`に追加します。
+[test](https://pub.dev/packages/test)と[bloc_test](https://pub.dev/packages/true_bloc_test)を`pubspec.yaml`に追加します。
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@
 
 ?> **メモ**: `pub run test`コマンドでテストを走らせることができます。
 
-ここまできたら最初の通過するテストが書けたと思います！次にもっと複雑なテストを[bloc_test](https://pub.dev/packages/bloc_test)を使って書いていきましょう。
+ここまできたら最初の通過するテストが書けたと思います！次にもっと複雑なテストを[bloc_test](https://pub.dev/packages/true_bloc_test)を使って書いていきましょう。
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

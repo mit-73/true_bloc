@@ -16,7 +16,7 @@ Nous pouvons alors remplacer le contenu de pubspec.yaml par:
 
 [pubspec.yaml](https://raw.githubusercontent.com/mit-73/true_bloc/master/examples/flutter_timer/pubspec.yaml ':include')
 
-?> **Note:** Nous utiliserons les paquets [flutter_bloc](https://pub.dev/packages/flutter_bloc), [equatable](https://pub.dev/packages/equatable), et [wave](https://pub.dev/packages/wave) dans cette application.
+?> **Note:** Nous utiliserons les paquets [flutter_bloc](https://pub.dev/packages/flutter_true_bloc), [equatable](https://pub.dev/packages/equatable), et [wave](https://pub.dev/packages/wave) dans cette application.
 
 Ensuite, lancez `flutter packages get` pour installer toutes les dépendances.
 
@@ -154,7 +154,7 @@ Ensuite, nous allons implémenter notre widget `Actions` qui aura les actions ap
 
 Le widget `Actions` n'est qu'un autre `StatelessWidget` qui utilise `BlocProvider` pour accéder à l'instance `TimerBloc` et retourne ensuite différents `FloatingActionButton` basés sur l'état actuel du `TimerBloc`. Chacun des boutons `FloatingActionButton` ajoute un événement dans son rappel `onPressed` pour notifier le `TimerBloc`.
 
-Nous avons ajouté un autre `BlocBuilder` qui se charge du rendu du widget `Actions` ; cependant, cette fois-ci, nous utilisons une fonctionnalité nouvellement introduite [flutter_bloc](https://pub.dev/packages/flutter_bloc) pour contrôler à quelle fréquence le widget `Actions` est reconstruit (introduit dans `v0.15.0`).
+Nous avons ajouté un autre `BlocBuilder` qui se charge du rendu du widget `Actions` ; cependant, cette fois-ci, nous utilisons une fonctionnalité nouvellement introduite [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) pour contrôler à quelle fréquence le widget `Actions` est reconstruit (introduit dans `v0.15.0`).
 
 Si vous voulez un contrôle fin sur le moment où la fonction `builder` est appelée, vous pouvez fournir une `buildWhen` optionnelle à `BlocBuilder`. La `buildWhen` prend l'état de bloc précédent et l'état de bloc courant et retourne un `boolean`. Si `buildWhen` renvoie `true`, `builder` sera appelé avec `state` et le widget sera reconstruit. Si `buildWhen` retourne `false`, `builder` ne sera pas appelé avec `state` et aucune reconstruction ne sera effectuée.
 

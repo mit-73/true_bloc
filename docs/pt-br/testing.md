@@ -10,7 +10,7 @@ Relembrando, a implementação do `CounterBloc` é algo como:
 
 Antes de começarmos a escrever nossos testes precisamos adicionar um framework de teste nas dependências.
 
-Precisamos adicionar [test](https://pub.dev/packages/test) e [bloc_test](https://pub.dev/packages/bloc_test) em nosso `pubspec.yaml`.
+Precisamos adicionar [test](https://pub.dev/packages/test) e [bloc_test](https://pub.dev/packages/true_bloc_test) em nosso `pubspec.yaml`.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 

@@ -10,7 +10,7 @@ Zusammenfassend sieht die Implementierung von `CounterBloc` wie folgt aus
 
 Bevor wir mit dem Schreiben unserer Tests beginnen, müssen wir ein Test-Framework zu unseren Abhängigkeiten hinzufügen.
 
-Wir müssen [test](https://pub.dev/packages/test) und [bloc_test](https://pub.dev/packages/bloc_test) zu unserer `pubspec.yaml` hinzufügen.
+Wir müssen [test](https://pub.dev/packages/test) und [bloc_test](https://pub.dev/packages/true_bloc_test) zu unserer `pubspec.yaml` hinzufügen.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@ Jetzt können wir mit dem Schreiben unserer individuellen Tests beginnen.
 
 ?> **Hinweis**: Wir können alle unsere Tests mit dem Befehl `pub run test` ausführen.
 
-An diesem Punkt sollten wir unseren ersten erfolgreichen Test haben! Nun wollen wir einen komplexeren Test mit dem Paket [bloc_test](https://pub.dev/packages/bloc_test) schreiben.
+An diesem Punkt sollten wir unseren ersten erfolgreichen Test haben! Nun wollen wir einen komplexeren Test mit dem Paket [bloc_test](https://pub.dev/packages/true_bloc_test) schreiben.
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

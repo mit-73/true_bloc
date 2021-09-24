@@ -12,7 +12,7 @@
 - App displays weather information returned by [MetaWeather API](https://www.metaweather.com/api/)
 - App theme changes depending on weather of the city
 - Settings page which allows users to change units
-- Persist state across sessions ([HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc))
+- Persist state across sessions ([HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_true_bloc))
 
 ## Key Concepts
 
@@ -24,7 +24,7 @@
 - [BlocListener](/flutterbloccoreconcepts?id=bloclistener), a Flutter widget that invokes the listener code in response to state changes in the bloc
 - [MultiBlocProvider](/flutterbloccoreconcepts?id=multiblocprovider), a Flutter widget that merges multiple BlocProvider widgets into one
 - [BlocConsumer](/flutterbloccoreconcepts?id=blocconsumer), a Flutter widget that exposes a builder and listener in order to react to new states
-- [HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc) to manage and persist state
+- [HydratedBloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_true_bloc) to manage and persist state
 
 ## Setup
 
@@ -407,7 +407,7 @@ We will expose an `updateTheme` method to update the theme depending on the weat
 
 ### Unit Tests
 
-> Similar to the data and repository layers, it's critical to unit test the business logic layer to ensure that the feature-level logic behaves as we expect. We will be relying on the [bloc_test](https://pub.dev/packages/bloc_test) in addition to `mocktail` and `test`.
+> Similar to the data and repository layers, it's critical to unit test the business logic layer to ensure that the feature-level logic behaves as we expect. We will be relying on the [bloc_test](https://pub.dev/packages/true_bloc_test) in addition to `mocktail` and `test`.
 
 Let's add the `test`, `bloc_test`, and `mocktail` packages to the `dev_dependencies`.
 

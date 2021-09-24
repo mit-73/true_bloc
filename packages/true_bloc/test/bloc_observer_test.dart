@@ -1,5 +1,5 @@
-import 'package:true_bloc/bloc.dart';
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
 
 import 'blocs/blocs.dart';
 

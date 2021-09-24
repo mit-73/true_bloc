@@ -18,7 +18,7 @@
 
 Затем запустить `flutter packages get`, чтобы установить все зависимости.
 
-?> **Примечание:** В этом приложении мы будем использовать [flutter_bloc](https://pub.dev/packages/flutter_bloc), [equatable](https://pub.dev/packages/equatable) и [wave](https://pub.dev/packages/wave) пакеты.
+?> **Примечание:** В этом приложении мы будем использовать [flutter_bloc](https://pub.dev/packages/flutter_true_bloc), [equatable](https://pub.dev/packages/equatable) и [wave](https://pub.dev/packages/wave) пакеты.
 
 ## Тикер
 
@@ -154,7 +154,7 @@
 
 Виджет `Actions` - это просто еще один `StatelessWidget`, который использует `BlocProvider` для доступа к экземпляру `TimerBloc`, а затем возвращает различные `FloatingActionButtons` в зависимости от текущего состояния `TimerBloc`. Каждый из `FloatingActionButtons` добавляет событие в свой обратный вызов `onPressed`, чтобы уведомить `TimerBloc`.
 
-Мы добавили еще один `BlocBuilder`, который будет отображать виджет `Actions`, однако на этот раз мы используем недавно представленную функцию [flutter_bloc](https://pub.dev/packages/flutter_bloc), чтобы контролировать, как часто перестраивается виджет `Actions` (представлено в `v0.15.0`).
+Мы добавили еще один `BlocBuilder`, который будет отображать виджет `Actions`, однако на этот раз мы используем недавно представленную функцию [flutter_bloc](https://pub.dev/packages/flutter_true_bloc), чтобы контролировать, как часто перестраивается виджет `Actions` (представлено в `v0.15.0`).
 
 Если вам нужен детальный контроль над тем, когда вызывается функция `builder`, вы можете предоставить необязательное условие для `BlocBuilder`. Условие принимает предыдущее и текущее состояние блока и возвращает логическое значение. Если `buildWhen` возвращает `true`, `builder` будет вызван со `state` и виджет будет перестроен. Если `buildWhen` возвращает `false`, `builder` не будет вызван со `state` и перестройка не произойдет.
 

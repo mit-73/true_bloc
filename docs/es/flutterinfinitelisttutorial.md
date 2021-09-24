@@ -145,7 +145,7 @@ Implementamos la vista de `PostsList` que mostrará los posts de nuestro `PostBl
 
 ?> `PostsList` es un` StatefulWidget` porque necesitará mantener un `ScrollController`. En `initState`, agregamos un oyente a nuestro `ScrollController` para que podamos responder a los eventos de desplazamiento. También accedemos a nuestra instancia de `PostBloc` a través de `context.read<PostBloc>()`.
 
-Avanzando, nuestro método de construcción que retorna un `BlocBuilder`. `BlocBuilder` es un widget de Flutter del [paquete flutter_bloc](https://pub.dev/packages/flutter_bloc) que maneja la construcción de un widget en respuesta a los nuevos estados de bloque. Cada vez que cambie nuestro estado `PostBloc`, se llamará a nuestra función de creación con el nuevo `PostState`.
+Avanzando, nuestro método de construcción que retorna un `BlocBuilder`. `BlocBuilder` es un widget de Flutter del [paquete flutter_bloc](https://pub.dev/packages/flutter_true_bloc) que maneja la construcción de un widget en respuesta a los nuevos estados de bloque. Cada vez que cambie nuestro estado `PostBloc`, se llamará a nuestra función de creación con el nuevo `PostState`.
 
 !> Debemos recordar limpiar después de nosotros mismos y desechar nuestro `ScrollController` cuando se elimine el StatefulWidget.
 
@@ -181,7 +181,7 @@ Ahora, cuando ejecutamos nuestra aplicación, cada vez que se produce un Bloc 'T
 
 ?> En práctica, puedes crear diferentes `BlocObservers` y, dado que se registran todos los cambios de estado, ¡podemos instrumentar fácilmente nuestras aplicaciones y rastrear todas las interacciones del usuario y los cambios de estado en un solo lugar!
 
-¡Eso es todo al respecto! Ahora hemos implementado con éxito una lista infinita en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
+¡Eso es todo al respecto! Ahora hemos implementado con éxito una lista infinita en flutter usando los paquetes [bloc](https://pub.dev/packages/true_bloc) y [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) y nosotros hemos separado con éxito nuestra capa de presentación de nuestra lógica de negocios.
 
 Nuestro `HomePage` no tiene idea de dónde provienen las `Posts` o cómo se están recuperando. Por el contrario, nuestro `PostBloc` no tiene idea de cómo se representa el `Estado`, simplemente convierte los eventos en estados.
 

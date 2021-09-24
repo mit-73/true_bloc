@@ -7,10 +7,10 @@
 Bloc состоит из нескольких `pub` пакетов:
 
 - [bloc](https://pub.dev/packages/true_bloc) - Базовая библиотека `bloc`
-- [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Мощные виджеты Flutter, созданные для работы с блоком по созданию быстрых, реактивных мобильных приложений.
-- [angular_bloc](https://pub.dev/packages/angular_bloc) - Мощные компоненты Angular, созданные для работы с блоком по созданию быстрых, реактивных веб-приложений.
-- [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.
-- [replay_bloc](https://pub.dev/packages/replay_bloc) - An extension to the bloc state management library which adds support for undo and redo.
+- [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) - Мощные виджеты Flutter, созданные для работы с блоком по созданию быстрых, реактивных мобильных приложений.
+- [angular_bloc](https://pub.dev/packages/angular_true_bloc) - Мощные компоненты Angular, созданные для работы с блоком по созданию быстрых, реактивных веб-приложений.
+- [hydrated_bloc](https://pub.dev/packages/hydrated_true_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.
+- [replay_bloc](https://pub.dev/packages/replay_true_bloc) - An extension to the bloc state management library which adds support for undo and redo.
 
 ## Инсталляция
 

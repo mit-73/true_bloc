@@ -10,7 +10,7 @@ Pro rekapitulaci, implementace `CounterBlocu` vypadá takto
 
 Před tím, než začneme psát naše testy, budeme potřebovat přidat testovací framework do našich závislostí.
 
-Potřebujeme přidat [test](https://pub.dev/packages/test) a [bloc_test](https://pub.dev/packages/bloc_test) do našeho `pubspec.yaml`.
+Potřebujeme přidat [test](https://pub.dev/packages/test) a [bloc_test](https://pub.dev/packages/true_bloc_test) do našeho `pubspec.yaml`.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@ Nyní můžeme začít psát naše jednotlivé testy.
 
 ?> **Poznámka**: Můžeme spustit všechny naše testy pomocí příkazu `pub run test`.
 
-V tomto bodě bychom měli mít náš první průchozí test! Nyní si napíšeme složitější test pomocí balíčku [bloc_test](https://pub.dev/packages/bloc_test).
+V tomto bodě bychom měli mít náš první průchozí test! Nyní si napíšeme složitější test pomocí balíčku [bloc_test](https://pub.dev/packages/true_bloc_test).
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

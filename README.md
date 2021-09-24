@@ -6,13 +6,13 @@
 <a href="https://github.com/mit-73/true_bloc/actions"><img src="https://github.com/mit-73/true_bloc/workflows/build/badge.svg" alt="build"></a>
 <a href="https://codecov.io/gh/mit-73/true_bloc"><img src="https://codecov.io/gh/mit-73/true_bloc/branch/master/graph/badge.svg" alt="codecov"></a>
 <a href="https://github.com/mit-73/true_bloc"><img src="https://img.shields.io/github/stars/mit-73/true_bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
-<a href="https://github.com/tenhobi/effective_dart"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
+
 <a href="https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx"><img src="https://img.shields.io/badge/flutter-website-deepskyblue.svg" alt="Flutter Website"></a>
 <a href="https://github.com/Solido/awesome-flutter#standard"><img src="https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true" alt="Awesome Flutter"></a>
-<a href="http://fluttersamples.com"><img src="https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true" alt="Flutter Samples"></a>
+
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
-<a href="https://discord.gg/true_bloc"><img src="https://img.shields.io/discord/649708778631200778.svg?logo=discord&color=blue" alt="Discord"></a>
-<a href="https://github.com/mit-73/true_bloc"><img src="https://tinyurl.com/true_bloc-library" alt="Bloc Library"></a>
+
+<a href="https://github.com/mit-73/true_bloc"><img src="https://tinyurl.com/true-bloc" alt="Bloc Library"></a>
 </p>
 
 ---
@@ -22,30 +22,11 @@ A predictable state management library that helps implement the [BLoC design pat
 | Package                                                                              | Pub                                                                                                      |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | [bloc](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc)                   | [![pub package](https://img.shields.io/pub/v/true_bloc.svg)](https://pub.dev/packages/true_bloc)                   |
-| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/bloc_test)         | [![pub package](https://img.shields.io/pub/v/bloc_test.svg)](https://pub.dev/packages/bloc_test)         |
-| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc)   | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dev/packages/flutter_bloc)   |
-| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc)   | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dev/packages/angular_bloc)   |
-| [hydrated_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc) | [![pub package](https://img.shields.io/pub/v/hydrated_bloc.svg)](https://pub.dev/packages/hydrated_bloc) |
-| [replay_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/replay_bloc)     | [![pub package](https://img.shields.io/pub/v/replay_bloc.svg)](https://pub.dev/packages/replay_bloc)     |
-
----
-
-## Sponsors
-
-Our top sponsors are shown below! [[Become a Sponsor](https://github.com/sponsors/mit-73)]
-
-<table>    
-    <tbody>
-        <tr>
-            <td align="center">
-                <a href="https://verygood.ventures"><img src="https://raw.githubusercontent.com/mit-73/true_bloc/master/docs/assets/vgv_logo.png" width="120"/></a>
-            </td>
-            <td align="center">
-                <a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/true_bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank"><img width="250px" src="https://stream-blog.s3.amazonaws.com/blog/wp-content/uploads/fc148f0fc75d02841d017bb36e14e388/Stream-logo-with-background-.png"/></a><br/><span><a href="https://getstream.io/chat/flutter/tutorial/?utm_source=https://github.com/mit-73/true_bloc&utm_medium=github&utm_content=developer&utm_term=flutter" target="_blank">Try the Flutter Chat Tutorial &nbsp💬</a></span>
-            </td>            
-        </tr>
-    </tbody>
-</table>
+| [bloc_test](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc_test)         | [![pub package](https://img.shields.io/pub/v/true_bloc_test.svg)](https://pub.dev/packages/true_bloc_test)         |
+| [flutter_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_true_bloc)   | [![pub package](https://img.shields.io/pub/v/flutter_true_bloc.svg)](https://pub.dev/packages/flutter_true_bloc)   |
+| [angular_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/angular_true_bloc)   | [![pub package](https://img.shields.io/pub/v/angular_true_bloc.svg)](https://pub.dev/packages/angular_true_bloc)   |
+| [hydrated_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_true_bloc) | [![pub package](https://img.shields.io/pub/v/hydrated_true_bloc.svg)](https://pub.dev/packages/hydrated_true_bloc) |
+| [replay_bloc](https://github.com/mit-73/true_bloc/tree/master/packages/replay_true_bloc)     | [![pub package](https://img.shields.io/pub/v/replay_true_bloc.svg)](https://pub.dev/packages/replay_true_bloc)     |
 
 ---
 
@@ -59,10 +40,10 @@ The goal of this library is to make it easy to separate _presentation_ from _bus
 
 - [Official Documentation](https://mit-73.github.io/true_bloc)
 - [Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/true_bloc/README.md)
-- [Flutter Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/angular_bloc/README.md)
-- [Hydrated Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_bloc/README.md)
-- [Replay Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/replay_bloc/README.md)
+- [Flutter Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/flutter_true_bloc/README.md)
+- [Angular Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/angular_true_bloc/README.md)
+- [Hydrated Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/hydrated_true_bloc/README.md)
+- [Replay Bloc Package](https://github.com/mit-73/true_bloc/tree/master/packages/replay_true_bloc/README.md)
 
 ## Migration
 
@@ -171,7 +152,7 @@ Learn more at the following links, which have been contributed by the community.
 
 ### Video Tutorials
 
-- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [MiT](https://github.com/mit-73).
+- [Bloc Library: Basics and Beyond 🚀](https://youtu.be/knMvKPKBzGE) - Talk given at [Flutter Europe](https://fluttereurope.dev) about the basics of the bloc library, by [Felix Angelov](https://github.com/felangel).
 - [Flutter Bloc Library Tutorial](https://www.youtube.com/watch?v=hTExlt1nJZI) - Introduction to the Bloc Library, by [Reso Coder](https://resocoder.com).
 - [Flutter Youtube Search](https://www.youtube.com/watch?v=BJY8nuYUM7M) - How to build a Youtube Search app which interacts with an API using the bloc and flutter_bloc packages, by [Reso Coder](https://resocoder.com).
 - [Flutter Bloc - AUTOMATIC LOOKUP - v0.20 (and Up), Updated Tutorial](https://www.youtube.com/watch?v=_vOpPuVfmiU) - Updated Tutorial on the Flutter Bloc Package, by [Reso Coder](https://resocoder.com).

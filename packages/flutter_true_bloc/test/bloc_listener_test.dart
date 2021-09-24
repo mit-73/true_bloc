@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 
 class CounterCubit extends Cubit<int> {
   CounterCubit() : super(0);

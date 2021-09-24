@@ -31,7 +31,7 @@ void main() {
 
 /// A [StatelessWidget] which uses:
 /// * [bloc](https://pub.dev/packages/bloc)
-/// * [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+/// * [flutter_bloc](https://pub.dev/packages/flutter_true_bloc)
 /// to manage the state of a counter.
 class App extends StatelessWidget {
   @override

@@ -1,6 +1,6 @@
 # Grundlegende Konzepte (package:flutter_bloc)
 
-?> Bitte lesen Sie die folgenden Abschnitte sorgfältig durch, bevor Sie mit [package:flutter_bloc](https://pub.dev/packages/flutter_bloc) beginnen.
+?> Bitte lesen Sie die folgenden Abschnitte sorgfältig durch, bevor Sie mit [package:flutter_bloc](https://pub.dev/packages/flutter_true_bloc) beginnen.
 
 ?> **Hinweis**: Alle Widgets, die vom Paket `flutter_bloc` exportiert werden, lassen sich sowohl in `Cubit`- als auch in `Bloc`-Instanzen integrieren.
 

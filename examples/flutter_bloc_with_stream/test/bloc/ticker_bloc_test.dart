@@ -1,8 +1,8 @@
-import 'package:bloc_test/bloc_test.dart';
-import 'package:flutter_bloc_with_stream/true_bloc/ticker_bloc.dart';
+import 'package:flutter_bloc_with_stream/bloc/ticker_bloc.dart';
 import 'package:flutter_bloc_with_stream/ticker/ticker.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:true_bloc_test/bloc_test.dart';
 
 class MockTicker extends Mock implements Ticker {}
 

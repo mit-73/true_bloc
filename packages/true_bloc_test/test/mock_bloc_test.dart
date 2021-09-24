@@ -1,10 +1,9 @@
 import 'dart:async';
 
-import 'package:true_bloc/bloc.dart';
-import 'package:bloc_test/bloc_test.dart';
 import 'package:mocktail/mocktail.dart';
-
 import 'package:test/test.dart';
+import 'package:true_bloc/bloc.dart';
+import 'package:true_bloc_test/bloc_test.dart';
 
 import 'blocs/blocs.dart';
 import 'cubits/cubits.dart';

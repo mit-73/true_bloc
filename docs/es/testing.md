@@ -10,7 +10,7 @@ Recapitulando, la implementación de la clase `CounterBloc` se muestra a continu
 
 Antes de comenzar a escribir nuestras pruebas, necesitaremos agregar un marco de trabajo para pruebas a nuestras dependencias.
 
-Debemos agregar los paquetes [test](https://pub.dev/packages/test) y [bloc_test](https://pub.dev/packages/bloc_test) a nuestro archivo `pubspec.yaml`.
+Debemos agregar los paquetes [test](https://pub.dev/packages/test) y [bloc_test](https://pub.dev/packages/true_bloc_test) a nuestro archivo `pubspec.yaml`.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@ Ahora podemos comenzar a escribir nuestras pruebas individuales.
 
 ?> **Nota:** Podemos ejecutar todas nuestras pruebas con el comando `pub run test`.
 
-En este punto, ¡deberiamos tener nuestra primera prueba exitosa! Ahora escribamos una prueba mas compleja haciendo uso del paquete [bloc_test](https://pub.dev/packages/bloc_test).
+En este punto, ¡deberiamos tener nuestra primera prueba exitosa! Ahora escribamos una prueba mas compleja haciendo uso del paquete [bloc_test](https://pub.dev/packages/true_bloc_test).
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

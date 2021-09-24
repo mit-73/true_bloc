@@ -1,6 +1,6 @@
 # Flutter Bloc основные понятия
 
-?> Пожалуйста, внимательно прочитайте и поймите следующие разделы, прежде чем работать с [flutter_bloc](https://pub.dev/packages/flutter_bloc).
+?> Пожалуйста, внимательно прочитайте и поймите следующие разделы, прежде чем работать с [flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 ## Bloc Widgets (Блок виджетов)
 

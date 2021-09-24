@@ -243,7 +243,7 @@ Now that we have our Events and States implemented, we can create our `GithubSea
 
 ?> **Примечание:** `GithubRepository` создается в `main` и внедряется в `App`. `SearchForm` обернута в `BlocProvider`, который отвечает за инициализацию, закрытие и обеспечение доступности экземпляра `GithubSearchBloc` для виджета `SearchForm` и его дочерних элементов.
 
-Вот и все, что нужно сделать! Теперь мы успешно внедрили поисковое приложение Github на Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_bloc) и мы успешно отделили наш уровень представления от нашей бизнес-логики.
+Вот и все, что нужно сделать! Теперь мы успешно внедрили поисковое приложение Github на Flutter, используя пакеты [bloc](https://pub.dev/packages/true_bloc) и [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) и мы успешно отделили наш уровень представления от нашей бизнес-логики.
 
 Полный исходный код можно найти [здесь](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/flutter_github_search).
 

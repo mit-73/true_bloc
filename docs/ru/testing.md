@@ -10,7 +10,7 @@
 
 Прежде чем мы начнем писать тесты, нам нужно добавить среду тестирования в качестве зависимости.
 
-Нам нужно добавить [test](https://pub.dev/packages/test) и [bloc_test](https://pub.dev/packages/bloc_test) в наш `pubspec.yaml`.
+Нам нужно добавить [test](https://pub.dev/packages/test) и [bloc_test](https://pub.dev/packages/true_bloc_test) в наш `pubspec.yaml`.
 
 [pubspec.yaml](../_snippets/testing/pubspec.yaml.md ':include')
 
@@ -34,7 +34,7 @@
 
 ?> **Примечание**: Мы можем запустить все наши тесты с помощью команды `pub run test`.
 
-В этот момент мы должны пройти наш первый тест успешно! Теперь давайте напишем более сложный тест, используя пакет [bloc_test](https://pub.dev/packages/bloc_test).
+В этот момент мы должны пройти наш первый тест успешно! Теперь давайте напишем более сложный тест, используя пакет [bloc_test](https://pub.dev/packages/true_bloc_test).
 
 [counter_bloc_test.dart](../_snippets/testing/counter_bloc_test_bloc_test.dart.md ':include')
 

@@ -237,7 +237,7 @@ Agora tudo o que precisamos fazer é implementar nosso aplicativo principal em `
 
 ?> **Nota:** Nosso `GithubRepository` é criado em `main` e injetado em nosso `App`. Nosso `SearchForm` é envolvido em um `BlocProvider`, responsável por inicializar, fechar e disponibilizar a instância do `GithubSearchBloc` para o widget `SearchForm` e seus filhos.
 
-Isso é tudo! Agora implementamos com sucesso um aplicativo de pesquisa do github no Flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_bloc) e nós separamos com sucesso nossa camada de apresentação da nossa lógica de negócios.
+Isso é tudo! Agora implementamos com sucesso um aplicativo de pesquisa do github no Flutter usando os pacotes [bloc](https://pub.dev/packages/true_bloc) e [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) e nós separamos com sucesso nossa camada de apresentação da nossa lógica de negócios.
 
 O código fonte completo pode ser encontrada [aqui](https://github.com/mit-73/true_bloc/tree/master/examples/github_search/flutter_github_search).
 

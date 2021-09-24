@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_true_bloc/flutter_bloc.dart';
 import 'package:flutter_shopping_cart/cart/cart.dart';
 import 'package:flutter_shopping_cart/catalog/catalog.dart';
 import 'package:flutter_shopping_cart/shopping_repository.dart';
+import 'package:flutter_true_bloc/flutter_bloc.dart';
 
 class App extends StatelessWidget {
   const App({Key? key, required this.shoppingRepository}) : super(key: key);

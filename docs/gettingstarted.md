@@ -7,10 +7,10 @@
 Bloc consists of several pub packages:
 
 - [bloc](https://pub.dev/packages/true_bloc) - Core bloc library
-- [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Powerful Flutter Widgets built to work with bloc in order to build fast, reactive mobile applications.
-- [angular_bloc](https://pub.dev/packages/angular_bloc) - Powerful Angular Components built to work with bloc in order to build fast, reactive web applications.
-- [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.
-- [replay_bloc](https://pub.dev/packages/replay_bloc) - An extension to the bloc state management library which adds support for undo and redo.
+- [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) - Powerful Flutter Widgets built to work with bloc in order to build fast, reactive mobile applications.
+- [angular_bloc](https://pub.dev/packages/angular_true_bloc) - Powerful Angular Components built to work with bloc in order to build fast, reactive web applications.
+- [hydrated_bloc](https://pub.dev/packages/hydrated_true_bloc) - An extension to the bloc state management library which automatically persists and restores bloc states.
+- [replay_bloc](https://pub.dev/packages/replay_true_bloc) - An extension to the bloc state management library which adds support for undo and redo.
 
 ## Installation
 

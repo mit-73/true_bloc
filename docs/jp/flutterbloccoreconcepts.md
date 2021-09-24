@@ -1,6 +1,6 @@
 # Flutter Blocコアコンセプト
 
-?> [flutter_bloc](https://pub.dev/packages/flutter_bloc)を使い始める前に下記の説明をきちんと読んで理解してください。
+?> [flutter_bloc](https://pub.dev/packages/flutter_true_bloc)を使い始める前に下記の説明をきちんと読んで理解してください。
 
 ## Blocウィジェット
 

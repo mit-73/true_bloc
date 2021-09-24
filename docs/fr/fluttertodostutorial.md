@@ -438,7 +438,7 @@ Créons `main.dart` dans notre widget `TodosApp`. Nous avons besoin de créer un
 
 ?> **Note:** Le `Bloc.observer` prend la valeur de `SimpleBlocObserver` que nous avons créé plutôt pour qu'on puisse récupérer toutes les transitions et les erreurs.
 
-?> **Note:** Nous enveloppons aussi notre widget `TodosApp` dans un `BlocProvider` qui va gérer l'initialisation, la fermeture et de fournir le bloc `TodosBloc` à l'arbre entier de notre widget depuis [flutter_bloc](https://pub.dev/packages/flutter_bloc). Cela permet d'y avoir accès dans tous les widgets enfants. Nous ajoutons aussi immédiatement l'événement `TodosLoadSuccess` dans le but de "demander" les todos les plus récents.
+?> **Note:** Nous enveloppons aussi notre widget `TodosApp` dans un `BlocProvider` qui va gérer l'initialisation, la fermeture et de fournir le bloc `TodosBloc` à l'arbre entier de notre widget depuis [flutter_bloc](https://pub.dev/packages/flutter_true_bloc). Cela permet d'y avoir accès dans tous les widgets enfants. Nous ajoutons aussi immédiatement l'événement `TodosLoadSuccess` dans le but de "demander" les todos les plus récents.
 
 Ensuite nous implémentons notre widget `TodosApp`.
 
@@ -451,7 +451,7 @@ Le `TodosApp` possède deux routes:
 - `Home` - qui affiche `HomeScreen`
 - `TodoAdded` - qui affiche `AddEditScreen` avec `isEditing` qui a pour valeur `false`.
 
-Le `TodosApp` rend `TabBloc`, `FilteredTodosBloc`, et `StatsBloc` disponible pour les widgets dans le sous-arbre en utilisant le widget `MultiBlocProvider` de [flutter_bloc](https://pub.dev/packages/flutter_bloc).
+Le `TodosApp` rend `TabBloc`, `FilteredTodosBloc`, et `StatsBloc` disponible pour les widgets dans le sous-arbre en utilisant le widget `MultiBlocProvider` de [flutter_bloc](https://pub.dev/packages/flutter_true_bloc).
 
 [multi_bloc_provider.dart](../_snippets/flutter_todos_tutorial/multi_bloc_provider.dart.md ':include')
 
@@ -465,6 +465,6 @@ Notre `main.dart` en entier devrait ressmebler à ceci :
 
 [main.dart](../_snippets/flutter_todos_tutorial/main2.dart.md ':include')
 
-C'est tout ce qu'il nous faut! Nous avons réussi à implémenter une todo app dans flutter en utilisant les packages [bloc] https://pub.dev/packages/true_bloc) et [flutter_bloc](https://pub.dev/packages/flutter_bloc) et nous avons  and we’ve séparés avec succès notre présentation (screens et widgets) de notre business logic.
+C'est tout ce qu'il nous faut! Nous avons réussi à implémenter une todo app dans flutter en utilisant les packages [bloc] https://pub.dev/packages/true_bloc) et [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) et nous avons  and we’ve séparés avec succès notre présentation (screens et widgets) de notre business logic.
 
 Le code source en entier est disponible [ici](https://github.com/mit-73/true_bloc/tree/master/examples/flutter_todos)!

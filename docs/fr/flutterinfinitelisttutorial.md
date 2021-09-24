@@ -136,7 +136,7 @@ Ensuite, nous devons implémenter notre widget `HomePage` qui présentera nos me
 
 ?> HomePage est un `StatefulWidget` parce qu'il devra maintenir un `ScrollController`. Dans `initState`, nous ajoutons un auditeur à notre `ScrollController` afin de pouvoir répondre aux événements de défilement. Nous accédons également à notre instance `PostBloc` via `BlocProvider.of<PostBloc>(contexte)`.
 
-Notre méthode de compilation retourne un `BlocBuilder`. `BlocBuilder` est un widget Flutter du paquet [flutter_bloc](https://pub.dev/packages/flutter_bloc) qui gère la construction d'un widget en réponse aux nouveaux états de bloc. Chaque fois que notre état `PostBloc` change, notre fonction constructeur sera appelée avec le nouveau `PostState`.
+Notre méthode de compilation retourne un `BlocBuilder`. `BlocBuilder` est un widget Flutter du paquet [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) qui gère la construction d'un widget en réponse aux nouveaux états de bloc. Chaque fois que notre état `PostBloc` change, notre fonction constructeur sera appelée avec le nouveau `PostState`.
 
 !> Nous devons nous rappeler de bien nettoyer derrière nous et de nous débarrasser de notre `ScrollController` quand le StatefulWidget est disposé.
 
@@ -173,7 +173,7 @@ Maintenant, lorsque nous exécutons notre application, chaque fois qu'un Bloc `T
 
 ?> En pratique, vous pouvez créer différents `BlocObservers` et parce que chaque changement d'état est enregistré, nous sommes capables d'instrumenter très facilement nos applications et de suivre toutes les interactions utilisateur et les changements d'état en un seul endroit !
 
-C'est tout ce qu'il y a à faire ! Nous avons maintenant implémenté avec succès une liste infinie dans Flutter en utilisant les paquets [bloc](https://pub.dev/packages/true_bloc) et [flutter_bloc](https://pub.dev/packages/flutter_bloc) et nous avons réussi à séparer notre couche de présentation de notre logique métier.
+C'est tout ce qu'il y a à faire ! Nous avons maintenant implémenté avec succès une liste infinie dans Flutter en utilisant les paquets [bloc](https://pub.dev/packages/true_bloc) et [flutter_bloc](https://pub.dev/packages/flutter_true_bloc) et nous avons réussi à séparer notre couche de présentation de notre logique métier.
 
 Notre page d'accueil n'a aucune idée d'où viennent les `Posts` ou comment ils sont récupérés. Inversement, notre `PostBloc` n'a aucune idée de la façon dont le `State` est rendu, il convertit simplement les événements en états.
 
