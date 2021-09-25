@@ -142,14 +142,7 @@ abstract class BlocBase<State extends Object?> implements IBlocBase<State> {
   @Deprecated(
     'Use EmitterMixin instead. Will be removed in v8.0.0',
   )
-  void emit(State state) {
-    if (_stateController.isClosed) return;
-    if (state == _state && _emitted) return;
-    onChange(Change<State>(currentState: this.state, nextState: state));
-    _state = state;
-    _stateController.add(_state);
-    _emitted = true;
-  }
+  void emit(State state) => _emit(state);
 
   @override
   void onChange(Change<State> change) {
@@ -180,5 +173,14 @@ abstract class BlocBase<State extends Object?> implements IBlocBase<State> {
     // ignore: invalid_use_of_protected_member
     Bloc.observer.onClose(this);
     await _stateController.close();
+  }
+
+  void _emit(State state) {
+    if (_stateController.isClosed) return;
+    if (state == _state && _emitted) return;
+    onChange(Change<State>(currentState: this.state, nextState: state));
+    _state = state;
+    _stateController.add(_state);
+    _emitted = true;
   }
 }

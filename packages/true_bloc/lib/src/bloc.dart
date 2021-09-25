@@ -278,7 +278,7 @@ abstract class Bloc<Event, State> extends BlocBase<State>
         if (transition.nextState == state && _emitted) return;
         try {
           onTransition(transition);
-          emit(transition.nextState);
+          _emit(transition.nextState);
         } catch (error, stackTrace) {
           onError(error, stackTrace);
         }

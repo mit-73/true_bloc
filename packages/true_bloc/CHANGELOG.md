@@ -7,7 +7,7 @@
   - refactor: `void onError(BlocBase bloc, Object error, StackTrace stackTrace)` -> `void onError(IBlocBase bloc, Object error, StackTrace stackTrace)`
   - refactor: `void onClose(BlocBase bloc)` -> `void onClose(IBlocBase bloc)`
 - feat: Added `addStream` and `done` to the `IBloc` & `Bloc`
-- feat: Added `EmitterMixin`, `void emit(State state)` was deprecated
+- feat: Added `EmitterMixin`, `void emit(State state)` & `Cubit` was deprecated
 
 # 7.1.0
 

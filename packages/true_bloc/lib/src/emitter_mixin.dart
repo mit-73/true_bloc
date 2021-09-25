@@ -1,6 +1,6 @@
 part of 'bloc.dart';
 
-abstract class IEmitter<State extends Object?> {
+abstract class IEmitter<Event extends Object?, State extends Object?> {
   /// Updates the [state] to the provided [state].
   /// [emit] does nothing if the instance has been closed.
   @protected
@@ -8,15 +8,16 @@ abstract class IEmitter<State extends Object?> {
   void emit(State state);
 }
 
-mixin EmitterMixin<State extends Object?> on BlocBase<State>
-    implements IEmitter<State> {
+mixin EmitterMixin<Event extends Object?, State extends Object?>
+    on Bloc<Event, State> implements IEmitter<Event, State> {
+  @protected
+  @mustCallSuper
   @override
-  void emit(state) {
-    if (_stateController.isClosed) return;
-    if (state == _state && _emitted) return;
-    onChange(Change<State>(currentState: this.state, nextState: state));
-    _state = state;
-    _stateController.add(_state);
-    _emitted = true;
-  }
+  void emit(State state) => _emit(state);
+
+  @protected
+  @visibleForOverriding
+  @mustCallSuper
+  @override
+  Stream<State> mapEventToState(Event event) => mapEventToState(event);
 }
